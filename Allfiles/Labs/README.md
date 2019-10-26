@@ -1,12 +1,8 @@
-# go deploy AZ500 
+AZ500 Labs
 
-This repository is a collection of setup scripts for GoDeploy AZ500 labs. They compliment the lab exercises for the GoDeploy platform and are not designed to be used in a stand alone environment.
+This repository is a collection of setup scripts for AZ500 labs. 
 
-### Log into the go deploy LMS to access your lab environment
 
-<a href="https://lms.godeploy.it" target="_blank">
-    go deploy LMS
-</a>
 
 
 
