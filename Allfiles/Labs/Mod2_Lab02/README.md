@@ -1,4 +1,4 @@
-# go deploy AZ500 Mod2 Lab2 setup
+# AZ500 Mod2 Lab2 setup
 
 Click **Deploy to Azure**
  
