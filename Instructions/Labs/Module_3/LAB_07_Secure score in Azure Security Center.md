@@ -21,10 +21,11 @@ Security Center also provides you with an **Overall secure score**.
 
 1.  In the Azure dashboard, click **Security Center** and then click **Secure score**.
 2.  At the top you can see Secure score highlights:
-   - The **Overall secure score** represents the score per policies, per selected subscription
-   - **Secure score by category** shows you which resources need the most attention
-   - **Top recommendations by secure score impact** provides you with a list of the recommendations that will improve your secure score the most if you implement them.
- </br>
+
+       - The **Overall secure score** represents the score per policies, per selected subscription
+       - **Secure score by category** shows you which resources need the most attention
+       - **Top recommendations by secure score impact** provides you with a list of the recommendations that will improve your secure score the most if you implement them.
+
  
        ![Screenshot](../Media/Module-3/94b1f8c6-0335-4401-8345-0625f438db7d.png)
 
@@ -32,7 +33,7 @@ Security Center also provides you with an **Overall secure score**.
       **Note**: The sum of the secure score of each subscription does not equal       the overall secure score. The secure score is a calculation based on the      ratio between your healthy resources and your total resources per     recommendation, not a sum of secure scores across your subscriptions. 
 
 
-4.  Click **View recommendations** to see the recommendations for that subscription that you can remediate to improve your secure score.
+3.  Click **View recommendations** to see the recommendations for that subscription that you can remediate to improve your secure score.
 4.  In the list of recommendations, you can see that for each recommendation there is a column that represents the **Secure score impact**. This number represents how much your overall secure score will improve if you follow the recommendations. For example, in the screen below, if you **Remediate vulnerabilities in container security configurations**, your secure score will increase by 35 points.
 
        ![Screenshot](../Media/Module-3/45893315-b503-4beb-8beb-20730b0fc9d3.png)
