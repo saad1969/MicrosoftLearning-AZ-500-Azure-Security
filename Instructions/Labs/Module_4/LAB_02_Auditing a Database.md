@@ -7,7 +7,7 @@
 1.  Open **PowerShell** and run the following command to deploy a database for the lab:
 
      ```powershell
-    start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FGoDeploy%2FAZ500%2Fmaster%2FAZ500%20Mod4%20Lab%202%2Fazuredeploy.json" 
+    start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FAZ-500-Azure-Security%2Fmaster%2FAllfiles%2FLabs%2FMod4_Lab02%2Fazuredeploy.json" 
      ```
 
 1.  **Under Resource** group click create new and use the default name "**Mod4Lab2**"

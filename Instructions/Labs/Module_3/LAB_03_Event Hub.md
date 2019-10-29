@@ -26,7 +26,7 @@ In this lab, you will:
      - **Resource group**: Create New with name "EventHubRG"
      - **Location**: East US
      - **Throughput Units**: 2
-<br/>
+
 4.  Click **create**
 
 ### Task 2: Create a storage account for later user

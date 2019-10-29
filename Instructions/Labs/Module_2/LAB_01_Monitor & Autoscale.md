@@ -9,7 +9,7 @@ Autoscale is a built-in feature of Cloud Services, Mobile Services, Virtual Mach
 1.  Open PowerShell and run the following command:
 
      ```powershell
-    start "https://portal.azure.com/#create/Microsoft.Template/uri/ https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FAZ-500-Azure-Security%2Fmaster%2FAllfiles%2FLabs%2FMod2_Lab01%2Ftemplate.json"
+    start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FAZ-500-Azure-Security%2Fmaster%2FAllfiles%2FLabs%2FMod2_Lab01%2Ftemplate.json"
      ```
 
     *This will deploy a new app and app service plan from a template that can then be used to demonstrate the scale up options in AZ500 Mod2 Lab 1.*

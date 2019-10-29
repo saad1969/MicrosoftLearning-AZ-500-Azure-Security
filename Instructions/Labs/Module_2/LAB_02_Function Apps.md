@@ -11,7 +11,7 @@ Azure Function Apps uses the Azure App Service infrastructure. This topic shows 
 1.  Open PowerShell and run the following command:
 
      ```powershell
-    start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FGoDeploy%2FAZ500%2Fmaster%2FAZ500%20Mod2%20Lab%202%2Ftemplate.json" 
+    start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FAZ-500-Azure-Security%2Fmaster%2FAllfiles%2FLabs%2FMod2_Lab02%2Ftemplate.json" 
      ```
 
 2.  Click **Create new** under the Resource Group section.

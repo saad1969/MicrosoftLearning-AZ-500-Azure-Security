@@ -31,6 +31,7 @@ To enable automatic provisioning of the Microsoft Monitoring Agent:
 1.  On the **Getting started** blade click **Upgrade**.
 
      ![Screenshot](https://godeployblob.blob.core.windows.net//labguideimages/AZ-500---VML---v2-Sept-2019/Module-2/53a03638-526c-47a8-b25a-fc613c9e7cda.png)
+     
 1.  Under the Security Center main menu, select **Pricing & settings**.
 
 2.  On the row of the subscription, click on the subscription on which you'd like to change the settings.
