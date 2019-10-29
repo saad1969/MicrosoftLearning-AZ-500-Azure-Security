@@ -13,10 +13,11 @@ Azure Function Apps uses the Azure App Service infrastructure. This topic shows 
      ```powershell
     start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FGoDeploy%2FAZ500%2Fmaster%2FAZ500%20Mod2%20Lab%202%2Ftemplate.json" 
      ```
-1.  Click **Create new** under the Resource Group section.
-1.  Enter **myResourceGroup** as the name and click **OK**.
-1.  Select the check box at the bottom of the blade to agree to the terms.
-1.  Select **Purchase**
+
+2.  Click **Create new** under the Resource Group section.
+3.  Enter **myResourceGroup** as the name and click **OK**.
+4.  Select the check box at the bottom of the blade to agree to the terms.
+5.  Select **Purchase**
 
 
 ### Task 2: Add a HTTP trigger to your function app
