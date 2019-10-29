@@ -2,7 +2,6 @@
 
 - **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 - **Need to manually build the lab instructions?** - Instructions are available in the [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) repository
-- View list of labs by AZ-103 module - https://microsoftlearning.github.io/AZ-103-MicrosoftAzureAdministrator/
 
 > Be sure to use the [MCT Courseware Forum](https://www.microsoft.com/en-us/learning/mct-central.aspx) for suggestions or general comments on the course content. Also, bugs and course errors can be reported on the [Courseware Support Forum](https://trainingsupport.microsoft.com/en-us).
  
