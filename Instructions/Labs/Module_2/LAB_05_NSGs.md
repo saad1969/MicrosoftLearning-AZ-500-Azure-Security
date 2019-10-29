@@ -170,7 +170,7 @@ When the portal created the VMs, it created a network interface for each VM, and
 9.  Disconnect from the *myVmMgmt* VM.
 10.  In the *Search resources, services, and docs* box at the top of the Azure portal, begin typing *myVmWeb* from your computer. When **myVmWeb** appears in the search results, select it. Note the **Public IP address** for your VM. The address shown in the following picture is 137.135.84.74, but your address is different:
 
-       ![Screenshot](../media/Module-2/e3bbd69d-95d0-4b3b-98ce-714d30b4d1ef.png)
+       ![Screenshot](../Media/Module-2/e3bbd69d-95d0-4b3b-98ce-714d30b4d1ef.png)
   
 11.  To confirm that you can access the *myVmWeb* web server from the internet, open an internet browser on your computer and browse to `http://<public-ip-address-from-previous-step>`. You see the IIS welcome screen, because port 80 is allowed inbound from the internet to the *myAsgWebServers* application security group that the network interface attached to the *myVmWeb* VM is in.
 

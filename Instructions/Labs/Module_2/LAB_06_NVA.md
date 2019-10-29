@@ -82,7 +82,7 @@ Before you can associate a route table to a subnet, you have to create a virtual
 
 1.  In **myVirtualNetwork**, under **Settings**, select **Subnets** > **+ Subnet**.
 
-       ![Screenshot](../media/Module-2/bbe01f34-8c56-4870-8814-5793e01281d3.png)
+       ![Screenshot](../Media/Module-2/bbe01f34-8c56-4870-8814-5793e01281d3.png)
 
 1.  In **Add subnet**, enter this information:
 
@@ -110,7 +110,7 @@ Before you can associate a route table to a subnet, you have to create a virtual
 
 1.  In **Public**, select **Route table** > **MyRouteTablePublic** > **Save**.
 
-       ![Screenshot](../media/Module-2/977a7e1f-07ff-4813-87f8-cfaf539181d2.png)
+       ![Screenshot](../Media/Module-2/977a7e1f-07ff-4813-87f8-cfaf539181d2.png)
 
 ### Task 6: Create an NVA
 
@@ -191,7 +191,7 @@ Turn on IP forwarding for *myVmNva*. When Azure sends network traffic to *myVmNv
 
 1.  On **myvmnva123 - IP configurations**, for **IP forwarding**, select **Enabled** and then select **Save**.
 
-       ![Screenshot](../media/Module-2/e9450da2-4761-4cf2-b7bd-2fc53d9f74a5.png)
+       ![Screenshot](../Media/Module-2/e9450da2-4761-4cf2-b7bd-2fc53d9f74a5.png)
 
 ### Task 8: Create public and private virtual machines
 

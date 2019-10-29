@@ -48,20 +48,20 @@ This lab requires a user cerating that will be used for PIM.
 
 1.  Select **Licences**.
 
-    ![Screenshot](../media/Module-1/2443efb7-2b94-41c3-8e20-2a1a77cd6e75.png)
+    ![Screenshot](../Media/Module-1/2443efb7-2b94-41c3-8e20-2a1a77cd6e75.png)
 
 1.  Select **All Products**.
 
-     ![Screenshot](../media/Module-1/96c1cf32-0240-4883-a159-b3c1ba69d2bf.png)
+     ![Screenshot](../Media/Module-1/96c1cf32-0240-4883-a159-b3c1ba69d2bf.png)
 
 
 1.  Click **Try / Buy**.
 
-     ![Screenshot](../media/Module-1/e3997ed9-8305-4904-ae6c-73d273c6b622.png)
+     ![Screenshot](../Media/Module-1/e3997ed9-8305-4904-ae6c-73d273c6b622.png)
 
 1.  Click the drop down arrow and select **Activate** on the **Azure AD Premium P2** product.
 
-     ![Screenshot](../media/Module-1/12bd35f5-5114-47d7-8826-3953094d9870.png)
+     ![Screenshot](../Media/Module-1/12bd35f5-5114-47d7-8826-3953094d9870.png)
 
 
 
@@ -69,66 +69,66 @@ This lab requires a user cerating that will be used for PIM.
 
 1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
-     ![Screenshot](../media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
+     ![Screenshot](../Media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
 1.  Click consent to PIM.
 
-     ![Screenshot](../media/Module-1/5943cd1d-f6e6-4ccc-921b-e1105af7bdf9.png)
+     ![Screenshot](../Media/Module-1/5943cd1d-f6e6-4ccc-921b-e1105af7bdf9.png)
 
 1.  Click **Verify my identity**.
 
-     ![Screenshot](../media/Module-1/bab59fee-f511-4acb-9b7f-fbade8180ce6.png)
+     ![Screenshot](../Media/Module-1/bab59fee-f511-4acb-9b7f-fbade8180ce6.png)
 
 1.  Click **Next**.
 
-     ![Screenshot](../media/Module-1/ba0fec59-067d-4c37-ac48-9f7382eb1e22.png)
+     ![Screenshot](../Media/Module-1/ba0fec59-067d-4c37-ac48-9f7382eb1e22.png)
 
 1.  Enter your mobile/cell phone details and click **Next**.
 
-     ![Screenshot](../media/Module-1/2b6079d5-3c88-4dff-b49b-5bc1193e003a.png)
+     ![Screenshot](../Media/Module-1/2b6079d5-3c88-4dff-b49b-5bc1193e003a.png)
  
 1.  Enter the code when you receive it via SMS and click **Verify**.
 
-     ![Screenshot](../media/Module-1/f28fb995-7078-43f3-8edb-8a952111af07.png)
+     ![Screenshot](../Media/Module-1/f28fb995-7078-43f3-8edb-8a952111af07.png)
 
 1. Once the verification is successful, click **Done**.
 
 1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
-     ![Screenshot](../media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
+     ![Screenshot](../Media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
 1.  Click consent to PIM.
 
-     ![Screenshot](../media/Module-1/5943cd1d-f6e6-4ccc-921b-e1105af7bdf9.png)
+     ![Screenshot](../Media/Module-1/5943cd1d-f6e6-4ccc-921b-e1105af7bdf9.png)
 
 1.  Back on the **Concent to PIM blade** click **Consent** and click **Yes**.
 
-     ![Screenshot](../media/Module-1/35eb7586-5a30-41a6-9f1c-abb48f8ed548.png)
+     ![Screenshot](../Media/Module-1/35eb7586-5a30-41a6-9f1c-abb48f8ed548.png)
 
 1.  Refresh the Azure Portal by pressing **F5**.
 
 
 1.  Click **Azure resources**.
 
-     ![Screenshot](../media/Module-1/c8260eb8-fdab-466f-86a1-173139906868.png)
+     ![Screenshot](../Media/Module-1/c8260eb8-fdab-466f-86a1-173139906868.png)
 
 
 1.  Click **Discover resources** to launch the discovery experience.
 
-     ![Screenshot](../media/Module-1/ee634a4f-92bb-4ce6-a3d6-5db4e6760bdb.png)
+     ![Screenshot](../Media/Module-1/ee634a4f-92bb-4ce6-a3d6-5db4e6760bdb.png)
 
 
 1.  On the Discovery pane, use **Resource state filter** and **Select resource type** to filter the management groups or subscriptions you have write permission to. It's probably easiest to start with **All** initially.
 
-     ![Screenshot](../media/Module-1/2407aa7a-1d7d-480d-9eea-9bf1848a233a.png)
+     ![Screenshot](../Media/Module-1/2407aa7a-1d7d-480d-9eea-9bf1848a233a.png)
 
 1.  Add a checkmark next to your Azure subscription.
    
-     ![Screenshot](../media/Module-1/de1e6184-fc4b-4955-97fd-957667e70fd1.png)
+     ![Screenshot](../Media/Module-1/de1e6184-fc4b-4955-97fd-957667e70fd1.png)
  
 1.  Click **Manage resource** to start managing the selected resources.
 
-     ![Screenshot](../media/Module-1/f01798ac-e214-40de-b3df-4c1d5a0f2733.png)
+     ![Screenshot](../Media/Module-1/f01798ac-e214-40de-b3df-4c1d5a0f2733.png)
 
 1.  Click **Yes** when prompted.
 
@@ -152,45 +152,45 @@ In the following task you will make  a user eligible for an Azure AD directory r
 
 1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
-     ![Screenshot](../media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
+     ![Screenshot](../Media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
 1.  Select **Azure AD Roles**.
 
-     ![Screenshot](../media/Module-1/ed36b086-ae87-409f-af33-66848b3df1b9.png)
+     ![Screenshot](../Media/Module-1/ed36b086-ae87-409f-af33-66848b3df1b9.png)
  
 1.  Click **Sign up PIM for Azure AD Roles**.
 
-     ![Screenshot](../media/Module-1/fea44542-ff4b-4627-9700-462d39d55e76.png)
+     ![Screenshot](../Media/Module-1/fea44542-ff4b-4627-9700-462d39d55e76.png)
 
 
 1.  Click **Sign Up** and click **Yes**.
 
-     ![Screenshot](../media/Module-1/d617900b-a68b-452c-867f-3f27c9e48426.png)
+     ![Screenshot](../Media/Module-1/d617900b-a68b-452c-867f-3f27c9e48426.png)
 
 1.  **Refresh the Broswer**.
 
 1.  Click **Roles**.
 
-     ![Screenshot](../media/Module-1/dde2c301-2f2e-4318-a96a-a17f3ac3b27a.png)
+     ![Screenshot](../Media/Module-1/dde2c301-2f2e-4318-a96a-a17f3ac3b27a.png)
 
 
 1.  Click **Add member** to open Add managed members.
 
-     ![Screenshot](../media/Module-1/12749cdd-3fcc-46c7-a544-07aabbdd84d1.png)
+     ![Screenshot](../Media/Module-1/12749cdd-3fcc-46c7-a544-07aabbdd84d1.png)
 
 1.  Click **Select a role**, and click **Billing Administrator** and then click  **Select**.
 
-     ![Screenshot](../media/Module-1/42b809bd-9381-4d52-ae98-cb62a4c21730.png)
+     ![Screenshot](../Media/Module-1/42b809bd-9381-4d52-ae98-cb62a4c21730.png)
 
 1.  Click **Select members**, select **Isabella** and then click **Select**.
 
-     ![Screenshot](../media/Module-1/923c874d-67ca-4753-9831-c801ab596ad8.png)
+     ![Screenshot](../Media/Module-1/923c874d-67ca-4753-9831-c801ab596ad8.png)
 
 1.  In Add managed members, click **OK** to add the user to the role.
 
 1.  Review the added memeber
 
-     ![Screenshot](../media/Module-1/febc9219-e55b-4b36-9286-f2ccbf281fd5.png)
+     ![Screenshot](../Media/Module-1/febc9219-e55b-4b36-9286-f2ccbf281fd5.png)
 
 1.  When the role is assigned, the user you selected will appear in the members list as **Eligible** for the role.
 
@@ -204,23 +204,23 @@ By default, new users are only eligible for a directory role. Follow these steps
 
 1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
-     ![Screenshot](../media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
+     ![Screenshot](../Media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
 1.  Click **Azure AD roles**.
 
-     ![Screenshot](../media/Module-1/9914545c-313f-4c9a-84a5-d7c383c7ee37.png)
+     ![Screenshot](../Media/Module-1/9914545c-313f-4c9a-84a5-d7c383c7ee37.png)
 
 1.  Click **Members**.
 
-     ![Screenshot](../media/Module-1/2aedf4ab-e829-4ce3-afcc-b77048125bf9.png)
+     ![Screenshot](../Media/Module-1/2aedf4ab-e829-4ce3-afcc-b77048125bf9.png)
 
 1.  Click the **Eligible** role that you want to make permanent.
 
-     ![Screenshot](../media/Module-1/2f8e7066-ad42-48ef-90ed-7e9d9f19d3bc.png)
+     ![Screenshot](../Media/Module-1/2f8e7066-ad42-48ef-90ed-7e9d9f19d3bc.png)
  
 1.  Click **More** and then click **Make permanent**.
 
-     ![Screenshot](../media/Module-1/9c6837d6-b9c1-436e-babf-7436b8a71de7.png)
+     ![Screenshot](../Media/Module-1/9c6837d6-b9c1-436e-babf-7436b8a71de7.png)
  
 
 **Results**: The role is now listed as **permanent**.
@@ -235,23 +235,23 @@ You can remove users from role assignments, but make sure there is always at lea
 
 1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
-     ![Screenshot](../media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
+     ![Screenshot](../Media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
 1.  Click **Azure AD roles**.
 
-     ![Screenshot](../media/Module-1/9914545c-313f-4c9a-84a5-d7c383c7ee37.png)
+     ![Screenshot](../Media/Module-1/9914545c-313f-4c9a-84a5-d7c383c7ee37.png)
 
 1.  Click **Members**.
 
-     ![Screenshot](../media/Module-1/2aedf4ab-e829-4ce3-afcc-b77048125bf9.png)
+     ![Screenshot](../Media/Module-1/2aedf4ab-e829-4ce3-afcc-b77048125bf9.png)
 
 1.  Click a role assignment you want to remove.
 
-     ![Screenshot](../media/Module-1/439cb04b-fa00-42e2-a302-729b1108e806.png)
+     ![Screenshot](../Media/Module-1/439cb04b-fa00-42e2-a302-729b1108e806.png)
  
 1.  Click **More** and then click **Remove**.
 
-     ![Screenshot](../media/Module-1/de5a2f9d-4b3f-4f4d-8acb-c55788410684.png)
+     ![Screenshot](../Media/Module-1/de5a2f9d-4b3f-4f4d-8acb-c55788410684.png)
  
 1.  In the message that asks you to confirm, click **Yes**. The role assignment will be removed.
 
@@ -267,15 +267,15 @@ When you need to take on an Azure AD directory role, you can request activation 
 
 1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
-     ![Screenshot](../media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
+     ![Screenshot](../Media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
 1.  Click **Azure AD roles**.
 
-     ![Screenshot](../media/Module-1/9914545c-313f-4c9a-84a5-d7c383c7ee37.png)
+     ![Screenshot](../Media/Module-1/9914545c-313f-4c9a-84a5-d7c383c7ee37.png)
  
 1.  Click **Quick Start** and cliuck **Assign eligibility**.
 
-     ![Screenshot](../media/Module-1/a7af9dbc-d901-4c9e-9cd5-63fd30726639.png)
+     ![Screenshot](../Media/Module-1/a7af9dbc-d901-4c9e-9cd5-63fd30726639.png)
 
 1.  Click **Billing Administrator** and add Isabella back into the **Billing Administrators** role.
 
@@ -284,45 +284,45 @@ When you need to take on an Azure AD directory role, you can request activation 
 
 1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
-     ![Screenshot](../media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
+     ![Screenshot](../Media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
 1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
-     ![Screenshot](../media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
+     ![Screenshot](../Media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
 1.  Click **Azure AD roles**.
 
-     ![Screenshot](../media/Module-1/9914545c-313f-4c9a-84a5-d7c383c7ee37.png)
+     ![Screenshot](../Media/Module-1/9914545c-313f-4c9a-84a5-d7c383c7ee37.png)
 
 1.  Click **Quick start** and click **Activate your role**.
 
-     ![Screenshot](../media/Module-1/112e5790-84b1-4125-8c5c-be97033c7acc.png)
+     ![Screenshot](../Media/Module-1/112e5790-84b1-4125-8c5c-be97033c7acc.png)
 
 1.  On the Billing Administrator role, scroll to the right and click **Activate**.
 
-     ![Screenshot](../media/Module-1/bd3d79a3-a66d-48a5-8b2e-94c18358b250.png)
+     ![Screenshot](../Media/Module-1/bd3d79a3-a66d-48a5-8b2e-94c18358b250.png)
 
 1.  Click **Verify your identity before proceeding**. You only have to authenticate once per session. Run through the wizard to authenticate Isabella.
 
-     ![Screenshot](../media/Module-1/3f5812ed-06cc-4430-ae88-143af9721cf2.png)
+     ![Screenshot](../Media/Module-1/3f5812ed-06cc-4430-ae88-143af9721cf2.png)
  
 1.  Once returned to the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
-     ![Screenshot](../media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
+     ![Screenshot](../Media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
 1.  Select **Azure AD Roles** then click click **Activate your role** on the Quick staart blade.
 
 1.  On the Billing Administrator role, scroll to the right and click **Activate**.
 
-     ![Screenshot](../media/Module-1/bd3d79a3-a66d-48a5-8b2e-94c18358b250.png)
+     ![Screenshot](../Media/Module-1/bd3d79a3-a66d-48a5-8b2e-94c18358b250.png)
 
 1.  Click **Activate**.
 
-     ![Screenshot](../media/Module-1/31de8163-8c00-4810-a2be-2c8dd464c6d6.png)
+     ![Screenshot](../Media/Module-1/31de8163-8c00-4810-a2be-2c8dd464c6d6.png)
 
 1.  Enter an activation reason and click **Activate**
 
-     ![Screenshot](../media/Module-1/b17f972d-8df2-4b78-a361-202bab94dd17.png)
+     ![Screenshot](../Media/Module-1/b17f972d-8df2-4b78-a361-202bab94dd17.png)
 
  If the role does not require approval, it is activated and added to the list of active roles. If you want to use the role right away, follow the steps in next section.
 
@@ -337,7 +337,7 @@ When you activate a role in PIM, it can take up to 10 minutes before you can acc
 
 1.  Click **Sign Out**.
 
-     ![Screenshot](../media/Module-1/9f4b91a0-3102-4046-a2a4-d57f3f96f24d.png)
+     ![Screenshot](../Media/Module-1/9f4b91a0-3102-4046-a2a4-d57f3f96f24d.png)
 
 1.  Log back in as Isabella.
 
@@ -350,13 +350,13 @@ You can view the status of your pending requests to activate.
 
 1.  Still signed in as **Isabella**, in the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 
-     ![Screenshot](../media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
+     ![Screenshot](../Media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
 1.  Click **Azure AD Roles**.
 
 1.  Click **My requests** to see a list of your requests.
 
-     ![Screenshot](../media/Module-1/2d924aa8-a60e-4291-bd06-70f02694a313.png)
+     ![Screenshot](../Media/Module-1/2d924aa8-a60e-4291-bd06-70f02694a313.png)
 
 ### Task 4: Deactivate a role
 
@@ -373,19 +373,19 @@ If you complete your administrator tasks early, you can also deactivate a role m
 
 1.  Click **My roles**.
 
-     ![Screenshot](../media/Module-1/72435386-92e6-4cb7-9107-7adcc1198389.png)
+     ![Screenshot](../Media/Module-1/72435386-92e6-4cb7-9107-7adcc1198389.png)
 
 1.  Click **Active roles** to see your list of active roles.
 
-     ![Screenshot](../media/Module-1/c273e7aa-f275-4998-839d-94490e46e160.png)
+     ![Screenshot](../Media/Module-1/c273e7aa-f275-4998-839d-94490e46e160.png)
 
 1.  Find the role you're done using and then click **Deactivate**.
 
-     ![Screenshot](../media/Module-1/6360dbed-ceea-4139-8282-a95f2b26ebd2.png)
+     ![Screenshot](../Media/Module-1/6360dbed-ceea-4139-8282-a95f2b26ebd2.png)
 
 1.  Click **Deactivate** again.
 
-     ![Screenshot](../media/Module-1/3ce7cc8a-8ac1-4f07-96e3-ba06a7fc5c3d.png)
+     ![Screenshot](../Media/Module-1/3ce7cc8a-8ac1-4f07-96e3-ba06a7fc5c3d.png)
 
 1.  Click **Yes** to confirm.
 
@@ -421,7 +421,7 @@ Role assignments become "stale" when users have privileged access that they don'
 
 1.  From the PIM application main page click **Azure AD Roles** under the **Manage** section click **Access reviews** and click > **New**.
 
-     ![Screenshot](../media/Module-1/1704b3b2-05a7-47c8-a3e3-20ba6546b9d6.png)
+     ![Screenshot](../Media/Module-1/1704b3b2-05a7-47c8-a3e3-20ba6546b9d6.png)
 
 1.  Enter the following details and click **Start**:
 
@@ -433,13 +433,13 @@ Role assignments become "stale" when users have privileged access that they don'
       - Reviewers:  **Select your account**
  
  
-     ![Screenshot](../media/Module-1/84274ed2-be53-4b3f-853a-c85f0dcfeab2.png)
+     ![Screenshot](../Media/Module-1/84274ed2-be53-4b3f-853a-c85f0dcfeab2.png)
  
 1.  Once the review has completed and has a status of Active.  Click on the **Global Admin Review**.
 
 1.  Select Results and see the outcome of **Not reviewed**.
 
-     ![Screenshot](../media/Module-1/04c32a26-be67-48dd-bf3d-7b60e81e2fff.png)
+     ![Screenshot](../Media/Module-1/04c32a26-be67-48dd-bf3d-7b60e81e2fff.png)
 
 ### Task 2: Approve or deny access
 
@@ -451,11 +451,11 @@ When you approve or deny access, you're just telling the reviewer whether you st
 
 2.  Select the **Global Admin Review**.
 
-     ![Screenshot](../media/Module-1/3f5a8e6a-05a7-4cc0-96ea-d1a10d23c38f.png)
+     ![Screenshot](../Media/Module-1/3f5a8e6a-05a7-4cc0-96ea-d1a10d23c38f.png)
 
 3.  Unless you created the review, you appear as the only user in the review. Select the check mark next to your name.
 
-     ![Screenshot](../media/Module-1/081d9886-8482-4d62-827c-68eb380c00a0.png)
+     ![Screenshot](../Media/Module-1/081d9886-8482-4d62-827c-68eb380c00a0.png)
 
 5.  Close the **Review Azure AD roles** blade.
 
@@ -480,7 +480,7 @@ After the access review period is over, or all the users have finished their sel
 
 1.  Review the blade.
 
-     ![Screenshot](../media/Module-1/1e6f3ff2-0797-4903-98ef-fc9cf2fccaad.png)
+     ![Screenshot](../Media/Module-1/1e6f3ff2-0797-4903-98ef-fc9cf2fccaad.png)
 
 
 ### Task 4: Configure security alerts for Azure AD directory roles in PIM
@@ -514,7 +514,7 @@ You can customize some of the security alerts in PIM to work with your environme
 
 1.  Scroll down and change **Require Approbal** to **Enable** and click **Save**.
 
-     ![Screenshot](../media/Module-1/da35f974-b196-4ce4-bab7-7ca071d59124.png)
+     ![Screenshot](../Media/Module-1/da35f974-b196-4ce4-bab7-7ca071d59124.png)
 
 ### Task 2: Enable Isabella for Global Administrator privliges.
 
@@ -524,7 +524,7 @@ You can customize some of the security alerts in PIM to work with your environme
 
 1.  Click the **Quick Start** and select **Assign eligibility**.
 
-     ![Screenshot](../media/Module-1/ae3755ac-bd82-4e70-a102-ccbfc3aee48f.png)
+     ![Screenshot](../Media/Module-1/ae3755ac-bd82-4e70-a102-ccbfc3aee48f.png)
 
 1.  Select **Global Administrator**.
 
@@ -538,15 +538,15 @@ You can customize some of the security alerts in PIM to work with your environme
 
 1.  Select **My Roles**.
 
-     ![Screenshot](../media/Module-1/e84f0715-c71e-4b1c-87ed-4e5c0c38d501.png)
+     ![Screenshot](../Media/Module-1/e84f0715-c71e-4b1c-87ed-4e5c0c38d501.png)
 
 1.  **Activate** the Global Administrator Role.
 
-     ![Screenshot](../media/Module-1/55eb14b5-540a-4d26-aed7-0b96d162fb31.png)
+     ![Screenshot](../Media/Module-1/55eb14b5-540a-4d26-aed7-0b96d162fb31.png)
 
 1.  Vertify Isabella's identity using the wizard.
 
-     ![Screenshot](../media/Module-1/0b0408a6-3690-42db-a8f0-c25e7a0b0da3.png)
+     ![Screenshot](../Media/Module-1/0b0408a6-3690-42db-a8f0-c25e7a0b0da3.png)
 
 1.  Return back to **My Roles** in **Azure AD Privileged Identity Management**.
 
@@ -554,11 +554,11 @@ You can customize some of the security alerts in PIM to work with your environme
 
 1.  Click **Activate**.
 
-     ![Screenshot](../media/Module-1/cd9571ab-b89c-4086-85a7-29d31b1982bf.png)
+     ![Screenshot](../Media/Module-1/cd9571ab-b89c-4086-85a7-29d31b1982bf.png)
 
 1.  Enter the justification **I need to carry out some administrative tasks** and click **Acitvate**.
 
-     ![Screenshot](../media/Module-1/e41c4fff-d9aa-4fe9-b1d1-b3c8dac98597.png)
+     ![Screenshot](../Media/Module-1/e41c4fff-d9aa-4fe9-b1d1-b3c8dac98597.png)
 
 
 ### Task 3: Approve or deny requests for Azure resource roles in PIM
@@ -579,23 +579,23 @@ As a delegated approver, you'll receive an email notification when an Azure reso
 
 1.  Click **Approve requests**.
 
-     ![Screenshot](../media/Module-1/fbc2f18d-f5a2-4139-b92d-7c19311aec1c.png)
+     ![Screenshot](../Media/Module-1/fbc2f18d-f5a2-4139-b92d-7c19311aec1c.png)
 
 1.  Click the request from Isabella and click **Approve**.
 
-     ![Screenshot](../media/Module-1/d85bed90-6e2d-4cac-9f84-34a1ef96e0b2.png)
+     ![Screenshot](../Media/Module-1/d85bed90-6e2d-4cac-9f84-34a1ef96e0b2.png)
 
 1.  Enter a reason **Granted for this task"" and click **Approve**.
 
-      ![Screenshot](../media/Module-1/d62b2b94-79c6-466a-b165-d33ea5d5b149.png)
+      ![Screenshot](../Media/Module-1/d62b2b94-79c6-466a-b165-d33ea5d5b149.png)
 
 1.  A notification appears with your approval.
 
-     ![Screenshot](../media/Module-1/9def5a78-8fc4-45e4-b49c-4375294b6cdf.png)
+     ![Screenshot](../Media/Module-1/9def5a78-8fc4-45e4-b49c-4375294b6cdf.png)
 
 1.  Switch back to the In Private Browsing session where Isabella is signed in and click My Roles and note the status is now approved.
 
-     ![Screenshot](../media/Module-1/fe734263-57c8-4cc9-b79f-848d7d4f9488.png)
+     ![Screenshot](../Media/Module-1/fe734263-57c8-4cc9-b79f-848d7d4f9488.png)
 
 ## Exercise 6 - View audit history for Azure AD roles in PIM
 

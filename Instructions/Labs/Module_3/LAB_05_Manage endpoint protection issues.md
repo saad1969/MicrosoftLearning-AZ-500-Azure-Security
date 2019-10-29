@@ -27,15 +27,15 @@ In this exercise, we will use **Compute**.  We will look at how to install antim
 
 1.  Select **Compute & apps** under the Security Center main menu or **Overview**.
 
-       ![Screenshot](../media/Module-3/1dd73e5a-79b8-446a-b715-3f9d40eaf985.png)
+       ![Screenshot](../Media/Module-3/1dd73e5a-79b8-446a-b715-3f9d40eaf985.png)
 
 2.  Under **Compute**, select **Install endpoint protection solution on virtual machines**. The **Endpoint protection issues** dashboard opens.
 
-       ![Screenshot](../media/Module-3/e4a8e8cc-a9a4-4c7d-8f2b-16f00e237c95.png)
+       ![Screenshot](../Media/Module-3/e4a8e8cc-a9a4-4c7d-8f2b-16f00e237c95.png)
 
 1.  On the **Endpoint Protection not installed on Azure VMs** blade click **Install on 1 VMs**.
 
-     ![Screenshot](../media/Module-3/641a2785-4004-4d49-977b-9c7ce1bb4fe6.png)
+     ![Screenshot](../Media/Module-3/641a2785-4004-4d49-977b-9c7ce1bb4fe6.png)
 
 5.  Under **Select Endpoint protection**, select the endpoint protection solution you want to use. In this example, select **Microsoft Antimalware**.
 

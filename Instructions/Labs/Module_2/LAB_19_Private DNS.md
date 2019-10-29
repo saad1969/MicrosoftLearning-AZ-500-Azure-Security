@@ -67,7 +67,7 @@ To link the private DNS zone to a virtual network, you create a virtual network 
 6.  Select the **Enable auto registration** check box.
 7.  Select **OK**.
 
-     ![Screenshot](../media/Module-2/1baf1a71-3ab4-4379-9b1c-d7358ec70a78.png)
+     ![Screenshot](../Media/Module-2/1baf1a71-3ab4-4379-9b1c-d7358ec70a78.png)
 
 ### Task 4: Create the test virtual machines
 

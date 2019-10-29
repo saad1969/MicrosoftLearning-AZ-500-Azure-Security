@@ -16,7 +16,7 @@ This lab shows you how to add and register an application using the App registra
 
 1.  In the left-hand navigation pane, select the **Azure Active Directory** service, and then select **App registrations > New registration**.
 
-     ![Screenshot](../media/Module-1/821d44ac-fe73-472b-a4d8-8ae49c56cc24.png)
+     ![Screenshot](../Media/Module-1/821d44ac-fe73-472b-a4d8-8ae49c56cc24.png)
 
 1.  When the **Register an application** page appears, enter your application's registration information:
 
@@ -40,7 +40,7 @@ This lab shows you how to add and register an application using the App registra
 
 1.  Azure AD assigns a unique application (client) ID to your app, and you're taken to your application's **Overview** page. To add additional capabilities to your application, you can select other configuration options including branding, certificates and secrets, API permissions, and more.
 
-     ![Screenshot](../media/Module-1/9a978965-d73f-4060-835c-6639b21af29e.png)
+     ![Screenshot](../Media/Module-1/9a978965-d73f-4060-835c-6639b21af29e.png)
  
 
 **Results**: You have now completed this lab.

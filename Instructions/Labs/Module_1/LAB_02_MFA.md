@@ -35,7 +35,7 @@ In your policy, set:
 
 3.  On the **Azure Active Directory** page, in the **Security** section, click **Conditional access**.
 
-     ![Screenshot](../media/Module-1/641ff8e9-42f4-42e5-9441-e36ed7f48b03.png)
+     ![Screenshot](../Media/Module-1/641ff8e9-42f4-42e5-9441-e36ed7f48b03.png)
  
 4.  On the **Conditional Access** page, in the toolbar on the top, click **New Policy**.
 
@@ -111,7 +111,7 @@ To initialize the what if policy evaluation tool, set:
 
 1.  On the Conditional access - Policies page, in the menu on the top, click **What If**.  
  
-     ![Screenshot](../media/Module-1/448e616a-7524-44a5-8335-c2fc8193dae6.png)
+     ![Screenshot](../Media/Module-1/448e616a-7524-44a5-8335-c2fc8193dae6.png)
 
 2.  Click **Users**, select **Isabella Simonsen**, and then click **Select**.
 
@@ -135,7 +135,7 @@ To initialize the what if policy evaluation tool, set:
 
 5.  Note the result, Require MFA for Azure portal access.
 
-     ![Screenshot](../media/Module-1/6568f6de-0c9e-4ee1-ba48-eab401651416.png)
+     ![Screenshot](../Media/Module-1/6568f6de-0c9e-4ee1-ba48-eab401651416.png)
 
 
 ### Task 3: Test your conditional access policy
@@ -164,7 +164,7 @@ In this practice, you walk you through configuring a conditional access policy e
 
 1.  Click **Groups** and click **+ New group**.
 
-     ![Screenshot](../media/Module-1/cb9c5324-cbb6-476e-9c7d-1920de301d40.png)
+     ![Screenshot](../Media/Module-1/cb9c5324-cbb6-476e-9c7d-1920de301d40.png)
 
 1.  Enter the following information then click **Create**:
 
@@ -175,7 +175,7 @@ In this practice, you walk you through configuring a conditional access policy e
       * Members: Select **Isabella**
   
   
-      ![Screenshot](../media/Module-1/5457b62d-dc78-4043-bd72-3d7901bbcd71.png)
+      ![Screenshot](../Media/Module-1/5457b62d-dc78-4043-bd72-3d7901bbcd71.png)
   
 1.  Browse to **Azure Active Directory**, **Conditional access**
 

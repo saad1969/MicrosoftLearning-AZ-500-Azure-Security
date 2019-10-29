@@ -31,7 +31,7 @@ Bastion provides secure RDP and SSH connectivity to all VMs in the virtual netwo
 
 1.  In the Azure Portal navigate to your **myVnet** and click **Subnets**.
 
-     ![Screenshot](../media/Module-2/e587492e-eeb7-4552-b5d1-fe495a3b2db9.png)
+     ![Screenshot](../Media/Module-2/e587492e-eeb7-4552-b5d1-fe495a3b2db9.png)
  
 1.  Click **+ Subnet** and create a subnet with the following details:
 
@@ -40,7 +40,7 @@ Bastion provides secure RDP and SSH connectivity to all VMs in the virtual netwo
 
 1.  Click **OK**.
 
-     ![Screenshot](../media/Module-2/a5f29b4f-4bf1-42cd-b045-ac110bae5d7c.png)
+     ![Screenshot](../Media/Module-2/a5f29b4f-4bf1-42cd-b045-ac110bae5d7c.png)
 
 ### Task 2: Create a bastion host
 
@@ -50,11 +50,11 @@ Bastion provides secure RDP and SSH connectivity to all VMs in the virtual netwo
 
 1.  From the results, click **Bastion**. 
 
-     ![Screenshot](../media/Module-2/730f08a8-74cc-47bc-a2bb-7babf5b53e0d.png)
+     ![Screenshot](../Media/Module-2/730f08a8-74cc-47bc-a2bb-7babf5b53e0d.png)
 
 1.  On the **Bastion** page, click **Create** to open the **Create a bastion** page.
 
-     ![Screenshot](../media/Module-2/b1dd545e-1b9c-494d-a403-cd64fe83e929.png)
+     ![Screenshot](../Media/Module-2/b1dd545e-1b9c-494d-a403-cd64fe83e929.png)
 
 1.  On the **Create a bastion** page, configure a new Bastion resource. Specify the configuration settings below.
 
@@ -71,7 +71,7 @@ Bastion provides secure RDP and SSH connectivity to all VMs in the virtual netwo
 
 1.  When you have finished specifying the settings, click **Review + Create**. This validates the values. Once validation passes, you can begin the creation process.
 
-     ![Screenshot](../media/Module-2/a467e69a-393e-4416-a798-c95d24145293.png)
+     ![Screenshot](../Media/Module-2/a467e69a-393e-4416-a798-c95d24145293.png)
 
 1.  On the Create a bastion page, click **Create**.
 1.  You will see a message letting you know that your deployment is underway. Status will display on this page as the resources are created. It takes about 5 mins for the Bastion resource to be created and deployed.
@@ -84,19 +84,19 @@ If you create a bastion host in the portal by using an existing VM, various sett
 
 1.  In the **Azure portal - Bastion Preview**, navigate to your virtual machine, then click **Connect**.
 
-       ![Screenshot](../media/Module-2/d881050d-cc0f-4a95-b8a4-e9c946f8ee17.png)
+       ![Screenshot](../Media/Module-2/d881050d-cc0f-4a95-b8a4-e9c946f8ee17.png)
 
 1.  On the right sidebar, click **Bastion**, then **Use Bastion**.
 
-       ![Screenshot](../media/Module-2/ddb1ac72-df86-41b3-b4ef-6c71cc67d98b.png)
+       ![Screenshot](../Media/Module-2/ddb1ac72-df86-41b3-b4ef-6c71cc67d98b.png)
 
 1.  De-select Open in new window and then enter **LocalAdmin** and **Pa55w.rd1234** for the credentials and click **Connect**.
 
-     ![Screenshot](../media/Module-2/47fb7b09-c439-4e44-80ab-b9ed7bf58494.png)
+     ![Screenshot](../Media/Module-2/47fb7b09-c439-4e44-80ab-b9ed7bf58494.png)
 
 1.  You should now be connected to your VM.
 
-     ![Screenshot](../media/Module-2/76aba7f4-875d-4733-a793-512c7f582069.png)
+     ![Screenshot](../Media/Module-2/76aba7f4-875d-4733-a793-512c7f582069.png)
  
 
 | WARNING: Prior to continuting you should remove all resources used for this lab.  To do this in the **Azure Portal** click **Resource groups**.  Select any resources groups you have created.  On the resource group blade click **Delete Resource group**, enter the Resource Group Name and click **Delete**.  Repeat the process for any additional Resource Groups you may have created. **Failure to do this may cause issues with other labs.** |

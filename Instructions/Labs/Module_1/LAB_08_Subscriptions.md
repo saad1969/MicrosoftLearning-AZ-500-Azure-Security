@@ -17,7 +17,7 @@ at this time just review the process outlined below.
 
 1.  Navigate to **Cost Management + Billing** > **Subscriptions** and click **Manage**.
 
-     ![Screenshot](../media/Module-1/24542a01-fb8a-465d-bebf-d5e0d106f56c.png)
+     ![Screenshot](../Media/Module-1/24542a01-fb8a-465d-bebf-d5e0d106f56c.png)
 
 2.  Select your subscription.
 
@@ -28,19 +28,19 @@ at this time just review the process outlined below.
 
 4.  Select **Transfer subscription**.
 
-     ![Screenshot](../media/Module-1/6a745f4e-2bc3-4655-8692-65b4f8e6aeed.png)
+     ![Screenshot](../Media/Module-1/6a745f4e-2bc3-4655-8692-65b4f8e6aeed.png)
 
 5.  Specify the recipient.
 
     **Note**: If you transfer a subscription to a new Azure AD tenant, all role assignments in RBAC61 will be permanently deleted from the source tenant and not migrated to the target tenant.
 
 
-     ![Screenshot](../media/Module-1/077262ca-0d4d-43d6-bb9e-3580912a8589.png)
+     ![Screenshot](../Media/Module-1/077262ca-0d4d-43d6-bb9e-3580912a8589.png)
 
 6.  The recipient automatically gets an email with an acceptance link.
 7.  The recipient selects the link and follows the instructions, including entering their payment information
 
-     ![Screenshot](../media/Module-1/a72dc585-b813-4823-9370-00e92b0b8f00.png)
+     ![Screenshot](../Media/Module-1/a72dc585-b813-4823-9370-00e92b0b8f00.png)
 
 8.  Azure completes the subscription transfer.
 

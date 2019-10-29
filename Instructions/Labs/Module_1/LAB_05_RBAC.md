@@ -19,7 +19,7 @@ In this module, you'll learn about Role-Based Access Control as the foundation t
 
 1.  Select **Azure Active Directory** and on the overview blade note down your tennant domain.
 
-     ![Screenshot](../media/Module-1/11eb6969-8efb-462d-8ef0-772b0d75f360.png)
+     ![Screenshot](../Media/Module-1/11eb6969-8efb-462d-8ef0-772b0d75f360.png)
 
 1.  Select **Users**, and then select **New user**.
 
@@ -30,7 +30,7 @@ In this module, you'll learn about Role-Based Access Control as the foundation t
       - **Name**: Bill Smith
 
 
-     ![Screenshot](../media/Module-1/ba852242-eb76-4ab8-8e92-c4c452e9f9cf.png)
+     ![Screenshot](../Media/Module-1/ba852242-eb76-4ab8-8e92-c4c452e9f9cf.png)
 
 4.  Show the auto-generated password provided in the **Password** box. You'll need to give this password to the user for the initial sign-in process.
   
@@ -56,7 +56,7 @@ In this module, you'll learn about Role-Based Access Control as the foundation t
 
      ```
  
-     ![Screenshot](../media/Module-1/d5e26f07-a18e-4ae4-84aa-318eac3d5b5b.png)
+     ![Screenshot](../Media/Module-1/d5e26f07-a18e-4ae4-84aa-318eac3d5b5b.png)
 
 10.  Run the following comamand to get a list of the users in Azure AD 
 
@@ -66,7 +66,7 @@ In this module, you'll learn about Role-Based Access Control as the foundation t
  
 11.  Change the Azure cloud shell to azure CLI mode with Bash by using the drop down menu
 
-     ![Screenshot](../media/Module-1/28fe2e25-5b8b-4e7a-b83d-0bc4702b0b38.png)
+     ![Screenshot](../Media/Module-1/28fe2e25-5b8b-4e7a-b83d-0bc4702b0b38.png)
 
 12.  Enter the following command in **azure CLI** to create a user in Azure CLI **replacing yourdomain** with the domain you noted earlier.
  
@@ -109,7 +109,7 @@ You should now have 3 users in your Azure AD
 
 21.  In the **Active Directory blade** click **Groups** and confirm you have **4** groups
 
-     ![Screenshot](../media/Module-1/c4bf8dc8-e4dc-4603-8961-0cdc0ba57cd5.png)
+     ![Screenshot](../Media/Module-1/c4bf8dc8-e4dc-4603-8961-0cdc0ba57cd5.png)
 
 
 ## Exercise 2: Practice - RBAC
@@ -140,7 +140,7 @@ In RBAC, to grant access, you create a role assignment.
 
 1.  Choose **Access control (IAM)** to see the current list of role assignments.
 
-       ![Screenshot](../media/Module-1/fa866a33-93ac-4cc9-adbd-70b8ece05fa5.png)
+       ![Screenshot](../Media/Module-1/fa866a33-93ac-4cc9-adbd-70b8ece05fa5.png)
 
 1.  Choose **Add** to open the **Add role assignment** pane.
 
@@ -165,7 +165,7 @@ In RBAC, to remove access, you remove a role assignment.
 
 1.  In the list of role assignments, add a checkmark next to user with the Virtual Machine Contributor role.
   
-      ![Screenshot](../media/Module-1/d821d99b-8a35-431b-aa0e-8e2dac57a168.png)
+      ![Screenshot](../Media/Module-1/d821d99b-8a35-431b-aa0e-8e2dac57a168.png)
 
 1.  Choose **Remove**.
 
@@ -210,7 +210,7 @@ To grant access for the user, you use the New-AzureRmRoleAssignment command to a
       New-AzureRmRoleAssignment -SignInName bill@yourdomain.onmicrosoft.com -RoleDefinitionName "Reader" -Scope $subScope  
        ```
   
-      ![Screenshot](../media/Module-1/f468a5df-aab2-42db-9e28-7ea25a2262ca.png)
+      ![Screenshot](../Media/Module-1/f468a5df-aab2-42db-9e28-7ea25a2262ca.png)
   
 1.  Assign the Contributor role to the user at the resource group scope using the following command:
   
@@ -227,7 +227,7 @@ To grant access for the user, you use the New-AzureRmRoleAssignment command to a
       Get-AzureRmRoleAssignment -SignInName bill@yourdomain.onmicrosoft.com -Scope $subScope
        ```
 
-       ![Screenshot](../media/Module-1/d190e8c5-ffc7-4638-ad7e-cc2643b972a0.png)
+       ![Screenshot](../Media/Module-1/d190e8c5-ffc7-4638-ad7e-cc2643b972a0.png)
 
     In the output, you can see that the Reader role has been assigned to the RBAC Tutorial User at the subscription scope.
 

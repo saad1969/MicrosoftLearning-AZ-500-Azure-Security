@@ -21,11 +21,11 @@ Lessons include:
 1.  Sign in to the Azure Portal.
 2.  On the Hub menu, click **All services** and search for and select **DNS zone**.
 
-     ![Screenshot](../media/Module-2/2c8b996d-d6b5-4cfa-9832-55b2479aa5fe.png)
+     ![Screenshot](../Media/Module-2/2c8b996d-d6b5-4cfa-9832-55b2479aa5fe.png)
 
 1. Click **+ Add**.
 
-     ![Screenshot](../media/Module-2/cb81d587-ad5d-45b7-a251-a6743fbf5a8b.png)
+     ![Screenshot](../Media/Module-2/cb81d587-ad5d-45b7-a251-a6743fbf5a8b.png)
 
 4.  On the **Create DNS zone** blade enter the following values, then click **Review + create** and then click **Create**:
 
@@ -36,7 +36,7 @@ Lessons include:
      |**Name**|**_see details**_|The name of the DNS zone (yours must be  unique) |
      |**Location**|East US||
 
-     ![Screenshot](../media/Module-2/8a6454d2-1b27-4f54-91e8-69c764406c78.png)
+     ![Screenshot](../Media/Module-2/8a6454d2-1b27-4f54-91e8-69c764406c78.png)
 
 ## Exercise 2: Manage DNS records and record sets by using the Azure portal
 
@@ -53,21 +53,21 @@ This exercise shows you how to manage record sets and records for your DNS zone 
  
 3.  Click **+ Record Set**.
  
-     ![Screenshot](../media/Module-2/51a2fd36-c2df-468d-91f7-9eb0791dd7ba.png)
+     ![Screenshot](../Media/Module-2/51a2fd36-c2df-468d-91f7-9eb0791dd7ba.png)
 
 4.  Enter **testrecord** for the name and **1.2.3.4** as the IP address and click **OK**.
 
-     ![Screenshot](../media/Module-2/6e491490-0b00-4dda-b0e3-28a3f1784171.png)
+     ![Screenshot](../Media/Module-2/6e491490-0b00-4dda-b0e3-28a3f1784171.png)
 
 ### Task 2: Update a record
 
 1.  In the Overview blade for your DNS zone, select the testrecord you created.
 
-      ![Screenshot](../media/Module-2/8c10684e-05bf-46dd-9d85-599bcd4cb54b.png)
+      ![Screenshot](../Media/Module-2/8c10684e-05bf-46dd-9d85-599bcd4cb54b.png)
  
 2.  Under IP Address add the test address of **4.3.2.1** and click **Save**.
 
-     ![Screenshot](../media/Module-2/cf207752-7e3b-4b88-9514-c272d5cdd971.png)
+     ![Screenshot](../Media/Module-2/cf207752-7e3b-4b88-9514-c272d5cdd971.png)
  
 ### Task 3: Remove a record from a record set
 
@@ -77,11 +77,11 @@ You can use the Azure portal to remove records from a record set. Note that remo
 
 1.  In the Overview pane for your DNS zone, select the testrecord you created.
 
-     ![Screenshot](../media/Module-2/8c10684e-05bf-46dd-9d85-599bcd4cb54b.png)
+     ![Screenshot](../Media/Module-2/8c10684e-05bf-46dd-9d85-599bcd4cb54b.png)
 
 2.  Select **Delete** and click **Yes** when prompted.
 
-      ![Screenshot](../media/Module-2/e841dc4f-440d-4244-a3a8-386d10c65dec.png)
+      ![Screenshot](../Media/Module-2/e841dc4f-440d-4244-a3a8-386d10c65dec.png)
  
 
 **Work with NS and SOA records**

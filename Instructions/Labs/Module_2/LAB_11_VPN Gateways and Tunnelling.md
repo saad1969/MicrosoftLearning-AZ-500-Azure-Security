@@ -5,7 +5,7 @@
 
 In this task you will create a Sophos XG Virtual Appliance which will emulate an on-premises device.  The layout of this is depicted in the digaram below
 
-   ![Screenshot](../media/Module-2/f8a9af0a-6330-47bd-8476-3c492bc41135.png)
+   ![Screenshot](../Media/Module-2/f8a9af0a-6330-47bd-8476-3c492bc41135.png)
 
 1.  Open PowerShell and run the following command.
 
@@ -89,7 +89,7 @@ In this tak you will Create a Gateway Subnet and a Virtual network Gateway which
       - **Public IP address**: (Create New) Name: S2S-GW-PIP
 
 
-     ![Screenshot](../media/Module-2/b5da5a3b-bf2c-4bf1-b6d1-8c55010ef2c0.png)
+     ![Screenshot](../Media/Module-2/b5da5a3b-bf2c-4bf1-b6d1-8c55010ef2c0.png)
 
 1.  Click **Review + create** then on the summary screen click **Create**
 
@@ -104,17 +104,17 @@ In this tak you will Create a Gateway Subnet and a Virtual network Gateway which
 
 1.  Select the **PublicIP** Resource.
 
-     ![Screenshot](../media/Module-2/27e13d3f-d9a8-499c-b49a-bb7aaef1c2b5.png)
+     ![Screenshot](../Media/Module-2/27e13d3f-d9a8-499c-b49a-bb7aaef1c2b5.png)
 
 1.  Make a note of the assigned Public IP address.
 
-     ![Screenshot](../media/Module-2/8ff27a1e-7a1b-4bc5-ae6b-2d808ec4afc4.png)
+     ![Screenshot](../Media/Module-2/8ff27a1e-7a1b-4bc5-ae6b-2d808ec4afc4.png)
 
 1.  Open a new browser session and navigate to **`https://x.x.x.x:4444`** (where x.x.x.x is the public IP address you noted above).
 
 1.  Depending on your browser there may be different options to proceed with the connection.
 
-     ![Screenshot](../media/Module-2/9c215000-18e0-467e-9d5d-de5cf33ce06a.png)
+     ![Screenshot](../Media/Module-2/9c215000-18e0-467e-9d5d-de5cf33ce06a.png)
 
 1.  Log into the Firewall with the following credentials:
 
@@ -125,7 +125,7 @@ In this tak you will Create a Gateway Subnet and a Virtual network Gateway which
 
 1.  On the Register your firewall page click **I don't have a a serial number (start a trial)** and select **I do not want to register now** then click **Continue**.
 
-     ![Screenshot](../media/Module-2/376b8f1e-2564-4ec2-a7fd-4e3c26ead2a9.png)
+     ![Screenshot](../Media/Module-2/376b8f1e-2564-4ec2-a7fd-4e3c26ead2a9.png)
 
 1.  On the Warning pop up click **Continue**.
 
@@ -134,7 +134,7 @@ In this tak you will Create a Gateway Subnet and a Virtual network Gateway which
     **Note**: This is your Public IP you will connect your Sophos virtual appliance to via IPSec VPN.
 
 
-     ![Screenshot](../media/Module-2/ab38c94f-e802-467c-9621-05a55f61438e.png)
+     ![Screenshot](../Media/Module-2/ab38c94f-e802-467c-9621-05a55f61438e.png)
  
 1.  Return back to the Sophos Portal.
 
@@ -150,7 +150,7 @@ In this tak you will Create a Gateway Subnet and a Virtual network Gateway which
       - **Connection Type**: Site-to-Site.
       - **Gateway Type**: Respond Only.
 
-     ![Screenshot](../media/Module-2/fbaad5a0-c4c5-4c91-b326-e4c21d487e11.png)
+     ![Screenshot](../Media/Module-2/fbaad5a0-c4c5-4c91-b326-e4c21d487e11.png)
 
     **Encryption Section**:
 
@@ -159,7 +159,7 @@ In this tak you will Create a Gateway Subnet and a Virtual network Gateway which
       - **Preshared Key**: 123456789
       - **Repeat Preshared Key**: 123456789
 
-     ![Screenshot](../media/Module-2/c44ee600-b6d9-4f02-921a-fe8cb8b4049b.png)
+     ![Screenshot](../Media/Module-2/c44ee600-b6d9-4f02-921a-fe8cb8b4049b.png)
 
     **Gateway Settings Section**:
 
@@ -172,12 +172,12 @@ In this tak you will Create a Gateway Subnet and a Virtual network Gateway which
       - **Local Subnet**: Enter the local subnet of 10.0.0.0 /16 (255.255.0.0)
 
 
-      ![Screenshot](../media/Module-2/947ea166-090d-4253-b5d3-f25b627e1b05.png)
+      ![Screenshot](../Media/Module-2/947ea166-090d-4253-b5d3-f25b627e1b05.png)
 
       - **Remote Subnet**: Enter the remote subnet 172.17.0.0 /16 (255.255.0.0)
 </br>
 
-        ![Screenshot](../media/Module-2/c05b0d45-3c99-43d1-a535-c2da85bb4474.png)
+        ![Screenshot](../Media/Module-2/c05b0d45-3c99-43d1-a535-c2da85bb4474.png)
 
 1.  **Advanced**: leave the default settings.
 
@@ -233,7 +233,7 @@ In this task you will create a connection on your Azure Gateway to the On-Prem f
     **Note:**  It may take 30 seconds to establish the connection.
 
  
-     ![Screenshot](../media/Module-2/8a0135df-b6af-4657-b0f0-f08b9deba7a6.png)
+     ![Screenshot](../Media/Module-2/8a0135df-b6af-4657-b0f0-f08b9deba7a6.png)
 
 
 

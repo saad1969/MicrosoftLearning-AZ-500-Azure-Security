@@ -35,7 +35,7 @@ Azure Monitor can collect data directly from your Azure virtual machines into a 
 
 1.  In the Azure portal, select **All services**. In the list of resources, type **Log Analytics**. As you begin typing, the list filters based on your input. Select **Log Analytics workspaces**.
 
-       ![Screenshot](../media/Module-3/77cf47c5-45a0-4f90-a521-540cd65caaaa.png)
+       ![Screenshot](../Media/Module-3/77cf47c5-45a0-4f90-a521-540cd65caaaa.png)
 
 2.  Select **Create**, and then select choices for the following items:
 
@@ -45,7 +45,7 @@ Azure Monitor can collect data directly from your Azure virtual machines into a 
        * Select the **EastUS** as the location. 
        * Leave the pricing Tier as **Per Gb (2018)**
   
-           ![Screenshot](../media/Module-3/9f71d812-97af-483e-b0a4-a314fb169d64.png)
+           ![Screenshot](../Media/Module-3/9f71d812-97af-483e-b0a4-a314fb169d64.png)
 
 3.  After providing the required information on the **Log Analytics workspace** pane, select **OK**.  
 
@@ -80,7 +80,7 @@ Azure Monitor can collect events from the Windows event logs or Linux Syslog and
 
 1.  On the Log Analytics workspaces blade, select **Advanced settings**.
 
-       ![Screenshot](../media/Module-3/e806d778-b771-4334-90c7-5d8bcd120438.png)
+       ![Screenshot](../Media/Module-3/e806d778-b771-4334-90c7-5d8bcd120438.png)
 
 2.  Select **Data**, and then select **Windows Event Logs**.
 
@@ -94,7 +94,7 @@ Azure Monitor can collect events from the Windows event logs or Linux Syslog and
 
 7.  When you first configure Windows Performance counters for a new Log Analytics workspace, you are given the option to quickly create several common counters. They are listed with a checkbox next to each.
 
-       ![Screenshot](../media/Module-3/5113da76-0e0a-436f-8a65-98f4707bc5db.png)
+       ![Screenshot](../Media/Module-3/5113da76-0e0a-436f-8a65-98f4707bc5db.png)
 
     Select **Add the selected performance counters**.  They are added and preset with a ten second collection sample interval.
   
@@ -111,11 +111,11 @@ Now that you have enabled data collection, lets run a simple log search example 
 
 2.  On the Logs query page, type `Perf` in the query editor and select **Run**.
 
-       ![Screenshot](../media/Module-3/556c7fd3-bb7b-4c21-af88-6a5e7a6f6964.png)
+       ![Screenshot](../Media/Module-3/556c7fd3-bb7b-4c21-af88-6a5e7a6f6964.png)
 
     For example, the query in the following image returned 10,000 performance records. Your results will be significantly less due to the VM having only being ran for a few minutes.
 
-       ![Screenshot](../media/Module-3/28ecfff4-d9ef-4593-adc9-7fa90171065e.png)
+       ![Screenshot](../Media/Module-3/28ecfff4-d9ef-4593-adc9-7fa90171065e.png)
 
 ## Exercise 2: Monitor Websites with Azure Monitor Application Insights
 
@@ -165,7 +165,7 @@ Application Insights can gather telemetry data from any internet-connected appli
 
 1.  Select **Overview** > **Essentials** > Copy your application's **Instrumentation Key**.
 
-       ![Screenshot](../media/Module-3/2af9d8f7-4b69-492e-92da-c96029cd85b0.png)
+       ![Screenshot](../Media/Module-3/2af9d8f7-4b69-492e-92da-c96029cd85b0.png)
 
 2.  Add the following script to your ``hello_world.html`` before the closing ``</head>`` tag:
 
@@ -187,7 +187,7 @@ Application Insights can gather telemetry data from any internet-connected appli
 
 1.  You can now reopen the Application Insights **Overview** page in the Azure portal, where you retrieved your instrumentation key, to view details about your currently running application. The four default charts on the overview page are scoped to server-side application data. Since we are instrumenting the client/browser-side interactions with the JavaScript SDK this particular view doesn't apply unless we also have a server-side SDK installed.
 
-2.  Click on     ![Screenshot](../media/Module-3/9bcac7c1-ee5e-40ad-a23c-7647dc380e39.png) Application Map icon  **Analytics**.  This opens **Analytics**, which provides a rich query language for analyzing all data collected by Application Insights. To view data related to the client-side browser requests run the  following query:
+2.  Click on     ![Screenshot](../Media/Module-3/9bcac7c1-ee5e-40ad-a23c-7647dc380e39.png) Application Map icon  **Analytics**.  This opens **Analytics**, which provides a rich query language for analyzing all data collected by Application Insights. To view data related to the client-side browser requests run the  following query:
 
     ```json
     // average pageView duration by name
@@ -204,19 +204,19 @@ Application Insights can gather telemetry data from any internet-connected appli
     | render timechart
     ```
 
-       ![Screenshot](../media/Module-3/6fbf0845-41b3-4aa1-a213-9083468aacd8.png)
+       ![Screenshot](../Media/Module-3/6fbf0845-41b3-4aa1-a213-9083468aacd8.png)
 
 3.  Go back to the **Overview** page. Click on **Browser** from under the **Investigate** header, then select **Performance**  Here you find metrics related to the performance of your website. There is also a corresponding view for analyzing failures and exceptions in your website. You can click **Samples** to drill into individual transaction details. From here, you can access the end-to-end transaction details.
 
-       ![Screenshot](../media/Module-3/3546439a-3706-4094-a776-504d5d1b11ca.png)
+       ![Screenshot](../Media/Module-3/3546439a-3706-4094-a776-504d5d1b11ca.png)
 
 4.  To begin exploring the user behavior analytics tools, from the main Application Insights menu select **Users** under the **Usage** header. Since we are testing from a single machine, we will only see data for one user. For a live website, the distribution of users might look as follows:
 
-       ![Screenshot](../media/Module-3/104e4cf8-1be7-47dd-927b-f129976b3191.png)
+       ![Screenshot](../Media/Module-3/104e4cf8-1be7-47dd-927b-f129976b3191.png)
     
 5.  If we had instrumented a more complex website with multiple pages, another useful tool is [**User Flows**](../../azure-monitor/app/usage-flows.md). With **User Flows** you can track the pathway visitors takes through the various parts of your website.
 
-      ![Screenshot](../media/Module-3/1ae4de4b-5128-4735-9147-7bef014540e6.png)
+      ![Screenshot](../Media/Module-3/1ae4de4b-5128-4735-9147-7bef014540e6.png)
 
 1.  Leave all resources.  You will use these in a future lab.
 

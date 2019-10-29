@@ -48,14 +48,14 @@ The best way to ensure that locks are in place and protecting your resources is 
 
 1.  Locate the Storage Account  nd select it. In the main blade, click the "Locks" icon
 
-     ![Screenshot](../media/Module-1/1adf9f0b-8325-40ce-a763-94008b9c63ae.png)
+     ![Screenshot](../Media/Module-1/1adf9f0b-8325-40ce-a763-94008b9c63ae.png)
 
 
 1.  Click **Add**
 
 1.  Give the lock a name and description, then select the type, deletion or read only.
 
-     ![Screenshot](../media/Module-1/511e54e3-c876-454e-9a3d-e2896fcc990d.png)
+     ![Screenshot](../Media/Module-1/511e54e3-c876-454e-9a3d-e2896fcc990d.png)
 
 
 1.  Click **OK** to save the lock, the resource is now protected.

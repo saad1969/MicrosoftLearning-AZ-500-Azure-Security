@@ -78,7 +78,7 @@ You can connect virtual networks to each other with virtual network peering. The
     |User name| localadmin |
     |Password| Pa55w.rd1234 |
        
-     ![Screenshot](../media/Module-2/cb5ebafc-7225-416e-bb48-0643001b8fe8.png)
+     ![Screenshot](../Media/Module-2/cb5ebafc-7225-416e-bb48-0643001b8fe8.png)
    
 
 5.  Select the Networking Tab:
@@ -93,7 +93,7 @@ You can connect virtual networks to each other with virtual network peering. The
 
 1.  Select the Management Tab and turn all the radio buttons to **Off**.
 
-     ![Screenshot](../media/Module-2/4084f585-093d-465a-90b9-ebf85d57fb26.png)
+     ![Screenshot](../Media/Module-2/4084f585-093d-465a-90b9-ebf85d57fb26.png)
 
 6.  Select **Review + create** and click **Create**.
 

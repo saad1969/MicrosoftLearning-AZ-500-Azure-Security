@@ -55,11 +55,11 @@ In this task you will deploy the Azure firewall into the VNet.
 
 1.  In the Azure portal, click **All services** and search for and select **Azure Firewall**.
 
-     ![Screenshot](../media/Module-2/04b7eeab-d6e9-4c62-bad9-6c496ac36e32.png)
+     ![Screenshot](../Media/Module-2/04b7eeab-d6e9-4c62-bad9-6c496ac36e32.png)
 
 3.  On the **Firewall** blade click **Create firewall**. 
 
-     ![Screenshot](../media/Module-2/72817883-109b-4a17-9c26-edc7a71802ef.png)
+     ![Screenshot](../Media/Module-2/72817883-109b-4a17-9c26-edc7a71802ef.png)
 
 4.  On the **Create a Firewall** blade, use the following table to configure the firewall:
 
@@ -72,12 +72,12 @@ In this task you will deploy the Azure firewall into the VNet.
    |Choose a virtual network     |**Use existing**: Test-FW-VN|
    |Public IP address     |**Create new**. **TEST-FW-PIP** The Public IP address must be the Standard SKU type.|
    
-   ![Screenshot](../media/Module-2/ef63f092-da4a-4df4-8a1b-56d49228aa84.png)
+   ![Screenshot](../Media/Module-2/ef63f092-da4a-4df4-8a1b-56d49228aa84.png)
 
 5.  Click **Review + create**.
 6.  Review the summary, and then click **Create** to create the firewall.
 
-     ![Screenshot](../media/Module-2/95c9928f-0056-4e99-ac3c-0d5150bacc45.png)
+     ![Screenshot](../Media/Module-2/95c9928f-0056-4e99-ac3c-0d5150bacc45.png)
 
     This will take a few minutes to deploy.
 
@@ -85,7 +85,7 @@ In this task you will deploy the Azure firewall into the VNet.
 
 8.  Make a note of the **Private IP** address. You'll use it later when you create the default route.
 
-     ![Screenshot](../media/Module-2/84676994-3813-4551-ba8c-640909b77228.png)
+     ![Screenshot](../Media/Module-2/84676994-3813-4551-ba8c-640909b77228.png)
 
 ### Task 3: Create a default route
 

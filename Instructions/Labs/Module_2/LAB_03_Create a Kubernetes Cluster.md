@@ -10,7 +10,7 @@ Azure Kubernetes Service (AKS) is a managed Kubernetes service that lets you qui
 
 1.  Click **Cloudshell** icon.
 
-     ![Screenshot](../media/Module-2/4efbdec1-f1c9-4c37-8ca5-193f245a274d.png)
+     ![Screenshot](../Media/Module-2/4efbdec1-f1c9-4c37-8ca5-193f245a274d.png)
 
 1.  Select **Azure CLI BASH** if required and create a storage account.
 
@@ -117,7 +117,7 @@ When the application runs, a Kubernetes service exposes the application front en
 
 2.  To see the Azure Vote app in action, open a web browser to the external IP address of your service as shown in the result of the previous command.
 
-     ![Screenshot](../media/Module-2/88d51dc5-a992-436f-a65e-83a766c142a9.png)
+     ![Screenshot](../Media/Module-2/88d51dc5-a992-436f-a65e-83a766c142a9.png)
 
 
 ### Task 6: Monitor health and logs

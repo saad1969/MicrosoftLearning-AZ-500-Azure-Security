@@ -28,7 +28,7 @@ There are three ways to configure a JIT policy on a VM:
 
 1.  Click **Install agents**.
 
-     ![Screenshot](../media/Module-3/5aaae50a-e29f-4c79-90d3-70c2697caa14.png)
+     ![Screenshot](../Media/Module-3/5aaae50a-e29f-4c79-90d3-70c2697caa14.png)
 
 **Note**: You may have to wait upto 5 minutes for the agents to deploy.
 
@@ -37,17 +37,17 @@ There are three ways to configure a JIT policy on a VM:
 
 1.  Select **Compute & app resources**.
 
-     ![Screenshot](../media/Module-3/471a9a5c-4288-4b60-9c4f-00e01481fb9f.png)
+     ![Screenshot](../Media/Module-3/471a9a5c-4288-4b60-9c4f-00e01481fb9f.png)
 
 1.  On the Compute blade, note the recommendations.
 
 1.  Select the **Just-In-Time network access control should be applied on virtual machines**.
 
-     ![Screenshot](../media/Module-3/65bbd383-1b20-4b9b-a8b5-fce9464a8789.png)
+     ![Screenshot](../Media/Module-3/65bbd383-1b20-4b9b-a8b5-fce9464a8789.png)
 
 1.  Select all 4 virtual machines and click **Enable JIT on 4 VMs**.
 
-     ![Screenshot](../media/Module-3/894ab4e4-d343-4d05-8797-8b2707eed681.png)
+     ![Screenshot](../Media/Module-3/894ab4e4-d343-4d05-8797-8b2707eed681.png)
 
 1.  On the **JIT VM access configuration** blade click **Save**.
   - This blade displays the default ports recommended by Azure Security Center:
@@ -56,11 +56,11 @@ There are three ways to configure a JIT policy on a VM:
       - 5985 - WinRM 
       - 5986 - WinRM
  
-     ![Screenshot](../media/Module-3/4a160905-d91b-4601-8d61-d4b513cae1e4.png)
+     ![Screenshot](../Media/Module-3/4a160905-d91b-4601-8d61-d4b513cae1e4.png)
 
 1.  Close all the blade and on the Security Center blade click **Just in time VM access**.
 
-     ![Screenshot](../media/Module-3/c664992b-a505-44b0-8cf2-581f8a579928.png)
+     ![Screenshot](../Media/Module-3/c664992b-a505-44b0-8cf2-581f8a579928.png)
 
     The **Just-in-time VM access** window opens.
       
@@ -94,11 +94,11 @@ To request access to a VM via ASC:
 
     - The **Connection Details** column provides the information required to connect the VM, and its open ports.
 
-      ![Screenshot](../media/Module-3/b012f4be-139b-4cd7-ab66-d6bc536b3f18.png)
+      ![Screenshot](../Media/Module-3/b012f4be-139b-4cd7-ab66-d6bc536b3f18.png)
 
 3.  Click **Request access**. The **Request access** window opens.
 
-       ![Screenshot](../media/Module-3/590a9be3-89d5-4302-b671-8f3643746037.png)
+       ![Screenshot](../Media/Module-3/590a9be3-89d5-4302-b671-8f3643746037.png)
 
 4.  Under **Request access**, for each VM, configure the ports that you want to open and the source IP addresses that the port is opened on and the time window for which the port will be open. It will only be possible to request access to the ports that are configured in the just-in-time policy. Each port has a maximum allowed time derived from the just-in-time policy.
 
@@ -121,7 +121,7 @@ To edit an existing just-in-time policy of a VM:
 1.  Select **Edit**.
 1.  Under **JIT VM access configuration**, you can either edit the existing settings of an already protected port or add a new custom port. 
   
-      ![Screenshot](../media/Module-3/cc4d097f-31b1-495d-ba30-a955f692ee49.png)
+      ![Screenshot](../Media/Module-3/cc4d097f-31b1-495d-ba30-a955f692ee49.png)
 
 ### Task 4:  Audit JIT access activity in ASC
 
@@ -132,7 +132,7 @@ You can gain insights into VM activities using log search. To view logs:
 1.  Under **Just-in-time VM access**, select the **Configured** tab.
 2.  Under **VMs**, select a VM to view information about by clicking on the three dots within the row for that VM and select **Activity Log** in the menu. The **Activity log** opens.
 
-       ![Screenshot](../media/Module-3/b335d921-7b46-42c5-bddf-d1cf0c03774f.png)
+       ![Screenshot](../Media/Module-3/b335d921-7b46-42c5-bddf-d1cf0c03774f.png)
 
    **Activity log** provides a filtered view of previous operations for that VM along with time, date, and subscription.
 
@@ -168,7 +168,7 @@ To make it easy to roll out just-in-time access across your VMs, you can set a V
      
     If a VM already has just-in-time enabled, when you go to its configuration page you will be able to see that just-in-time is enabled and you can use the link to open the policy in Azure Security Center to view and change the settings. 
 
-     ![Screenshot](../media/Module-3/620cf312-47b6-45ee-8b4a-f1160dab4989.png)
+     ![Screenshot](../Media/Module-3/620cf312-47b6-45ee-8b4a-f1160dab4989.png)
 
 ### Task 5:  Request JIT access to a VM via the Azure VM blade
 
@@ -176,7 +176,7 @@ In the Azure portal, when you try to connect to a VM, Azure checks to see if you
 
 - If you do have a JIT policy configured on the VM, you can click **Request access** to enable you to have access in accordance with the JIT policy set for the VM. 
 
-     ![Screenshot](../media/Module-3/0223c493-bc9e-4e9a-8be5-1550251497fc.png)
+     ![Screenshot](../Media/Module-3/0223c493-bc9e-4e9a-8be5-1550251497fc.png)
 
   The access is requested with the following default parameters:
 
@@ -189,7 +189,7 @@ In the Azure portal, when you try to connect to a VM, Azure checks to see if you
 
   - If you do not have JIT configured on a VM, you will be prompted to configure a JIT policy it.
 
-      ![Screenshot](../media/Module-3/c456f80a-1b94-4a35-9ef8-03cc7396941e.png)
+      ![Screenshot](../Media/Module-3/c456f80a-1b94-4a35-9ef8-03cc7396941e.png)
 
 
 | WARNING: Prior to continuting you should remove all resources used for this lab.  To do this in the **Azure Portal** click **Resource groups**.  Select any resources groups you have created.  On the resource group blade click **Delete Resource group**, enter the Resource Group Name and click **Delete**.  Repeat the process for any additional Resource Groups you may have created. **Failure to do this may cause issues with other labs.** |

@@ -90,7 +90,7 @@ You can select any of the available DDoS protection metrics to alert you when th
 
     Within a few minutes of attack detection, you receive an email from Azure Monitor metrics that looks similar to the following picture:
 
-       ![Screenshot](../media/Module-2/9c9dec1d-9a24-4948-b845-c265293eb5ac.png)
+       ![Screenshot](../Media/Module-2/9c9dec1d-9a24-4948-b845-c265293eb5ac.png)
 
 
 ### Task 6: Use DDoS protection telemetry
@@ -119,7 +119,7 @@ Telemetry for an attack is provided through Azure Monitor in real time. The tele
 
 DDoS Protection Standard applies three auto-tuned mitigation policies (TCP SYN, TCP & UDP) for each public IP address of the protected resource, in the virtual network that has DDoS enabled. You can view the policy thresholds by selecting the  **Inbound TCP packets to trigger DDoS mitigation** and **Inbound UDP packets to trigger DDoS mitigation** metrics with **aggregation** type as 'Max', as shown in the following picture:
 
-   ![Screenshot](../media/Module-2/c2189ebe-911c-4d61-af3e-a776bc582e8b.png)
+   ![Screenshot](../Media/Module-2/c2189ebe-911c-4d61-af3e-a776bc582e8b.png)
 
 Policy thresholds are auto-configured via Azure machine learning-based network traffic profiling. Only when the policy threshold is breached does DDoS mitigation occur for the IP address under attack.
 

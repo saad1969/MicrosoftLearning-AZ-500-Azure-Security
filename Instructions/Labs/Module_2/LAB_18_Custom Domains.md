@@ -14,7 +14,7 @@ Every new Azure AD tenant comes with an initial domain name, domainname.onmicros
 
 1.  Select **Custom domain names**, and then select **Add custom domain**.
 
-       ![Screenshot](../media/Module-2/6615ed31-bc05-482f-900d-6cf9491ce9c2.png)
+       ![Screenshot](../Media/Module-2/6615ed31-bc05-482f-900d-6cf9491ce9c2.png)
 
 2.  Navigate to the DNS tab in the Lab Environment to identify the unique custom domain name you have been allocated.  This will be in the form of labxxxxxx.customdomainname.com.
 
@@ -25,7 +25,7 @@ Every new Azure AD tenant comes with an initial domain name, domainname.onmicros
 
 4.  Copy the DNS info from the **labxxxxx.customdomainname.com** page. For example, MS=ms64983159.
 
-       ![Screenshot](../media/Module-2/9119a382-df4f-4688-8d17-3da0fe2b2f78.png)
+       ![Screenshot](../Media/Module-2/9119a382-df4f-4688-8d17-3da0fe2b2f78.png)
 
 ### Task 2: Add your DNS information to the domain registrar
 
@@ -47,11 +47,11 @@ After you register your custom domain name, you need to make sure it's valid in 
 
 1.  Return back to the Azure Portal **labxxxxx.customdomainname.com** page and click **Verify**.
 
-     ![Screenshot](../media/Module-2/819d89df-0649-449f-82c4-d9c8598ea7f5.png)
+     ![Screenshot](../Media/Module-2/819d89df-0649-449f-82c4-d9c8598ea7f5.png)
 
 1.  Your domain should now be verified.
 
-     ![Screenshot](../media/Module-2/f1c86bff-7397-4040-9685-88c874e49bf2.png)
+     ![Screenshot](../Media/Module-2/f1c86bff-7397-4040-9685-88c874e49bf2.png)
 
 1.  After you've verified your custom domain name, you can delete your verification TXT record.
 
