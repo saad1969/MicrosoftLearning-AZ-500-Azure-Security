@@ -63,7 +63,7 @@ This lab requires a user cerating that will be used for PIM.
 
      ![Screenshot](../Media/Module-1/12bd35f5-5114-47d7-8826-3953094d9870.png)
 
-
+**You may need to log out of the Azure portal and log in again for this to refesh**
 
 ### Task 3: Discover resources
 
@@ -516,7 +516,7 @@ You can customize some of the security alerts in PIM to work with your environme
 
      ![Screenshot](../Media/Module-1/da35f974-b196-4ce4-bab7-7ca071d59124.png)
 
-### Task 2: Enable Isabella for Global Administrator privliges.
+### Task 2: Enable Isabella for Global Administrator privileges.
 
 1.  Open **Azure AD Privileged Identity Management**.
 
