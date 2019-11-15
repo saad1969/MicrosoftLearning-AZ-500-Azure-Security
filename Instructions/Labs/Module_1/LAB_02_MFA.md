@@ -31,28 +31,28 @@ In your policy, set:
  
 1.  Sign in to the Azure Portal.
 
-2.  In the Azure portal, on the hub menu, click **Azure Active Directory**. 
+2.  In the Azure portal, on the hub menu, click **Security** in the Manage section.
 
-3.  On the **Azure Active Directory** page, in the **Security** section, click **Conditional access**.
+3. In the **Security - Getting started blade**  click **Conditional access**.
 
-     ![Screenshot](../Media/Module-1/641ff8e9-42f4-42e5-9441-e36ed7f48b03.png)
+     ![Screenshot](../Media/Module-1/NewConditionalAccessScreen.png)
  
-4.  On the **Conditional Access** page, in the toolbar on the top, click **New Policy**.
+5.  On the **Conditional Access** page, in the toolbar on the top, click **New Policy**.
 
     **Note**: if this is greyed out, refresh the browser session.
 
 
 
 
-5.  On the **New** page, in the **Name** textbox, type **Require MFA for Azure portal access**.
+6.  On the **New** page, in the **Name** textbox, type **Require MFA for Azure portal access**.
 
 
 
-6.  In the **Assignment** section, click **Users and groups**.
+7.  In the **Assignment** section, click **Users and groups**.
 
 
 
-7.  On the **Users and groups** page, perform the following steps:
+8.  On the **Users and groups** page, perform the following steps:
 
 
     a. Click **Select users and groups**, and then select **Users and groups**.
@@ -63,11 +63,11 @@ In your policy, set:
 
     d. On the **Users and groups** page, click **Done**.
 
-8.  Click **Cloud apps or actions**.
+9.  Click **Cloud apps or actions**.
 
 
 
-9.  On the **Cloud apps** page, perform the following steps:
+10. On the **Cloud apps** page, perform the following steps:
 
 
 
@@ -80,17 +80,17 @@ In your policy, set:
     d. On the **Cloud apps** page, click **Done**.
 
 
-10.  In the **Access controls** section, click **Grant**.
+11.  In the **Access controls** section, click **Grant**.
 
 
-11.  On the **Grant** page, perform the following steps:
+12.  On the **Grant** page, perform the following steps:
      1. Select **Grant access**.
      2.  Select **Require multi-factor authentication**.
      3.  Click **Select**.
 
-12.  In the **Enable policy** section, click **On**.
+13.  In the **Enable policy** section, click **On**.
 
-13.  Click **Create**.
+14.  Click **Create**.
 
 
 ### Task 2: Evaluate a simulated sign-in
@@ -150,7 +150,7 @@ To test your policy, try to sign-in to the Azure portal **`https://portal.azure.
 ## Exercise 2: MFA Conditional Access (Complete an Azure Multi-Factor Authentication pilot roll out)
 
 
-In this practice, you walk you through configuring a conditional access policy enabling Azure Multi-Factor Authentication (Azure MFA) when logging in to the Azure portal. The policy is deployed to and tested on a specific group of pilot users. Deployment of Azure MFA using conditional access provides significant flexibility for organizations and administrators compared to the traditional enforced method.
+In this lab, you walk you through configuring a conditional access policy enabling Azure Multi-Factor Authentication (Azure MFA) when logging in to the Azure portal. The policy is deployed to and tested on a specific group of pilot users. Deployment of Azure MFA using conditional access provides significant flexibility for organizations and administrators compared to the traditional enforced method.
 
 - Enable Azure Multi-Factor Authentication
 - Test Azure Multi-Factor Authentication
@@ -177,33 +177,33 @@ In this practice, you walk you through configuring a conditional access policy e
   
       ![Screenshot](../Media/Module-1/5457b62d-dc78-4043-bd72-3d7901bbcd71.png)
   
-1.  Browse to **Azure Active Directory**, **Conditional access**
+2.  Browse to **Azure Active Directory**, click Security and select **Conditional access** on the **Security** Blade.
 
  
 
-1.  Select **+ New policy**
+3.  Select **+ New policy**
 
  
 
-1.  Name your policy **MFA Pilot**
-1.  Under **users and groups**, select the **Select users and groups** check box
+4.  Name your policy **MFA Pilot**
+5.  Under **users and groups**, select the **Select users and groups** check box
     * Select your pilot group **MFA Pilot**
     * Click **Select**
     * Click **Done**
     </br>
-1.  Under **Cloud apps or actions**, select the **Select apps** radio button
+6.  Under **Cloud apps or actions**, select the **Select apps** radio button
     * The cloud app for the Azure portal is **Microsoft Azure Management**
     * Click **Select**
     * Click **Done**
     </br>
-1.  Skip the **Conditions** section
-1.  Under **Grant**, make sure the **Grant access** radio button is selected
+7.  Skip the **Conditions** section
+8.  Under **Grant**, make sure the **Grant access** radio button is selected
     * Check the box for **Require multi-factor authentication**
     * Click **Select**
     </br>
-1.  Skip the **Session** section
-1.  Set the **Enable policy** toggle to **On**
-1.  Click **Create**
+9.  Skip the **Session** section
+10. Set the **Enable policy** toggle to **On**
+11. Click **Create**
 
 ### Task 2: Test Azure Multi-Factor Authentication
 

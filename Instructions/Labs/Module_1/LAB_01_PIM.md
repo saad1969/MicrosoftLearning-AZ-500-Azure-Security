@@ -46,7 +46,7 @@ This lab requires a user cerating that will be used for PIM.
 
 1.  In the Azure Portal, on the Hub menu click **Azure Active Directory**.
 
-1.  Select **Licences**.
+1.  Select **Licences** under **Manage**.
 
     ![Screenshot](../Media/Module-1/2443efb7-2b94-41c3-8e20-2a1a77cd6e75.png)
 
@@ -106,31 +106,32 @@ This lab requires a user cerating that will be used for PIM.
      ![Screenshot](../Media/Module-1/35eb7586-5a30-41a6-9f1c-abb48f8ed548.png)
 
 1.  Refresh the Azure Portal by pressing **F5**.
+   
+    **Note**: If by refreshing the portal in the browser does not display PIM as being enabled then log out and back into the Azure Portal.
 
-
-1.  Click **Azure resources**.
+2.  Click **Azure resources**.
 
      ![Screenshot](../Media/Module-1/c8260eb8-fdab-466f-86a1-173139906868.png)
 
 
-1.  Click **Discover resources** to launch the discovery experience.
+3.  Click **Discover resources** to launch the discovery experience.
 
      ![Screenshot](../Media/Module-1/ee634a4f-92bb-4ce6-a3d6-5db4e6760bdb.png)
 
 
-1.  On the Discovery pane, use **Resource state filter** and **Select resource type** to filter the management groups or subscriptions you have write permission to. It's probably easiest to start with **All** initially.
+4.  On the Discovery pane, use **Resource state filter** and **Select resource type** to filter the management groups or subscriptions you have write permission to. It's probably easiest to start with **All** initially.
 
      ![Screenshot](../Media/Module-1/2407aa7a-1d7d-480d-9eea-9bf1848a233a.png)
 
-1.  Add a checkmark next to your Azure subscription.
+5.  Add a checkmark next to your Azure subscription.
    
      ![Screenshot](../Media/Module-1/de1e6184-fc4b-4955-97fd-957667e70fd1.png)
  
-1.  Click **Manage resource** to start managing the selected resources.
+6.  Click **Manage resource** to start managing the selected resources.
 
      ![Screenshot](../Media/Module-1/f01798ac-e214-40de-b3df-4c1d5a0f2733.png)
 
-1.  Click **Yes** when prompted.
+7.  Click **Yes** when prompted.
 
 
 
@@ -273,7 +274,7 @@ When you need to take on an Azure AD directory role, you can request activation 
 
      ![Screenshot](../Media/Module-1/9914545c-313f-4c9a-84a5-d7c383c7ee37.png)
  
-1.  Click **Quick Start** and cliuck **Assign eligibility**.
+1.  Click **Quick Start** and click **Assign eligibility**.
 
      ![Screenshot](../Media/Module-1/a7af9dbc-d901-4c9e-9cd5-63fd30726639.png)
 
@@ -323,6 +324,8 @@ When you need to take on an Azure AD directory role, you can request activation 
 1.  Enter an activation reason and click **Activate**
 
      ![Screenshot](../Media/Module-1/b17f972d-8df2-4b78-a361-202bab94dd17.png)
+
+By default, roles do not require approval unless configured explicitly in settings. 
 
  If the role does not require approval, it is activated and added to the list of active roles. If you want to use the role right away, follow the steps in next section.
 
