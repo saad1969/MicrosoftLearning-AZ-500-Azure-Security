@@ -4,7 +4,7 @@
 
 Azure Function Apps uses the Azure App Service infrastructure. This topic shows you how to create a function app in the Azure portal. A function app is the container that hosts the execution of individual functions. When you create a function app in the App Service hosting plan, your function app can use all the features of App Service.
 
-
+## Exercise 1: Create a Function and Trigger
 
 ### Task 1: Lab Setup
 

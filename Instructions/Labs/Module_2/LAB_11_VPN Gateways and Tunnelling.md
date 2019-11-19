@@ -1,5 +1,7 @@
 # Module 2: Lab 11: On-Prem to Azure Connections - VPN Gateways and Tunnelling
 
+## Exercise 1: Deploy Virtual Appliances and Gateways for intersite connectivity.
+
 ### Task 1: Deploy a Virtual Appliance.
 
 
@@ -13,9 +15,9 @@ In this task you will create a Sophos XG Virtual Appliance which will emulate an
     start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FAZ-500-Azure-Security%2Fmaster%2FAllfiles%2FLabs%2FMod2_Lab11%2Ftemplate.json"
      ```
  
-1.  Login to the portal if required.
+2.  Login to the portal if required.
 
-1.  On the Custom deployment enter or select the following details:
+3.  On the Custom deployment enter or select the following details:
 
  | Setting | Value |
  |---|---|

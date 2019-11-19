@@ -14,7 +14,7 @@ Azure routes traffic between all subnets within a virtual network, by default. Y
 > * Deploy virtual machines (VM) into different subnets
 > * Route traffic from one subnet to another through an NVA
 
-## Excerise 1: Route network traffic with a route table using the Azure portal
+## Exercise 1: Route network traffic with a route table using the Azure portal
 
 ### Task 1: Create a route table
 

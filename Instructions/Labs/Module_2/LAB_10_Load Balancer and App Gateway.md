@@ -12,7 +12,7 @@ In this module, you will learn about three ways to distribute network traffic: A
 - Azure Application Gateway
 
 
-## Excerise 1: Distributing Network Traffic using a Standard Load Balancer
+## Exercise 1: Distributing Network Traffic using a Standard Load Balancer
 
 
 In this section, you create a public load balancer that helps load balance virtual machines. Standard Load Balancer only supports a Standard Public IP address. When you create a Standard Load Balancer, and you must also create a new Standard Public IP address that is configured as the frontend (named as *LoadBalancerFrontend* by default) for the Standard Load Balancer. 
@@ -187,7 +187,7 @@ A load balancer rule is used to define how traffic is distributed to the VMs. Yo
  
 1.  Wait until the myVM1 Virtual Machine has stopped then go back to the browser tab with the load lanancer public IP and click refresh to confirm myVM2 is continuing to service the requests and the load balancer is functioning as expected.
 
-## Excerise 2:  Load Balancer ARM Deployments
+## Exercise 2:  Load Balancer ARM Deployments
 
 ### Task 1: Deploy an ARM template 
 
@@ -208,7 +208,7 @@ This template allows you to create 2 Virtual Machines under a Load balancer and 
       - Admin Password:  **Pa55w.rd1234**
 
 1.  Click **I agree....** and click **Purchase**.
-# Excerise 3: Deploing Application Gateways
+# Exercise 3: Deploing Application Gateways
 
 ### Task 1: Create an application gateway
 

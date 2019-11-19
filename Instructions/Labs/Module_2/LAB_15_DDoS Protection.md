@@ -3,6 +3,7 @@
 
 In this lab you will learn how to enable and disable distributed denial of service (DDoS) protection, and use telemetry to mitigate a DDoS attack with Azure DDoS Protection Standard. DDoS Protection Standard protects Azure resources such as virtual machines, load balancers, and application gateways that have an Azure public IP address assigned to it. 
 
+## Exercise 1: Implement DDoS protection in Azure.
 
 ### Task 1: Create a DDoS protection plan
 

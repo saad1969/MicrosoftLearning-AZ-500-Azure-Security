@@ -4,6 +4,8 @@
 
 # Module 4: Classify a SQL Database 
 
+## Exercise 1: Classify your SQL Database
+
 ### Task 1: Lab Setup
 
 1.  Open **PowerShell** and run the following command:
@@ -21,7 +23,7 @@ warning
 **Note**: You must wait for the SQL database with the test data to deploy
 
 
-## Exercise 1: Classify your SQL Database
+
 
 1.  Sign-in to the Azure portal.
 

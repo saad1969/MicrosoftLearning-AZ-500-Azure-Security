@@ -12,6 +12,7 @@ One way you can control outbound network access from an Azure subnet is with Azu
 
 Network traffic is subjected to the configured firewall rules when you route your network traffic to the firewall as the subnet default gateway.
 
+## Exercise 1: Deploy an Azure Firewall
 
 ### Task 1: Lab Setup
 

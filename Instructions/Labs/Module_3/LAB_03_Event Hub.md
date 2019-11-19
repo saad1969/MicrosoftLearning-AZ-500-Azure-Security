@@ -9,6 +9,7 @@ In this lab, you will:
 - Configure applications to send or receive messages through an Event Hub
 - Evaluate Event Hub performance using the Azure portal
 
+## Exercise 1: Implementing Event Hub
 
 ### Task 1: Enabling Event Hubs Namespace
 

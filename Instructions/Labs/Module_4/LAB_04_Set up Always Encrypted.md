@@ -11,9 +11,7 @@ This module includes the following tasks:
  - Azure Azure Key Vault
 
 
-## Implementing Secure Data
-
-## Practice: Introduction to Azure Key Vault
+## Exercise 1: Introduction to Azure Key Vault
 
 
 **Scenario**

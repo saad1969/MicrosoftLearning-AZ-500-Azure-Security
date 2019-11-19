@@ -13,6 +13,7 @@ SSH is an encrypted connection protocol that allows secure sign-ins over unsecur
 
 Your public key can be shared with anyone, but only you (or your local security infrastructure) should possess your private key.
 
+## Exercise 1: Deploy and connect to an Azure VM securely.
 
 ### Task 1: Create SSH keys with PuTTYgen
 

@@ -2,6 +2,8 @@
 
 # Module 4: Auditing a Database
 
+## Exercise 1: Enable auditing on your database
+
 ### Task 1: Lab Setup
 
 1.  Open **PowerShell** and run the following command to deploy a database for the lab:
@@ -18,35 +20,35 @@
 warning
 **Note**: You must wait for the SQL database with the test data to deploy
 
-
-
-## Exercise 1: Enable auditing on your database
+### Task 2: Enable auditing on your databasease
 
 1.  Select your resource group created in the lab setup
 
-1.  **Select** the SQL server **az500labserver2**
+2.  **Select** the SQL server **az500labserver2**
 
-1.  **Under Security**, select **Auditing**
+3.  **Under Security**, select **Auditing**
 
-1.  **Switch Auditing** to **ON**.
+4.  **Switch Auditing** to **ON**.
 
-1.  Select storage as the location to send the audit logs to
+5.  Select storage as the location to send the audit logs to
 
-1.  **Click configure**
+6.  **Click configure**
 
-1.  Select **Your Subscription**
+7.  Select **Your Subscription**
 
-1.  **Click Create New**.
+8.  **Click Create New**.
 
-1.  Name the subscription "**mod4lab2YOURNAME**" to create a unique name
+9.  Name the subscription "**mod4lab2YOURNAME**" to create a unique name
 
-1.  **Click OK**.
+10. **Click OK**.
 
-1.  Change the retention days to **5** and click **OK** 
+11. Change the retention days to **5** and click **OK** 
 
-1.  Click **Save** to save the **auditing configuration**
+12. Click **Save** to save the **auditing configuration**
 
-## Exercise 2: Review aduit logs
+## Exercise 2: Review audit logs
+
+### Task 1: Review audit logs on the SQL DB.
 
 1.  To review audit logs for a database return to the resource group created in the lab setup
 

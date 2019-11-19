@@ -11,7 +11,7 @@ You can connect virtual networks to each other with virtual network peering. The
 - Communicate between VMs
 
 
-### Exercise 1: 
+### Exercise 1: Create Virtual Networks and implement Peering.
 
 ### Task 1: Create virtual networks
 

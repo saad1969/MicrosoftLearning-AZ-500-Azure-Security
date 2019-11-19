@@ -10,7 +10,7 @@ In this module, you'll will be introduced to Azure virtual networks. What are vi
 - Review of IP Addressing
 
 
-## Excerise 1: Create a virtual network using the Azure portal
+## Exercise 1: Create a virtual network using the Azure portal
 
 
 **Scenario**

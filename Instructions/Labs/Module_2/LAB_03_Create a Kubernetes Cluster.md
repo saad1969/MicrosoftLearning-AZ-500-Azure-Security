@@ -3,6 +3,7 @@
 
 Azure Kubernetes Service (AKS) is a managed Kubernetes service that lets you quickly deploy and manage clusters. In this quickstart, you deploy an AKS cluster using the Azure CLI. A multi-container application that includes a web front end and a Redis instance is run in the cluster. You then see how to monitor the health of the cluster and pods that run your application.
 
+## Exercise 1: Create an AKS environment
 
 ### Task 1: Prepare the environment and Create a Resource Group.
 

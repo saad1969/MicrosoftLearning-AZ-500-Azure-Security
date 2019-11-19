@@ -5,6 +5,7 @@
 
 You can use the Update Management solution to manage updates and patches for your virtual machines. In this tutorial, you learn how to quickly assess the status of available updates, schedule installation of required updates, review deployment results, and create an alert to verify that updates apply successfully.
 
+## Exercise 1: Use Azure Automation to manage Windows Updates.
 
 ### Task 1: Create a Resource Group
 
