@@ -353,7 +353,7 @@ warning
     Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory
      ```
 
-1.  Open a browser and navigate to **`https://aka.gd/az300t03mod5code`** and copy the code.
+1.  Open a the **program.cs** file in notepad from Allfiles\Labs\Mod4_Lab04 and copy the code.
 
 8.  Replace the code in **Program.cs** with the code you just copied.
 
