@@ -59,6 +59,14 @@ In this exercise, you will use PowerShell to create an Azure Key Vault.
 
 7.  Click on the KeyVaultPS to examine what you have created.
 
+8. Click **Access Policies** > **+ Add Access Policy**
+
+9. Select **Key,Secret and Certificate Management** from **Configure from template**
+
+10. Click **Select Pricipal** and search and then clikc on your account then click on **Select**
+
+11. Click **Add** and then **Save**
+
 ### Task 3: Add a key and secret to Key Vault
 
 1.  Return to the PowerShell windows.
@@ -66,7 +74,7 @@ In this exercise, you will use PowerShell to create an Azure Key Vault.
 2.  Add a software-protected key to the Key Vault using this command. Be sure to change the placeholder text to your vault name.
 
      ```powershell
-    $key = Add-AzureKeyVaultKey -VaultName '<YourVaultName>' -Name 'MyLabKey'     -Destination 'Software'
+    $key = Add-AzureKeyVaultKey -VaultName '<YourVaultName>' -Name 'MyLabKey' -Destination 'Software'
      ```
 
 3.  Move back to the **KeyVaultPS** in the Azure portal. Click Keys under Settings in the left navigation.
@@ -353,7 +361,7 @@ warning
     Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory
      ```
 
-1.  Open a browser and navigate to **`https://aka.gd/az300t03mod5code`** and copy the code.
+1.  Open a the **program.cs** file in notepad from Allfiles\Labs\Mod4_Lab04 and copy the code.
 
 8.  Replace the code in **Program.cs** with the code you just copied.
 
