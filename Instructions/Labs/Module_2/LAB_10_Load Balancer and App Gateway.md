@@ -208,7 +208,7 @@ This template allows you to create 2 Virtual Machines under a Load balancer and 
       - Admin Password:  **Pa55w.rd1234**
 
 1.  Click **I agree....** and click **Purchase**.
-# Exercise 3: Deploing Application Gateways
+# Exercise 3: Deploying Application Gateways
 
 ### Task 1: Create an application gateway
 
