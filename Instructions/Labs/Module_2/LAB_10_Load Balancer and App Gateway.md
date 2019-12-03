@@ -112,7 +112,7 @@ To distribute traffic to the VMs, a backend address pool contains the IP address
    - For name, type *myBackendPool*, as the name for your backend pool.
    - For **Virtual network**, select *myVNet*.
    - Add *myVM1* and *my VM2* under **Virtual Machine** along with their corresponding IP addresses, and then select **Add**.
- </br>
+     </br>
  
      ![Screenshot](../Media/Module-2/5133a39e-32e7-4ea4-9067-042086c75ab9.png)
 
@@ -137,7 +137,7 @@ To allow the load balancer to monitor the status of your app, you use a health p
     - */* - for the URI path. 
     - *15* - for number of **Interval** in seconds between probe attempts.
     - *2* - for number of **Unhealthy threshold** or consecutive probe failures that must occur before a VM is considered unhealthy.
-</br>
+    </br>
  
      ![Screenshot](../Media/Module-2/1a1ff476-8400-4e05-89bc-228531f41c80.png)
 
@@ -239,9 +239,9 @@ A virtual network is needed for communication between the resources that you cre
     - *myAppGateway* - for the name of the application gateway.
     - *myResourceGroupLB* - select the already existing Resource Group.
     - *myVnet* - select the already existing Virtual network.
-</br>
+      </br>
     
-        ![Screenshot](../Media/Module-2/a2dc825b-ddfe-4ff5-aa0a-fdd832ba9b81.png)
+      ![Screenshot](../Media/Module-2/a2dc825b-ddfe-4ff5-aa0a-fdd832ba9b81.png)
 
 7.  Under **Frontend configuration** blade, ensure **IP address type** is set to **public**, and under **Public IP address**, click **Create new**. Type ***myAGPublicIPAddress*** for the public IP address name and then click **OK**.
 
