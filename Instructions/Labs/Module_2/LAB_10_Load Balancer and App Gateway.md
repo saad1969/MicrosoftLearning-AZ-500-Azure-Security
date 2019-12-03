@@ -63,7 +63,7 @@ In this section, you create a public load balancer that helps load balance virtu
     - **localadmin** - for the **Username**
     - **Pa55w.rd1234** - for the **Password**
     - **HTTP (80) & RDP (3389)** - for the inbound port rules.
-</br>
+    </br>
 
      ![Screenshot](../Media/Module-2/72f0ebb7-0fa5-4425-a137-a7c6773bc2e0.png)
 
