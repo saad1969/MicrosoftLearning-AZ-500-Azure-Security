@@ -29,7 +29,7 @@ Azure Kubernetes Service (AKS) is a managed Kubernetes service that lets you qui
     az aks create  --resource-group myResourceGroup --name myAKSCluster --node-count 1 --enable-addons monitoring --generate-ssh-keys
      ```
  
-1.  After a few minutes, the command completes and returns **JSON-formatted** information about the cluster.
+2.  After a few minutes, the command completes and returns **JSON-formatted** information about the cluster.
 
 ### Task 3: Connect to the cluster
 

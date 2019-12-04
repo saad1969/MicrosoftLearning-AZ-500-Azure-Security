@@ -19,14 +19,14 @@ In this lab, you will:
 
 3.  Click **add** to add a new Event Hubs Namespace
 
-  - Populate the fields with the following details:
+    - Populate the fields with the following details:
 
-     - **Name** : yourUniqueName
-     - **Pricing Tier** : Standard
-     - **Subscription**: yourSubscription
-     - **Resource group**: Create New with name "EventHubRG"
-     - **Location**: East US
-     - **Throughput Units**: 2
+       - **Name** : yourUniqueName
+       - **Pricing Tier** : Standard
+       - **Subscription**: yourSubscription
+       - **Resource group**: Create New with name "EventHubRG"
+       - **Location**: East US
+       - **Throughput Units**: 2
 
 4.  Click **create**
 

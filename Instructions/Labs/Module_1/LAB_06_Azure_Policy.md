@@ -24,32 +24,26 @@ The first step in enforcing compliance with Azure Policy is to assign a policy d
 
     ![Screenshot](../Media/Module-1/27e1a88b-fc1b-4450-965d-94e4199634e8.png)
 
-2.  Select **Assignments** on the left side of the Azure Policy page. An assignment is a policy that
+2. Select **Assignments** on the left side of the Azure Policy page. An assignment is a policy that
    has been assigned to take place within a specific scope.
 
-    ![Screenshot](../Media/Module-1/ca02c151-60d3-43fd-b202-52961c8f1d87.png)
+3. Select **Assign Policy** from the top of the **Policy - Assignments** page.
 
-3.  Select **Assign Policy** from the top of the **Policy - Assignments** page.
+    ![Screenshot](../Media/Module-1/2019-12-04_10-44-52.png)
 
-    ![Screenshot](../Media/Module-1/ee15b7fb-6e18-4d72-bc56-3549fa47e738.png)
+4. On the **Assign Policy** page, select the **Scope** by clicking the ellipsis button **(...)** and selecting either    a management group or subscription. Optionally, select a resource group. A scope determines what resources or grouping of resources the policy assignment gets enforced on. Then click **Select** at the bottom of the **Scope** page.
 
-4.  On the **Assign Policy** page, select the **Scope** by clicking the ellipsis and selecting either    a management group or subscription. Optionally, select a resource group. A scope determines what resources or grouping of resources the policy assignment gets enforced on. Then click **Select** at the bottom of the **Scope** page.
+5. Resources can be excluded based on the **Scope**. **Exclusions** start at one level lower than the level of the **Scope**. **Exclusions** are optional, so leave it blank for now.
 
-    This example uses the **Contoso** subscription. Your subscription may differ.
+6. In the **Basics** section, select the **Policy definition** ellipsis button **(...)** to open the list of available definitions. You can  filter the policy definition **Type** to *Built-in* to view all and read their descriptions.
 
-5.  Resources can be excluded based on the **Scope**. **Exclusions** start at one level lower than the level of the **Scope**. **Exclusions** are optional, so leave it blank for now.
+7. Select **Audit VMs that do not use managed disks**. If you can't find it right away, type **audit vms** into the search box and then press ENTER or click out of the search box. Click **Select** at the bottom of the **Available Definitions** page once you have found and selected the policy definition.
 
-6.  Select the **Policy definition** ellipsis to open the list of available definitions. You can  filter the policy definition **Type** to *Built-in* to view all and read their descriptions.
+    ![Screenshot](../Media/Module-1/2019-12-04_10-55-24.png)
 
-7.  Select **Require SQL Server version 12.0**. If you can't find it right away, type **require sql server** into the search box and then press ENTER or click out of the search box. Click **Select** at the bottom of the **Available Definitions** page once you have found and selected the policy definition.
+8. The **Assignment name** is automatically populated with the policy name you selected, but you can change it. For this example, leave *Audit VMs that do not use managed disks*. You can also add an optional **Description**. The description provides details about this policy assignment. **Assigned by** is automatically filled based on who is logged in. This field is optional, so custom values can be entered.
 
-    ![Screenshot](../Media/Module-1/9be20dd4-78db-411f-a836-9ed33767cdc6.png)
-
-1.  The **Assignment name** is automatically populated with the policy name you selected, but you can change it. For this example, leave *Require SQL Server version 12.0*. You can also add an optional **Description**. The description provides details about this policy assignment. **Assigned by** is automatically filled based on who is logged in. This field is optional, so custom values can be entered.
-
-1.  Leave **Create a Managed Identity** unchecked. This box _must_ be checked when the policy or initiative being assigned includes a policy with the **`deployIfNotExists`** effect. As the policy used for this tutorial doesn't, leave it blank. 
-
-1.  Click **Assign**.
+9.  Click **Review + create** then click **Create**.
 
 ### Task 2: Implement a new custom policy
 
