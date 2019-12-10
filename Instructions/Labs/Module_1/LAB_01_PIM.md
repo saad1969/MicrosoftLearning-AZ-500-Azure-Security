@@ -40,20 +40,13 @@ This lab requires a user cerating that will be used for PIM.
     $domain = $domainObj[0].name
     ```
     ```powershell
-    New-AzureADUser -DisplayName "Isabella Simonsen" -PasswordProfile $PasswordProfile -UserPrincipalName "Isabella@$domain" -AccountEnabled $true -MailNickName "Isabella"
+     New-AzureADUser -DisplayName "Isabella Simonsen" -PasswordProfile $PasswordProfile -UserPrincipalName "Isabella@$domain" -AccountEnabled $true -MailNickName "Isabella" -UsageLocation "US"
     ```
 ### Task 2:  Enable Azure AD Premium P2 trial and create a test user.
 
 1.  In the Azure Portal, on the Hub menu click **Azure Active Directory**.
 
-1.  Select **Licences** under **Manage**.
-
-    ![Screenshot](../Media/Module-1/2443efb7-2b94-41c3-8e20-2a1a77cd6e75.png)
-
-1.  Select **All Products**.
-
-     ![Screenshot](../Media/Module-1/96c1cf32-0240-4883-a159-b3c1ba69d2bf.png)
-
+1.  Select **Licences** under **All Products**.
 
 1.  Click **Try / Buy**.
 
@@ -281,7 +274,7 @@ When you need to take on an Azure AD directory role, you can request activation 
 1.  Click **Billing Administrator** and add Isabella back into the **Billing Administrators** role.
 
 
-1.  Open an **In Private** browsing session and navigate to **`https://portal.azure.com`** and login as **Isabella** with the password **Pa55w.rd**.  When prompted change Isabella's password.
+1.  Open an **In Private** browsing session and navigate to **`https://portal.azure.com`** and login as **Isabella** using her UPN. example Isabella@myaad.onmicrosoft.com with the password **Pa55w.rd**.  When prompted change Isabella's password.
 
 1.  In the Azure Portal, click **All services** and search for and select **Azure AD Privileged Identity Management**.
 

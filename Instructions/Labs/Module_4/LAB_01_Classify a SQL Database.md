@@ -33,7 +33,7 @@ warning
 
 1.  Under the **Security heading** in the **Azure SQL Database** pane, navigate to **Advanced Data Security**.
 
-1.  **Click** on under **Advanced Data Security**
+1.  Select **ON** under **Advanced Data Security**
 
 1.  **Click Save**
 
@@ -43,9 +43,9 @@ warning
 
 1.  **Click** Advanced Data Security again 
 
-1.  **Click** the bar at the to complete setup and create a storage account for use
+1.  **Click** the bar at the top **Complete Advanced Data Security setup vy selecting a storage account for Vulnerability Assesment**
 
-1.  Make sure the option for **Advanced Data Security** is set to on 
+1.  Make sure the option for **Advanced Data Security** is set to **On** 
 
 1.  **Click** storage account
 
