@@ -21,6 +21,12 @@ Azure Kubernetes Service (AKS) is a managed Kubernetes service that lets you qui
     az group create --name myResourceGroup --location eastus
      ```
 
+     **Note**: If you receive an error regarding the ```Microsoft.Network``` resource provider not being registered then run following command and rerun the command in Step 4. Otherwise continue to Task 2.
+     
+     ```cli
+     az provider register --namespace 'Microsoft.Network'
+     ```
+
 ### Task 2: Create the AKS Cluster in CLI
 
 1.  Run the following command in the **CloudShell**.
