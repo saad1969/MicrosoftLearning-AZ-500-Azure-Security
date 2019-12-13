@@ -15,17 +15,17 @@ Follow these steps to create a new security playbook in Azure Sentinel:
 
 2. Under **Management**, select **Playbooks**.
 
-   ![Logic App](../media/Module-3//playbookimg.png)
+   ![Screenshot](../media/Module-3/playbookimg.png)
 
 3. In the **Azure Sentinel - Playbooks (Preview)** page, click **Add** button.
 
-   ![Create logic app](../media/Module-3/create-playbook.png) 
+   ![Screenshot](../media/Module-3/create-playbook.png) 
 
 4. In the **Create Logic app** page, type the requested information to create your new logic app, and click **Create**. 
 
 5. In the **Logic App Designer** select the template you want to use. If you select a template that necessitates credentials, you will have to provide them. Alternatively, you can create a new blank playbook from scratch. Select **Blank Logic App**. 
 
-   ![Logical app designer](../media/Module-3/playbook-template.png)
+   ![Screenshot](../media/Module-3/playbook-template.png)
 
 6. You are taken to the Logic App Designer where you can either build new or edit the template. For more information on creating a playbook with Logic Apps].
 
@@ -37,7 +37,7 @@ Follow these steps to create a new security playbook in Azure Sentinel:
 
 9.  Now you can define what happens when you trigger the playbook. You can add an action, logical condition, switch case conditions, or loops.
 
-    ![Logical app designer](../media/Module-3/logic-app.png)
+    !![Screenshot](../media/Module-3/logic-app.png)
 
 ### Task 2: How to run a security playbook
 
@@ -63,7 +63,7 @@ Many, if not most, of these alerts conform to recurring patterns that can be add
 1. In the **Edit alert rule** page, under **Real-time automation**, choose the **Triggered playbook** you want to run when this alert rule is matched.
 1. Select **Save**.
 
-   ![real-time automation](../media/Module-3/rt-configuration.png)
+   ![Screenshot](../media/Module-3/rt-configuration.png)
 
 
 
