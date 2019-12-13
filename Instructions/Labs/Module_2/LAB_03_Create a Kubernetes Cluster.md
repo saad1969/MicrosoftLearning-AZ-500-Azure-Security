@@ -78,7 +78,7 @@ A Kubernetes manifest file defines a desired state for the cluster, such as what
 
 
 
-1.  Run the following command in the cloud shell, this will directly pull the yaml file needed from the godeploy github to deploy the AKS application
+1.  Run the following command in the cloud shell, this will directly pull the yaml file needed from github to deploy the AKS application
 
      ```cli
     kubectl apply -f https://raw.githubusercontent.com/MicrosoftLearning/AZ-500-Azure-Security/master/Allfiles/Labs/Mod2_Lab03/azure-vote.yaml
