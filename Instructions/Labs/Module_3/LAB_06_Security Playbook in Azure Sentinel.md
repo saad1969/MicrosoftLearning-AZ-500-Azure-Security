@@ -68,5 +68,5 @@ Many, if not most, of these alerts conform to recurring patterns that can be add
 
 
 
-**Results**: In this lab, you learned how to use playbooks in Azure Security Center.
+**Results**: In this lab, you learned how to use playbooks in Azure Sentinel.
 
