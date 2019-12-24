@@ -1,4 +1,4 @@
-# Module 3: Lab 2 -Security Center
+# Module 4: Lab 2 -Security Center
 
 
 Azure Security Center is a unified infrastructure security management system that strengthens the security posture of your data centers, and provides advanced threat protection across your hybrid workloads in the cloud - whether they're in Azure or not - as well as on premises.
