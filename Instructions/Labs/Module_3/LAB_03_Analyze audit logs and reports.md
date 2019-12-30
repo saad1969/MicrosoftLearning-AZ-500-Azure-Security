@@ -45,7 +45,7 @@ warning
 
 1.  **Click OK**.
 
-1.  When validated click **OK** agina
+1.  When validated click **OK** again
 
 1.  Under Log analytics click configure
 
@@ -67,14 +67,14 @@ warning
 1.  **Enter** the following **Powerhshell Commands**.
 
      ```powershell
-    New-AzEventHubNamespace -ResourceGroupName Mod4Lab3  -NamespaceName     Mod3Lab4 -Location eastus
+    New-AzEventHubNamespace -ResourceGroupName Mod4Lab3  -NamespaceName Mod3Lab4 -Location eastus
      ```
 
      ```powershell
     New-AzEventHub -ResourceGroupName Mod4Lab3 -NamespaceName Mod3Lab4  -EventHubName Mod3Lab4 -MessageRetentionInDays 3
      ```
 
-1.  When these commands have completed click configure under event hubs
+1.  When these commands have completed click **configure under event hubs**
 
 1.  **Select** the following information
 
@@ -96,20 +96,22 @@ warning
 
 1.  **Click** logs
 
-1.  In the query space enter the following code and **click Run**.
+1.  **Click Get Started**
+
+2.  In the query space enter the following code and **click Run**.
 
      ```cli
     Event | where Source  == "MSSQLSERVER" 
      ```
 
-1.  You will not see any results, please read the below warning
+3.  You will not see any results, please read the below warning
 warning
 **Note**: Because we have set up logs on a new database with test data, there are minimnal log available to see, to show how log are displayed in example we can use example log analytics website that is populated with example data to view.
 
 
 ### Task 2 - Analyze audit logs and reports
 
-1.  Visit **`https://portal.loganalytics.io/demo`** in a new web browser tab
+1.  Visit **`https://portal.loganalytics.io/demo`** in a new web browser tab, this will direct you to a demo log analytics workspace with demo data populated
 
 1.  In the query space enter the following code and **click Run**.
 
