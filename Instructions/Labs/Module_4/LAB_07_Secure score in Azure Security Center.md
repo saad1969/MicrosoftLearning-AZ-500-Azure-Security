@@ -27,7 +27,7 @@ Security Center also provides you with an **Overall secure score**.
        - **Top recommendations by secure score impact** provides you with a list of the recommendations that will improve your secure score the most if you implement them.
 
  
-       ![Screenshot](../Media/Module-3/94b1f8c6-0335-4401-8345-0625f438db7d.png)
+       ![Screenshot](../Media/Module-4/94b1f8c6-0335-4401-8345-0625f438db7d.png)
 
     
       **Note**: The sum of the secure score of each subscription does not equal       the overall secure score. The secure score is a calculation based on the      ratio between your healthy resources and your total resources per     recommendation, not a sum of secure scores across your subscriptions. 
@@ -36,7 +36,7 @@ Security Center also provides you with an **Overall secure score**.
 3.  Click **View recommendations** to see the recommendations for that subscription that you can remediate to improve your secure score.
 4.  In the list of recommendations, you can see that for each recommendation there is a column that represents the **Secure score impact**. This number represents how much your overall secure score will improve if you follow the recommendations. For example, in the screen below, if you **Remediate vulnerabilities in container security configurations**, your secure score will increase by 35 points.
 
-       ![Screenshot](../Media/Module-3/45893315-b503-4beb-8beb-20730b0fc9d3.png)
+       ![Screenshot](../Media/Module-4/45893315-b503-4beb-8beb-20730b0fc9d3.png)
 
 ### Task 2: View the individual secure scores.
 
@@ -52,7 +52,7 @@ The **Recommendation impact** lets you know how much your secure score improves 
 
     The recommendation shows which threats your workload is exposed to if the remediation steps are not taken.
 
-     ![Screenshot](../Media/Module-3/a2266b39-71bf-4d32-90cc-4f437a28e3a5.png)
+     ![Screenshot](../Media/Module-4/a2266b39-71bf-4d32-90cc-4f437a28e3a5.png)
 
 
 

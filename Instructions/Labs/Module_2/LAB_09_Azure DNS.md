@@ -48,7 +48,7 @@ This exercise shows you how to manage record sets and records for your DNS zone 
 
 1.  In the Azure Portal, navigate to **All resources** and select your DNS zone you created in the previous task.
 
-**Note:** Each DNS zone is its own resource, and information such as number of record-sets and name servers are viewable from this view. 
+    **Note:** Each DNS zone is its own resource, and information such as number of record-sets and name servers are viewable from this view. 
 
  
 3.  Click **+ Record Set**.

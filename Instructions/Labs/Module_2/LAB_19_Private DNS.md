@@ -32,10 +32,10 @@ A DNS zone contains the DNS entries for a domain. To start hosting your domain i
 
 1.  On the **Create Private DNS zone** page, type or select the following values:
 
-   - **Resource group**: Select **Create new**, enter *MyAzureResourceGroup*, and select **OK**. The resource group name must be unique within the Azure subscription. 
-   -  **Name**: Type *private.contoso.com* for this example.
+     - **Resource group**: Select **Create new**, enter *MyAzureResourceGroup*, and select **OK**. The resource group name must be unique within the Azure subscription. 
+     -  **Name**: Type *private.contoso.com* for this example.
 </br>   
-1.  For **Resource group location**, select **West Central US**.
+1.  For **Resource group location** select **West Central US**.
 
 1.  Select **Review + Create**.
 

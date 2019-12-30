@@ -37,7 +37,7 @@ All non-Administrators should not have access due to the sensitive data and the 
 
 4.  Ensure that Restrict access to Azure AD administration portal is set to Yes. Setting this value to Yes restricts all non-administrators from accessing any Azure AD data in the administration portal, but does not restrict such access using PowerShell or another client such as Visual Studio.
 
-       ![Screenshot](../Media/Module-3/7dd3586e-538f-4823-9d60-0d7bf5e96f17.png)
+       ![Screenshot](../Media/Module-4/7dd3586e-538f-4823-9d60-0d7bf5e96f17.png)
 
 1.  Click **Save**.
 
@@ -69,11 +69,11 @@ Enable it for privileged and non-privileged users.
 
 4.  Select Abbi Skinner and click **Enable**
 
-       ![Screenshot](../Media/Module-3/fbfead4c-92e0-4cc3-9b79-fdd091af8727.png)
+       ![Screenshot](../Media/Module-4/fbfead4c-92e0-4cc3-9b79-fdd091af8727.png)
 
 1.  Select **enable multi-factor auth** then click **Close**.
 
-     ![Screenshot](../Media/Module-3/c94d3572-60a3-40eb-9cad-f46b210bd254.png)
+     ![Screenshot](../Media/Module-4/c94d3572-60a3-40eb-9cad-f46b210bd254.png)
  
 1.  Abbi is now enabled for MFA.
 
@@ -93,7 +93,7 @@ Remember Multi-Factor Authentication feature for devices and browsers that are t
 
 5.  Ensure that **Restore multi-factoe authentication on all remembered devices** is Selected then click **Save**.
 
-       ![Screenshot](../Media/Module-3/73dabcbb-b9ff-40b1-9760-9ee748e1a849.png)
+       ![Screenshot](../Media/Module-4/73dabcbb-b9ff-40b1-9760-9ee748e1a849.png)
 
 ### Task 4: About guests 
 
@@ -109,7 +109,7 @@ In this task you will ensure that no guest users exist, or alternatively if the 
 
 4.  Verify that there are no guest users listed (`USER TYPE=Guest`).
 
-       ![Screenshot](../Media/Module-3/a33565de-a4d1-4df4-9f16-64259704b8ad.png)
+       ![Screenshot](../Media/Module-4/a33565de-a4d1-4df4-9f16-64259704b8ad.png)
 
 ### Task 5: Password options
 
@@ -146,7 +146,7 @@ If authentication reconfirmation is set to disabled, register users will never b
 
 5.  Ensure that Number of days before users are asked to re-confirm their authentication information is not set to 0. The default is 180 days.
 
-       ![Screenshot](../Media/Module-3/01d2e139-b18c-4dd0-bbb0-9516508e64ea.png)
+       ![Screenshot](../Media/Module-4/01d2e139-b18c-4dd0-bbb0-9516508e64ea.png)
 
 ### Task 7: Members and guests can invite 
 
@@ -164,7 +164,7 @@ This should be set to No. Restricting invitations through administrators only e
 
 5.  Ensure that Members can invite is set to **No**.
 
-       ![Screenshot](../Media/Module-3/21790b1d-8a81-4286-a3e4-71a63230a292.png)
+       ![Screenshot](../Media/Module-4/21790b1d-8a81-4286-a3e4-71a63230a292.png)
 
 ### Task 8: Users to create and manage security groups 
 
@@ -180,7 +180,7 @@ When this feature is enabled, all users in AAD are allowed to create new securit
 
 4.  Ensure that Users can create security groups is set to **No**.
 
-       ![Screenshot](../Media/Module-3/fb131ddf-d8ed-4973-9dcc-0760e228e999.png)
+       ![Screenshot](../Media/Module-4/fb131ddf-d8ed-4973-9dcc-0760e228e999.png)
 
 ### Task 9: Self-service group management enabled 
 
@@ -196,7 +196,7 @@ Until your business requires this delegation to various users, it is a best prac
 
 4.  Ensure that Self-service group management enabled is set to **No**.
 
-       ![Screenshot](../Media/Module-3/a3840977-48d2-4535-a511-e472dd660506.png)
+       ![Screenshot](../Media/Module-4/a3840977-48d2-4535-a511-e472dd660506.png)
 
 ### Task 10: Application options - Allow users to register apps
 
@@ -212,7 +212,7 @@ Require administrators to register custom applications.
 
 4.  Ensure that User can register applications is set to **No** then click **Save**.
 
-       ![Screenshot](../Media/Module-3/a6595d70-2ae5-426d-8be8-2e79be9564d2.png)
+       ![Screenshot](../Media/Module-4/a6595d70-2ae5-426d-8be8-2e79be9564d2.png)
 
 ## Exercise 2: Create an Azure Security Center baseline
 
@@ -241,15 +241,15 @@ Azure Security Center monitors daily Windows and Linux virtual machines (VMs) an
 
 6.  Click the Enable Monitoring in Azure Security Center link (This may also be displayed as ASC Default witha GUID).
 
-       ![Screenshot](../Media/Module-3/c0372885-0568-4a60-bf67-a5dfea2a5010.png)
+       ![Screenshot](../Media/Module-4/c0372885-0568-4a60-bf67-a5dfea2a5010.png)
 
 7.  In this example, the ASC agent has not been deployed to a VM or physical machine so the message AuditIfNotExists is displayed. AuditIfNotExists enables auditing on resources that match the if condition. If the resource is not deployed, NotExists is displayed.
 
-       ![Screenshot](../Media/Module-3/4250ae3e-319e-466e-aa35-a3f190e823da.png)
+       ![Screenshot](../Media/Module-4/4250ae3e-319e-466e-aa35-a3f190e823da.png)
 
     If enabled, Audit is displayed. If deployed but disabled, Disabled is displayed.
 
-       ![Screenshot](../Media/Module-3/daa67e3d-2684-435a-969d-0e3b17e10fa9.png)
+       ![Screenshot](../Media/Module-4/daa67e3d-2684-435a-969d-0e3b17e10fa9.png)
 
 ### Task 2: Enable Security Configurations
 
@@ -267,7 +267,7 @@ Azure Security Center monitors security configurations by applying a set of over
 
 5.  Check that **Vulnerabilities in security configuration on your virtual machine scale sets should be remediated** is one of the policies.
 
-       ![Screenshot](../Media/Module-3/e8f24726-799d-440a-ae26-b9f1f5200b72.png)
+       ![Screenshot](../Media/Module-4/e8f24726-799d-440a-ae26-b9f1f5200b72.png)
 
     **Note**: All of the following policies that have a (*) in their title are listed in the Security policies blade as described above
 
@@ -292,7 +292,7 @@ Azure Security Center monitors security configurations by applying a set of over
 
 4.  Enter or validate the contact information displayed.
 
-       ![Screenshot](../Media/Module-3/2215b8b6-f6ad-459f-bbf2-cf73d85b219d.png)
+       ![Screenshot](../Media/Module-4/2215b8b6-f6ad-459f-bbf2-cf73d85b219d.png)
 
 ### Task 3: Enable Send me emails about alerts 
 
@@ -306,7 +306,7 @@ Azure Security Center will recommend that you provide security contact details f
 5.  Click **Email notifications**.
 6.  Select **Save**. 
 
-     ![Screenshot](../Media/Module-3/c7756e6d-8a5d-498e-99de-af2cfcfb0e41.png)
+     ![Screenshot](../Media/Module-4/c7756e6d-8a5d-498e-99de-af2cfcfb0e41.png)
 
 ### Task 4: Enable Send email also to subscription owners 
 
@@ -338,7 +338,7 @@ Another step you should take to ensure the security of your Azure Storage data i
 
 5.  Ensure **Secure Transfer required** is set to **Enabled**.
 
-       ![Screenshot](../Media/Module-3/7eb4819d-e045-4637-a4e1-f1a9b43a3687.png)
+       ![Screenshot](../Media/Module-4/7eb4819d-e045-4637-a4e1-f1a9b43a3687.png)
 
 ### Task 2: Enable binary large object (blob) encryption
 
@@ -351,7 +351,7 @@ Azure Blob storage is Microsoft's object storage solution for the cloud. Blob st
 4.  Under **Settings**, select **Encryption**.
 5.  Azure Storage encryption is enabled for all new and existing storage accounts and cannot be disabled.
 
-     ![Screenshot](../Media/Module-3/5e8bd81c-ff42-4922-9c19-1735ac37b592.png)
+     ![Screenshot](../Media/Module-4/5e8bd81c-ff42-4922-9c19-1735ac37b592.png)
 
 ### Task 3: Periodically regenerate access keys
 
@@ -366,7 +366,7 @@ When you create a storage account, Azure generates two 512-bit storage access ke
 5.  Under Timespan drop-down, select **Custom** and choose Start Time and End Time so it creates a 90 day range.
 6.  Click **Apply**. 
  
-     ![Screenshot](../Media/Module-3/92b87eb1-8583-4bf2-8290-267a63fdf6b9.png)
+     ![Screenshot](../Media/Module-4/92b87eb1-8583-4bf2-8290-267a63fdf6b9.png)
 
 ### Task 4: Require Shared Access Signature (SAS) tokens to expire within an hour
 
@@ -385,7 +385,7 @@ Currently verification of a SAS token expiry times cannot be accomplished. Until
 
     Both SAS features are shown below. 
  
-    ![Screenshot](../Media/Module-3/647fc008-dbe2-4ea5-833c-3cc9521f89e6.png)
+    ![Screenshot](../Media/Module-4/647fc008-dbe2-4ea5-833c-3cc9521f89e6.png)
  
 
 ### Task 5: Require only private access to blob containers 
@@ -401,7 +401,7 @@ You can enable anonymous, public read access to a container and its blobs in Azu
 
 4.  Ensure that Public access level to Private.
 
-     ![Screenshot](../Media/Module-3/a3a1aa51-a96e-46d2-992f-13c39027d085.png)
+     ![Screenshot](../Media/Module-4/a3a1aa51-a96e-46d2-992f-13c39027d085.png)
 
 ## Exercise 4: Create an Azure SQL Database baseline
 
@@ -437,13 +437,13 @@ Auditing for Azure SQL Database and SQL Data Warehouse tracks database events an
 
 1.  Click **View server settings**.
 
-     ![Screenshot](../Media/Module-3/b7a6751b-cb4c-4723-90f9-cb6f0aabb830.png)
+     ![Screenshot](../Media/Module-4/b7a6751b-cb4c-4723-90f9-cb6f0aabb830.png)
  
 1.  Select **On** and check the box next to **Log Analytics**.
 
 1.  Select your Log Analyics workspace created in earlier labs and then click **Save**.
 
-     ![Screenshot](../Media/Module-3/8ad1061a-eea7-4fe4-8fe1-3b5c1855ba1d.png)
+     ![Screenshot](../Media/Module-4/8ad1061a-eea7-4fe4-8fe1-3b5c1855ba1d.png)
 
 1.  Exit the Auditing blade.
 
@@ -451,7 +451,7 @@ Auditing for Azure SQL Database and SQL Data Warehouse tracks database events an
 
 1.  Select your Log Analyics workspace created in earlier labs and then click **Save**.
 
-     ![Screenshot](../Media/Module-3/203924a5-4825-453a-91dc-d0a24009ecf5.png)
+     ![Screenshot](../Media/Module-4/203924a5-4825-453a-91dc-d0a24009ecf5.png)
 
 ### Task 2: Enable a threat detection service
 
@@ -479,7 +479,7 @@ Advanced Threat Protection is part of the advanced data security (ADS) offering,
 
 7.  Ensure that **Send alerts** is set as appropriate.
 
-     ![Screenshot](../Media/Module-3/66d40502-268e-4b5b-91bc-8ead7b1478ff.png)
+     ![Screenshot](../Media/Module-4/66d40502-268e-4b5b-91bc-8ead7b1478ff.png)
 
 
 ## Exercise 5: Create a logging and monitoring baseline
@@ -507,7 +507,7 @@ The Azure Activity Log provides insight into subscription-level events that have
 
 6.  Select **Save**.
 
-     ![Screenshot](../Media/Module-3/ef901d77-99a6-4ca1-9eff-76760c18c6a9.png)
+     ![Screenshot](../Media/Module-4/ef901d77-99a6-4ca1-9eff-76760c18c6a9.png)
 
 ### Task 2: Change activity log retention is set to 365 days or more
 
@@ -537,7 +537,7 @@ By default, no monitoring alerts are created when NSGs are created/updated/delet
 
 1.  On the Configure signal logic blade, in the Event initiated by enter **any** and click **Done**.
 
-     ![Screenshot](../Media/Module-3/571da2ee-d09b-425a-9cbf-821be381512a.png)
+     ![Screenshot](../Media/Module-4/571da2ee-d09b-425a-9cbf-821be381512a.png)
 
 1.  In the **Actions** section click **Create action group**.
 
@@ -550,11 +550,11 @@ By default, no monitoring alerts are created when NSGs are created/updated/delet
 
 1.  On the **Email/SMS/Push/Voice** blade check the email box and enter your email address and click **OK**.
 
-     ![Screenshot](../Media/Module-3/3d9edcc5-1879-45fb-b28a-3ff61035aa63.png)
+     ![Screenshot](../Media/Module-4/3d9edcc5-1879-45fb-b28a-3ff61035aa63.png)
 
 1.  On the Add action group blade click **OK**.
 
-     ![Screenshot](../Media/Module-3/2b20be80-6292-44d6-ba45-ad46f37ba563.png)
+     ![Screenshot](../Media/Module-4/2b20be80-6292-44d6-ba45-ad46f37ba563.png)
 
 1.  On the Create rule blade, in the **Alert Details** section enter the following details:
 
@@ -562,7 +562,7 @@ By default, no monitoring alerts are created when NSGs are created/updated/delet
       - **Save to resource group**: myResourceGroup
 
 
-     ![Screenshot](../Media/Module-3/1bbf5ef3-bf36-4ed8-a6d0-9e46c3142817.png)
+     ![Screenshot](../Media/Module-4/1bbf5ef3-bf36-4ed8-a6d0-9e46c3142817.png)
 
 6.  Click **Create alert rule**
 
@@ -596,7 +596,7 @@ It's recommended that you disable direct RDP and SSH access to your Azure VMs fr
 
 1.  Select the rule which allows RDP (Port 3389) then click **Delete**.
 
-     ![Screenshot](../Media/Module-3/dc2ff6ef-373c-4fb2-ba5c-54bcfe46b8c0.png)
+     ![Screenshot](../Media/Module-4/dc2ff6ef-373c-4fb2-ba5c-54bcfe46b8c0.png)
 
 ## Task 2: Restrict SQL Server access from the Internet 
 
@@ -610,7 +610,7 @@ To access an instance of the SQL Server through a firewall, you must configure t
 
 4.  Click on **Firewalls and virtual networks**.
 
-     ![Screenshot](../Media/Module-3/c210099c-89cc-4fdb-9938-3de15390bb6a.png)
+     ![Screenshot](../Media/Module-4/c210099c-89cc-4fdb-9938-3de15390bb6a.png)
 
 5.  Ensure that the firewall rules exist, and no rule has a Start IP of `0.0.0.0` and End IP of `0.0.0.0` or other combinations which allows access to wider public IP ranges.
 
@@ -652,7 +652,7 @@ Network security group (NSG) flow logs are a feature of Network Watcher that all
 
 4.  Select **Enable Network Watcher**.
 
-     ![Screenshot](../Media/Module-3/e9a41c49-0e49-43d9-bc46-0635301c98dd.png)
+     ![Screenshot](../Media/Module-4/e9a41c49-0e49-43d9-bc46-0635301c98dd.png)
 
 ## Exercise 7: Create an Azure VM baseline
 
@@ -682,11 +682,11 @@ If you use Azure Security Center (recommended), you're alerted if you have VMs t
       - **Key vault name**: _Enter something unique_
       - **Region**: EastUS
    
-     ![Screenshot](../Media/Module-3/54ad236b-4d07-4c4f-90d5-0a86e5f17f90.png)
+     ![Screenshot](../Media/Module-4/54ad236b-4d07-4c4f-90d5-0a86e5f17f90.png)
 
 1.  Select the **Access policy** tab and select **Azure Disk Encryption** for volume encryption.
 
-     ![Screenshot](../Media/Module-3/782c4722-7a36-4ba0-a676-d8008ed8f765.png)
+     ![Screenshot](../Media/Module-4/782c4722-7a36-4ba0-a676-d8008ed8f765.png)
 
 1.  Click **Review + create** then click **Create**.
 
@@ -700,11 +700,11 @@ If you use Azure Security Center (recommended), you're alerted if you have VMs t
 
 1.  Notice the disk is not encrypted.
 
-     ![Screenshot](../Media/Module-3/ed2aad5e-275d-42f7-b31e-e67513ff2805.png)
+     ![Screenshot](../Media/Module-4/ed2aad5e-275d-42f7-b31e-e67513ff2805.png)
 
 1.  Click **Encryption**.
 
-     ![Screenshot](../Media/Module-3/8b531235-a097-4316-8f88-4b44a6c5f804.png)
+     ![Screenshot](../Media/Module-4/8b531235-a097-4316-8f88-4b44a6c5f804.png)
 
 5.  Select **OS & data disks** to be encrypted.
 
@@ -723,7 +723,7 @@ Azure virtual machine (VM) extensions are small applications that provide post-d
 3.  Select **myVM** and then in the **Settings** section click **Extensions**.
 5.  Ensure that the listed extensions are approved for use.
 
-     ![Screenshot](../Media/Module-3/160efd35-118e-4415-89f6-2f0cf10e0242.png)
+     ![Screenshot](../Media/Module-4/160efd35-118e-4415-89f6-2f0cf10e0242.png)
 
 
 **Results**: You have now completed this lab.

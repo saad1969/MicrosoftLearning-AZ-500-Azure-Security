@@ -16,7 +16,7 @@ After you connect your data sources, choose from a gallery of expertly created w
 
 1.  In the Azure portal, search for Azure Sentinel. 
 
-       ![Screenshot](../Media/Module-3/129689af-e1ed-460b-add1-a37790805ed5.png)
+       ![Screenshot](../Media/Module-4/129689af-e1ed-460b-add1-a37790805ed5.png)
 
 1.  Click **+Add**.
 1.  Create a new workspace in a new resource group using the East US region if necessary.
@@ -37,13 +37,13 @@ Azure Sentinel creates the connection to services and apps by connecting to the 
 
 1.  On the menu, select **Data connectors**. This page lets you see the full list of connectors that Azure Sentinel provides and their status. Select the connector you want to connect and select **Open connector page**. 
 
-       ![Screenshot](../Media/Module-3/57ef56ec-66d0-4bef-964b-24b97ca0f9e3.png)
+       ![Screenshot](../Media/Module-4/57ef56ec-66d0-4bef-964b-24b97ca0f9e3.png)
 
 1.  Select **Azure Activity** and click **Open connector page**.
 
 1.  Select **Configure Azure Activity logs**.
 
-     ![Screenshot](../Media/Module-3/bdd12109-8cbf-4562-81fb-5aae6bac2aee.png)
+     ![Screenshot](../Media/Module-4/bdd12109-8cbf-4562-81fb-5aae6bac2aee.png)
 
 1.  On the specific connector page, make sure you have fulfilled all the prerequisites and follow the instructions to connect the data to Azure Sentinel. It may take some time for the logs to start syncing with Azure Sentinel. After you connect, you see a summary of the data in the **Data received** graph, and connectivity status of the data types.
 
@@ -51,7 +51,7 @@ Azure Sentinel creates the connection to services and apps by connecting to the 
 
 1.  Select your Azure subscription then click **Connect**.
 
-     ![Screenshot](../Media/Module-3/d3d3c551-2c12-4520-ad30-2dc579d09f61.png)
+     ![Screenshot](../Media/Module-4/d3d3c551-2c12-4520-ad30-2dc579d09f61.png)
  
 
 **Results**: You have now completed this lab.
