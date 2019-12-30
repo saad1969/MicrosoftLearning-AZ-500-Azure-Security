@@ -1,6 +1,6 @@
 
 
-# Module 4: Auditing a Database
+# Module 3: Auditing a Database
 
 ## Exercise 1: Enable auditing on your database
 
@@ -9,7 +9,7 @@
 1.  Open **PowerShell** and run the following command to deploy a database for the lab:
 
      ```powershell
-    start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FAZ-500-Azure-Security%2Fmaster%2FAllfiles%2FLabs%2FMod4_Lab02%2Fazuredeploy.json" 
+    start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FAZ-500-Azure-Security%2Fmaster%2FAllfiles%2FLabs%2FMod3_Lab02%2Fazuredeploy.json" 
      ```
 
 1.  **Under Resource** group click create new and use the default name "**Mod4Lab2**"
@@ -59,10 +59,11 @@ warning
 **Note**: that the Auditing looks off here but it is set on the underlying server level so it is turned on for this database
 
 
-1.  **Click** view **Audit Log**.
-warning
-**Note**:This is where you will review the output of the audit logs of the Db including any attempted SQL injections, since this is a test database that has been created not log ago the will be minimal audits if any in the log at the current time.
-If server auditing is enabled, the database-configured audit will exist side-by-side with the server audit.
+1.  Click* **View Audit Log**.
+
+  **Note**: Here you will review the output of the audit logs of the Db including any attempted SQL injections, since this is a test database that has been created not log ago the will be minimal audits if any in the log at the current time.
+
+  If server auditing is enabled, the database-configured audit will exist side-by-side with the server audit.
 Notice that you can select for audit logs to be written to an Azure storage account, to a Log Analytics workspace for consumption by Azure Monitor logs, or to event hub for consumption using an event hub. You can configure any combination of these options, and audit logs will be written to each.
 
 

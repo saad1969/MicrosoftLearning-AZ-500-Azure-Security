@@ -1,6 +1,6 @@
 
 
-# Module 4: Analyze audit logs and reports
+# Module 3: Analyze audit logs and reports
 
 ## Exercise 1: Get started with SQL database auditing
 
@@ -9,7 +9,7 @@
 1.  Open **PowerShell** and run the following command to deploy a database for the lab.
 
      ```powershell
-    start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FAZ-500-Azure-Security%2Fmaster%2FAllfiles%2FLabs%2FMod4_Lab03%2Fazuredeploy.json" 
+    start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FAZ-500-Azure-Security%2Fmaster%2FAllfiles%2FLabs%2FMod3_Lab03%2Fazuredeploy.json" 
      ```
 
 1.  Under **Resource group** click create new and use the default name "**Mod4Lab3**"

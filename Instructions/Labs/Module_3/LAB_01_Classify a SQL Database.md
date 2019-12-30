@@ -2,7 +2,7 @@
 
 
 
-# Module 4: Classify a SQL Database 
+# Module 3: Classify a SQL Database 
 
 ## Exercise 1: Classify your SQL Database
 
@@ -11,7 +11,7 @@
 1.  Open **PowerShell** and run the following command:
 
      ```powershell
-    start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FAZ-500-Azure-Security%2Fmaster%2FAllfiles%2FLabs%2FMod4_Lab01%2Fazuredeploy.json" 
+    start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FAZ-500-Azure-Security%2Fmaster%2FAllfiles%2FLabs%2FMod3_Lab01%2Fazuredeploy.json" 
      ```
 
 1.  Under **Resource group** click create new and use the default name "**Mod4Lab1**"
@@ -69,20 +69,20 @@ warning
 
 1.  To view and apply classification recommendations:
 
-   - View the list. To view the list of recommended column classifications, select the **recommendations** panel at the bottom of the window. (**Blue Bar**)   
-   <br/>
-1.  **Click select all** in the top left to select all reccomendations
+    - View the list. To view the list of recommended column classifications, select the **recommendations** panel at the bottom of the window. (**Blue Bar**)   
 
-  - To manually classify columns as an alternative to or in addition to the recommendation-based classification, in the top menu of the window, select Add classification.
+1.  Click **Select all** in the top left to select all reccomendations
 
-  - In the Add classification blade, configure the five fields that display, and then select Add classification:
-     - **Schema name**
-     - **Table name**
-     - **Column name**
-     - **Information type**
-     - **Sensitivity label.**
-<br/>
-1.  **Click Accept Selected Reccomendations**
+    - To manually classify columns as an alternative to or in addition to the recommendation-based classification, in the top menu of the window, select Add classification.
+
+    - In the Add classification blade, configure the five fields that display, and then select Add classification:
+       - **Schema name**
+       - **Table name**
+       - **Column name**
+       - **Information type**
+       - **Sensitivity label.**
+
+1.  Click **Accept Selected Reccomendations**
 
 1.  To complete your classification and persistently label (**tag**) the database columns with the new classification metadata, select **Save**. 
 
