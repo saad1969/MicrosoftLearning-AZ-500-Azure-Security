@@ -1,6 +1,4 @@
-
-
-# Lab 4 - Application Service Principal
+# Module 1: Lab 5 - Application Service Principal
 
 
 **Scenario**

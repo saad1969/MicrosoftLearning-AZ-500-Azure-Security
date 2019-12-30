@@ -1,13 +1,4 @@
-# Lab 2: Using Multi-Factor Authentication for Secure Access
-
-
-In this module, you'll learn about securing the sign-in process through Multi-Factor Authentication (MFA). You'll learn how MFA works and the differences in implementation between on-premises and cloud scenarios. You'll also learn about using conditional access policies to provide more fine-grained control over apps and resources in your environment.
-
-- Introducing Multi-Factor Authentication
-- Implementing MFA
-
-
-# Lab 2: Using Multi-Factor Authentication for Secure Access
+# Module 1: Lab 3: Using Multi-Factor Authentication for Secure Access
 
 
 ## Exercise 1: MFA Authentication Pilot (Require MFA for specific apps with Azure Active Directory conditional access)

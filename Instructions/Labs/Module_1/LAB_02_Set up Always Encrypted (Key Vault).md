@@ -1,5 +1,3 @@
-
-
 # Module 1 - Lab 2: Implementing Secure Data by setting up Always Encrypted (Key Vault)
 
 

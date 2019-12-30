@@ -1,4 +1,4 @@
-# Module 1: Manage Identity and Access 
+# Module 1: Lab 8: Protecting Azure Resources with Resource Manager Locks
 
 
 **Scenario**
