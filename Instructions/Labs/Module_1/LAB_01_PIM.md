@@ -20,7 +20,7 @@ In this lab, you'll learn how to use Azure Privileged Identity Management (PIM) 
 ### Task 1: Lab Setup
 
 
-This lab requires a user cerating that will be used for PIM.
+This lab requires creating a user that will be used for PIM.
 
 
 1.  In the **Azure Portal** open the **Cloud Shell** in **PowerShell** mode. If prompted click **Create Storage**.
@@ -46,7 +46,7 @@ This lab requires a user cerating that will be used for PIM.
 
 1.  In the Azure Portal, on the Hub menu click **Azure Active Directory**.
 
-1.  Select **Licences** under **All Products**.
+1.  Select **Licences** then **All Products**.
 
 1.  Click **Try / Buy**.
 
@@ -56,7 +56,7 @@ This lab requires a user cerating that will be used for PIM.
 
      ![Screenshot](../Media/Module-1/12bd35f5-5114-47d7-8826-3953094d9870.png)
 
-**You may need to log out of the Azure portal and log in again for this to refesh**
+**You may need to log out of the Azure portal and log in again for this to refresh**
 
 ### Task 3: Discover resources
 
@@ -94,7 +94,7 @@ This lab requires a user cerating that will be used for PIM.
 
      ![Screenshot](../Media/Module-1/5943cd1d-f6e6-4ccc-921b-e1105af7bdf9.png)
 
-1.  Back on the **Concent to PIM blade** click **Consent** and click **Yes**.
+1.  Back on the **Consent to PIM blade** click **Consent** and click **Yes**.
 
      ![Screenshot](../Media/Module-1/35eb7586-5a30-41a6-9f1c-abb48f8ed548.png)
 
@@ -182,7 +182,7 @@ In the following task you will make  a user eligible for an Azure AD directory r
 
 1.  In Add managed members, click **OK** to add the user to the role.
 
-1.  Review the added memeber
+1.  Review the added member
 
      ![Screenshot](../Media/Module-1/febc9219-e55b-4b36-9286-f2ccbf281fd5.png)
 
@@ -300,7 +300,7 @@ When you need to take on an Azure AD directory role, you can request activation 
 
      ![Screenshot](../Media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
-1.  Select **Azure AD Roles** then click click **Activate your role** on the Quick staart blade.
+1.  Select **Azure AD Roles** then click click **Activate your role** on the Quick start blade.
 
 1.  On the Billing Administrator role, scroll to the right and click **Activate**.
 
@@ -316,7 +316,7 @@ When you need to take on an Azure AD directory role, you can request activation 
 
 By default, roles do not require approval unless configured explicitly in settings. 
 
- If the role does not require approval, it is activated and added to the list of active roles. If you want to use the role right away, follow the steps in next section.
+ If the role does not require approval, it is activated and added to the list of active roles. If you want to use the role right away, follow the steps in the next section.
 
  If the role requires approval to activate, a notification will appear in the upper right corner of your browser informing you the request is pending approval.
 
@@ -409,7 +409,7 @@ When you click Cancel, the request will be cancelled. To activate the role again
 Role assignments become "stale" when users have privileged access that they don't need anymore. In order to reduce the risk associated with these stale role assignments, privileged role administrators or global administrators should regularly create access reviews to ask admins to review the roles that users have been given. This task covers the steps for starting an access review in Azure AD Privileged Identity Management (PIM).
 
 
-1.  Return back to the browser which is logged in as your Global Admin Account.
+1.  Return back to the browser that is logged in as your Global Admin Account.
 
 1.  From the PIM application main page click **Azure AD Roles** under the **Manage** section click **Access reviews** and click > **New**.
 
@@ -418,18 +418,18 @@ Role assignments become "stale" when users have privileged access that they don'
 1.  Enter the following details and click **Start**:
 
       - Review name:  **Global Admin Review**
-      - Frequency: **One TIme**
-      - Start Date:  **Todays Date** 
+      - Start Date:  **Today's Date** 
+      - Frequency: **One time**
       - End Date:  **End of next month**
-      - Review role Membership:  **Global Administrator**
+      - Review role membership:  **Global Administrator**
       - Reviewers:  **Select your account**
  
  
      ![Screenshot](../Media/Module-1/84274ed2-be53-4b3f-853a-c85f0dcfeab2.png)
  
-1.  Once the review has completed and has a status of Active.  Click on the **Global Admin Review**.
+1.  Once the review has completed and has a status of Active, click on the **Global Admin Review**.
 
-1.  Select Results and see the outcome of **Not reviewed**.
+1.  Select **Results** and see the outcome of **Not reviewed**.
 
      ![Screenshot](../Media/Module-1/04c32a26-be67-48dd-bf3d-7b60e81e2fff.png)
 
@@ -504,7 +504,7 @@ You can customize some of the security alerts in PIM to work with your environme
 
 1.  Click **Roles** and select **Global Administrator**.
 
-1.  Scroll down and change **Require Approbal** to **Enable** and click **Save**.
+1.  Scroll down and change **Require Approval** to **Enable** and click **Save**.
 
      ![Screenshot](../Media/Module-1/da35f974-b196-4ce4-bab7-7ca071d59124.png)
 
@@ -536,7 +536,7 @@ You can customize some of the security alerts in PIM to work with your environme
 
      ![Screenshot](../Media/Module-1/55eb14b5-540a-4d26-aed7-0b96d162fb31.png)
 
-1.  Vertify Isabella's identity using the wizard.
+1.  Verify Isabella's identity using the wizard.
 
      ![Screenshot](../Media/Module-1/0b0408a6-3690-42db-a8f0-c25e7a0b0da3.png)
 
@@ -592,7 +592,7 @@ As a delegated approver, you'll receive an email notification when an Azure reso
 ## Exercise 6 - View audit history for Azure AD roles in PIM
 
 
-You can use the Azure Active Directory (Azure AD) Privileged Identity Management (PIM) audit history to see all the role assignments and activations within the past 30 days for all privileged roles. If you want to see the full audit history of activity in your directory, including administrator, end user, and synchronization activity.
+You can use the Azure Active Directory (Azure AD) Privileged Identity Management (PIM) audit history to see all the role assignments and activations within the past 30 days for all privileged roles. If you want to see the full audit history of activity in your directory, including administrator, end user, and synchronization activity, you can use the [Azure Active Directory security and activity reports](https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/overview-reports).
 
 
 ### Task 1: View audit history
