@@ -18,7 +18,7 @@ In this lab, you will get started with Azure Key Vault to create a hardened cont
 
 ### Task 1: Download SQL Server Management Studio
 
-1.  To download the latest version of SQL Management Studio required for this lab visit te following link and select download SQL Management Studio **`https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017`**
+1.  To download the latest version of SQL Management Studio required for this lab visit the following link and select download SQL Management Studio **`https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017`**
 
 
 
@@ -28,7 +28,7 @@ In this lab, you will get started with Azure Key Vault to create a hardened cont
 In this exercise, you will use PowerShell to create an Azure Key Vault.
 
 
-1.  Start PowerShell by clicking the **Start > PowerShell**
+1.  Start PowerShell by clicking **Start > PowerShell**
 
 2.  Use the following command to authenticate to Azure using the account for your Azure subscription.
 
@@ -59,15 +59,15 @@ In this exercise, you will use PowerShell to create an Azure Key Vault.
 
 8. Click **Access Policies** > **+ Add Access Policy**
 
-9. Select **Key,Secret and Certificate Management** from **Configure from template**
+9. Select **Key, Secret and Certificate Management** from **Configure from template (optional)**
 
-10. Click **Select Pricipal** and search and then clikc on your account then click on **Select**
+10. Click **Select Pricipal** and search for and then click on your account, then click on **Select**
 
 11. Click **Add** and then **Save**
 
 ### Task 3: Add a key and secret to Key Vault
 
-1.  Return to the PowerShell windows.
+1.  Return to the PowerShell window.
 
 2.  Add a software-protected key to the Key Vault using this command. Be sure to change the placeholder text to your vault name.
 
@@ -75,18 +75,18 @@ In this exercise, you will use PowerShell to create an Azure Key Vault.
     $key = Add-AzureKeyVaultKey -VaultName '<YourVaultName>' -Name 'MyLabKey' -Destination 'Software'
      ```
 
-3.  Move back to the **KeyVaultPS** in the Azure portal. Click Keys under Settings in the left navigation.
+3.  Move back to **KeyVaultPS** in the Azure portal. Click **Keys** under Settings in the left navigation pane.
 
-4.  Click the **MyLabKey**
+4.  Click **MyLabKey**
 
-5.  Click the Current Version
+5.  Click the Current Version.
 
 6.  Examine the information about the key you created.
 
-    **Note**: You can always reference this key by using its URI. To get the most current version just reference `https://keyvaultps.vault.azure.net/keys/MyLabKey/` or if need be the exact version: `https://keyvaultps.vault.azure.net/keys/MyLabKey/da1a3a1efa5dxxxxxxxxxxxxxd53c5959e`
+    **Note**: You can always reference this key by using its URI. To get the most current version, just reference `https://keyvaultps.vault.azure.net/keys/MyLabKey/` or if need be the exact version: `https://keyvaultps.vault.azure.net/keys/MyLabKey/da1a3a1efa5dxxxxxxxxxxxxxd53c5959e`
 
 
-7.  Move back over to the PowerShell window. To display the current version of the key, enter the following command.
+7.  Move back to the PowerShell window. To display the current version of the key, enter the following command.
 
      ```powershell
     $Key.key.kid
@@ -137,33 +137,33 @@ In this exercise, you will use PowerShell to create an Azure Key Vault.
 ### Task 5: Enable a Client Application
 
 
-You will enable your client application to access the Azure SQL Database service. This will be done by setting up the required authentication and acquiring the Application ID and Secret that you will need to authenticate your application. These steps will be accomplished in the following PowerShell code.
+You will enable your client application to access the Azure SQL Database service. This will be done by setting up the required authentication and acquiring the Application ID and Secret that you will need to authenticate your application. These steps will be accomplished in the Azure portal.
 
 
 1.  Open the Azure portal and navigate to Azure Active Directory.
 
-2.  Click App Registrations under Manage in the left navigation.
+2.  Click **App Registrations** under **Manage** in the left navigation pane.
 
-3.  **Click +New app registration**
+3.  **Click + New registration**
 
-1.  Provide the name **sqlApp** your application, select **Webapp API**, and for the SIGN-ON URL type **`http://sqlapp`**
+1.  Provide the name **sqlApp** for your application. Under **Redirect URI (optional)**, select **Web**, and for the SIGN-ON URL type **`https://sqlapp`**
 
-5.  Click **Create**.
+5.  Click **Register**.
 
 6.  Once the App Registration is complete click on **sqlApp** if it does not automatically appear.
 
-7.  Copy your Application ID as you will need it later.
+7.  Copy your Application (client) ID as you will need it later.
 
-8.  Click **Settings**
+8.  Click **Certificates & secrets**
 
-9.  Click **Keys**
+9.  Click **+ New client secret**
 
-10.  In the Keys section, enter **Key1** for the description. Select **1 year** from the Expires drop-down list.
+10.  In the **Description** section, enter **Key1** for the description. Select **1 year** from the **Expires** list, then click **Add**
 
 
-1.  Paste the Key Value to the Value box and click Save. Close the blade. If you reopen the blade the value will show as hidden.
+1.  Copy the Key1 value as you will need it later. If you close and reopen the blade, the value will show as hidden.
 
-### Task 6: Add a Key Vault Policies allowing the application to access the Key Vault.
+### Task 6: Add a Key Vault Policy allowing the application access to the Key Vault.
 
 1.  In the **Azure portal** open your **Resource Group** created at the beginning of the lab
 
@@ -175,9 +175,7 @@ You will enable your client application to access the Azure SQL Database service
 
 1.  In the **Key Permissions** drop down select **Select All** to highlight all permissions
 
-1.  Select OK
-
-1.  When you have returned to the user list click **save**
+1.  Select **Save**
 
     **Important**! You must click save otherwise the permissions will not be committed 
 
@@ -198,7 +196,7 @@ You will enable your client application to access the Azure SQL Database service
      ```
     
      ```powershell
-    Set-AzureRmKeyVaultAccessPolicy -VaultName $vaultName -ResourceGroupName $resourceGroupName `-ServicePrincipalName $applicationId -PermissionsToKeys get,wrapKey,unwrapKey,sign,verify,list
+    Set-AzureRmKeyVaultAccessPolicy -VaultName $vaultName -ResourceGroupName $resourceGroupName -ServicePrincipalName $applicationId -PermissionsToKeys get,wrapKey,unwrapKey,sign,verify,list
      ```
 
 
@@ -208,20 +206,18 @@ You will enable your client application to access the Azure SQL Database service
 
 **Scenario**
 
-In this task, you will create a blank Azure SQL Database, connect to it with SQL Management Studio and create a table. You will then encrypt two data columns using an autogenerated key from the Azure Key Vault. Then you will create a Console application using Visual Studio to Load data into the Encrypted Columns and then access that data securely using a connection string that accesses the key via Key Vault.
+In this task, you will create a blank Azure SQL Database, connect to it with SQL Server Management Studio and create a table. You will then encrypt two data columns using an autogenerated key from the Azure Key Vault. Then you will create a Console application using Visual Studio to Load data into the Encrypted Columns and then access that data securely using a connection string that accesses the key via Key Vault.
 
 
-1.  From the Azure Portal click **Create a resource> Databases > SQL Database**
+1.  From the Azure Portal click **+ Create a resource> Databases > SQL Database**
 
-2.  Provide the following details on the SQL Database blade and click Create.
-
-      - Database Name: **medical**
+2.  Provide the following details on the SQL Database blade and click **Create**.
 
       - Resource Group: (create new) **SQLEncryptRG**
+      
+      - Database Name: **medical**
 
-      - Select source: **Blank database**
-
-      - Server **Require Configure Settings** : **Create new Server**
+      - Server: **Create new**
 
           - Server name: **[Unique Server Name]**
 
@@ -231,17 +227,17 @@ In this task, you will create a blank Azure SQL Database, connect to it with SQL
 
           - Location: **[same location as KeyVaultPS]**
 
-          - Then click **Select**
+          - Then click **OK**
 
-      - Pricing Tier: S0
+      - Pricing Tier: Standard S0
 
 
 
-1.  Once everything above is configured, select **Create**
+1.  Once everything above is configured, select **Review + create,** then **Create**
 
-3.  Once the SQL Database in deployed open it in the Azure Portal to locate and then copy the Connection String.
-warning
-**Note**: When you save the connection string for future use, be sure to replace the {your_username} with **demouser** and {your_password} with **Pa55w.rd1234**.
+3.  Once the SQL Database is deployed, open it in the Azure Portal to locate and then copy the **ADO.NET Connection String**.
+
+**Note**: When you save the connection string for future use, be sure to replace {your_username} with **demouser** and {your_password} with **Pa55w.rd1234**.
 
 
 ### Task 8: Create a Table in the SQL Database
@@ -254,11 +250,11 @@ warning
 
 
 
-3.  Next click **+Add client IP** and then click **Save**.
+3.  Next click **+ Add client IP** and then click **Save**.
 
 
 
-4.  On the LABVM open SQL Server Management Studio. Connect to the Server using these properties for the Connect to Server dialog.
+4.  On the LABVM open SQL Server Management Studio. Connect to the Server using these properties for the **Connect to Server** dialog.
 
   - Server Type: **Database Engine**
 
@@ -273,7 +269,7 @@ warning
 
 ### Task 9: Create and Encrypt a Table
 
-1.  In SQL Management Studio expand **Databases > Right-click medical > New Query**.
+1.  In SQL Server Management Studio expand **Databases > Right-click medical > New Query**.
 
 2.  Paste the following code into the query window and click Execute
 
@@ -306,17 +302,17 @@ warning
      ```
 
 
-3.  After the table is created successfully, **expand medical > tables > right-click dbo.Patients** and select **Encrypt Columns**.
+3.  After the table is created successfully, expand **medical > tables > right-click dbo.Patients** and select **Encrypt Columns**.
 
 
 
-4.  Click Next.
+4.  Click **Next**.
 
 5.  On the Column Selection Screen check **SSN** and **Birthdate**. Then set the Encryption Type for SSN to **Deterministic** and for Birthdate **Randomized**. Click **Next**.
 
 
 
-6.  On the Master Key Configuration page on the Select the Key store provider click **Azure Key Vault.** Click **Sign in** and authenticate. Select your Azure Key Vault. Click **Next**.
+6.  On the Master Key Configuration page on the Select the Key store provider, click **Azure Key Vault.** Click **Sign in** and authenticate. Select your Azure Key Vault. Click **Next**.
 
 
 
@@ -324,17 +320,17 @@ warning
 
 
 
-8.  Expand the **medical > security > Always Encrypted Keys** and note that now there are keys found.
+8.  When the encryption process is complete, click **Close** and expand **medical > security > Always Encrypted Keys** and note that now there are keys found.
 
 
 
 ### Task 10: Build a Console Application to work with Encrypted Columns
 
-1.  On the LABVM Open Visual Studio 2019 and Sign in.
+1.  On the LABVM Open Visual Studio 2019 and Sign in using your Azure account.
 
 2.  Click **File > New > Project**
 
-3.  Next select **Visual C# > Console App (.NET Framework)** and provide the name **OpsEncrypt** in the location **C:** and the click **OK**.
+3.  Next select **Visual C# > Console App (.NET Framework)** and provide the name **OpsEncrypt** in the location **C:\** and then click **OK**.
 
 
 4.  **Right-Click** the **OpsEncrypt** project > click **Properties**.
@@ -342,10 +338,6 @@ warning
 
 
 5.  Change the **Target Framework** to **.NET Framework 4.6.2.** Click **Yes** when prompted to change the **Target Framework.**
-
-
-
-6.  **Open** the **NuGet Package Manager Console**.
 
 
 
@@ -359,11 +351,11 @@ warning
     Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory
      ```
 
-1.  Open a the **program.cs** file in notepad from Allfiles\Labs\Mod4_Lab04 and copy the code.
+1.  Open the **program.cs** file in notepad from Allfiles\Labs\Mod1_Lab02 and copy the code.
 
-8.  Replace the code in **Program.cs** with the code you just copied.
+8.  Replace the code in **Program.cs** in Visual Studio with the code you just copied.
 
-9.  Locate the Connection string settings in the Main method and replace with the values that you copied from the previous steps.
+9.  Locate the **Connection string, clientId, and clientSecret** settings in the Main method and replace them with the values that you copied from the previous steps.
 
 10.  **Click** the **Start Button** in **Visual Studio**.
 
