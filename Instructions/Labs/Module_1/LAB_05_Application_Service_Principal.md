@@ -3,7 +3,7 @@
 
 **Scenario**
 
-This lab shows you how to create a new Azure Active Directory (Azure AD) application and service principal that can be used with the role-based access control. When you have code that needs to access or modify resources, you can create an identity for the app. This identity is known as a service principal. You can then assign the required permissions to the service principal. This article shows you how to use the portal to create the service principal. It focuses on a single-tenant application where the application is intended to run within only one organization. You typically use single-tenant applications for line-of-business applications that run within your organization.
+This lab shows you how to create a new Azure Active Directory (Azure AD) application and service principal that can be used with role-based access control. When you have code that needs to access or modify resources, you can create an identity for the app. This identity is known as a service principal. You can then assign the required permissions to the service principal. This lab shows you how to use the portal to create the service principal. It focuses on a single-tenant application where the application is intended to run within only one organization. You typically use single-tenant applications for line-of-business applications that run within your organization.
 
 
 ## Exercise 1: Use the portal to create a service principal that can access resources
@@ -92,7 +92,7 @@ To check your subscription permissions:
 
        ![Screenshot](../Media/Module-1/ad73e261-fb35-4e53-a95e-cf5c905d6e1a.png)
    
-1.  Select **Role assignments** to view your assigned roles, and determine if you have adequate permissions to assign an AD app to a role. If not, you would ask your subscription administrator to add you to User Access Administrator role. In the following image, the user is assigned to the Owner role, which means that user has adequate permissions.
+1.  Select **Role assignments** to view your assigned roles and determine if you have adequate permissions to assign an AD app to a role. If not, you would ask your subscription administrator to add you to User Access Administrator role. In the following image, the user is assigned to the Owner role, which means that user has adequate permissions.
 
        ![Screenshot](../Media/Module-1/ff15013d-deb0-4c2d-ac01-1866b759d3e0.png)
    
