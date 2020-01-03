@@ -1,6 +1,6 @@
 # Module 1: Lab 7: Azure Policy
 
-Your corporate standards and service level agreements. In this lab, you will learn to use Azure Policy to do some of the more common tasks related to creating, assigning, and managing policies across your organization, such as:
+In this lab, you will learn to use Azure Policy to do some of the more common tasks related to creating, assigning, and managing policies across your organization, such as:
 
 > - Assign a policy to enforce a condition for resources you create in the future
 
@@ -67,7 +67,7 @@ In this task, you will first browse the built-in policy definitions using the Az
 
     -   Exclusions: **Leave blank**
     -   Assignment name: **Allow UK South for myResourceGroup**
-    -   Description: **Allow resources to be created un UK South Only for myResourceGroup**
+    -   Description: **Allow resources to be created in UK South Only for myResourceGroup**
     -   Policy enforcement: **Enabled**
     -   Assigned by: **Your name**
 
@@ -83,15 +83,15 @@ In this task, you will first browse the built-in policy definitions using the Az
 
 4.  You will see a notification that the assignment was successful, and that the assignment will take around 30 minutes to complete.
 
-    **Note:** The reason the Azure policy assignment takes upto 30 minutes to be assigned is that is has to replicate globally although in the real world it generally only takes 2 - 3 minutes to be implemented.  If the next task fails, simply wait a few minutes and attept the steps again.
+    **Note:** The reason the Azure policy assignment takes up to 30 minutes to be assigned is that is has to replicate globally although in the real world it generally only takes 2 - 3 minutes to be implemented.  If the next task fails, simply wait a few minutes and attempt the steps again.
 
 ### Task 2: Verify the Azure Policy Assignment
 
-In this task, you will verify that the policy assignment created in the previous task is effective, by attempting to create a virtual network in both a permitted region and a different region.
+In this task, you will verify that the policy assignment created in the previous task is effective by attempting to create a virtual network in both a permitted region and a different region.
 
 1.  Click **Virtual Networks** on the Hub menu.
 
-2.  On the Virtual Network blade, click **+Add**
+2.  On the **Virtual Networks** blade, click **+ Add**
 3.  First, you will try to create a virtual network in East US. Since this is not an allowed location, the request should be blocked. Complete in the **Create virtual network** blade as follows:
 
     -   Name: **myVnet**
