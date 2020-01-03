@@ -3,8 +3,7 @@
 
 **Scenario**
 
-Occasionally, a need arises for transferring a subscription from an owner to an Azure AD tenant. In order to transfer a subscription from a Azure AD owner to another subscription you need access to another subscription. If you do not have access to multiple subscriptions,
-at this time just review the process outlined below.
+Occasionally, a need arises for transferring a subscription from an owner to an Azure AD tenant. In order to transfer a subscription from an Azure AD owner to another subscription, you need access to another subscription. If you do not have access to multiple subscriptions at this time, just review the process outlined below.
 
 
 ## Exercise 1: Transfer Azure subscriptions between Azure AD tenants
@@ -30,7 +29,7 @@ at this time just review the process outlined below.
 
 5.  Specify the recipient.
 
-    **Note**: If you transfer a subscription to a new Azure AD tenant, all role assignments in RBAC61 will be permanently deleted from the source tenant and not migrated to the target tenant.
+    **Note**: If you transfer a subscription to a new Azure AD tenant, all role assignments in RBAC will be permanently deleted from the source tenant and not migrated to the target tenant.
 
 
      ![Screenshot](../Media/Module-1/077262ca-0d4d-43d6-bb9e-3580912a8589.png)
@@ -42,7 +41,7 @@ at this time just review the process outlined below.
 
 8.  Azure completes the subscription transfer.
 
- At this point, billing ownership of the Azure subscription, would be transfer to the new subscription.
+ At this point, billing ownership of the Azure subscription would be transfered to the new subscription.
 
 
 **Results**: You have now completed this module.
