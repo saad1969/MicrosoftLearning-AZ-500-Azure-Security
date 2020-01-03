@@ -157,7 +157,7 @@ You can use the Update Management solution to manage updates and patches for you
 **Note**: After the scheduled deployment starts, you can see the status for that deployment on the Update deployments tab under Update management. The status is In progress when the deployment is currently running. When the deployment finishes, if it's successful, the status changes to Succeeded. When there are failures with one or more updates in the deployment, the status is Partially failed.
 
 
-| WARNING: Prior to continuting you should remove all resources used for this lab.  To do this in the **Azure Portal** click **Resource groups**.  Select any resources groups you have created.  On the resource group blade click **Delete Resource group**, enter the Resource Group Name and click **Delete**.  Repeat the process for any additional Resource Groups you may have created. **Failure to do this may cause issues with other labs.** |
+| WARNING: Prior to continuing you should remove all resources used for this lab.  To do this in the **Azure Portal** click **Resource groups**.  Select any resources groups you have created.  On the resource group blade click **Delete Resource group**, enter the Resource Group Name and click **Delete**.  Repeat the process for any additional Resource Groups you may have created. **Failure to do this may cause issues with other labs.** |
 | --- |
 
 
