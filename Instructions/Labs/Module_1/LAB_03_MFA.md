@@ -22,7 +22,7 @@ In your policy, set:
  
 1.  Sign in to the Azure Portal.
 
-2.  In the Azure portal, on the hub menu, click **Security** in the Manage section.
+2.  In the Azure portal, on the hub menu, click **Azure Active Directory**. In the **Manage** section, click **Security**.
 
 3. In the **Security - Getting started blade**  click **Conditional access**.
 
@@ -211,7 +211,7 @@ To prove that your conditional access policy works, you test logging in to a res
        * Log in with the test user created as part of the prerequisites section of this article and note that you should now be required to register for and use Azure Multi-Factor Authentication.
        * Close the browser window.
 
-| WARNING: Prior to continuting you should remove all resources used for this lab.  To do this in the **Azure Portal** click **Resource groups**.  Select any resources groups you have created.  On the resource group blade click **Delete Resource group**, enter the Resource Group Name and click **Delete**.  Repeat the process for any additional Resource Groups you may have created. **Failure to do this may cause issues with other labs.** |
+| WARNING: Prior to continuing you should remove all resources used for this lab.  To do this in the **Azure Portal** click **Resource groups**.  Select any resources groups you have created.  On the resource group blade click **Delete Resource group**, enter the Resource Group Name and click **Delete**.  Repeat the process for any additional Resource Groups you may have created. **Failure to do this may cause issues with other labs.** |
 | --- |
 
 **Results** : You have now completed this lab.
