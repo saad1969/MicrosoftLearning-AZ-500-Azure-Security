@@ -3,7 +3,7 @@
 
 **Scenario**
 
-In this module, you'll learn about Role-Based Access Control as the foundation to organizing and managing an organization's administrative access based on the principle of least privilege. You will also review Azure Active Directory concepts, as well as gaining insight into the threat landscape and security risks that are exposed to IT organizations through breach of privileged access. Lessons include:
+In this module, you'll learn about Role-Based Access Control as the foundation to organizing and managing an organization's administrative access based on the principle of least privilege. You will also review Azure Active Directory concepts, as well as gain insight into the threat landscape and security risks that are exposed to IT organizations through breach of privileged access. Lessons include:
 
 - Role-Based Access Control
 - Azure Active Directory (Refresher)
@@ -17,7 +17,7 @@ In this module, you'll learn about Role-Based Access Control as the foundation t
 
 1.  Sign in to the Azure portal **`https://portal.azure.com/`**
 
-1.  Select **Azure Active Directory** and on the overview blade note down your tennant domain.
+1.  Select **Azure Active Directory** and on the overview blade note down your tenant domain.
 
      ![Screenshot](../Media/Module-1/11eb6969-8efb-462d-8ef0-772b0d75f360.png)
 
@@ -124,7 +124,7 @@ You should now have 3 users in your Azure AD
 
 1.  Select your subscription and the location of **East US**.
 
-1.  Choose **Create** to create the resource group.
+1.  Choose **Review + create** then **Create** to create the resource group.
 
 1.  Choose **Refresh** to refresh the list of resource groups.
 
@@ -152,7 +152,7 @@ In RBAC, to grant access, you create a role assignment.
 
 1.  Choose **Save** to create the role assignment.
 
-   After a few moments, the user is assigned the Virtual Machine Contributor role at the rbac-quickstart-resource-group resource group scope.
+   After a few moments, the user is assigned the Virtual Machine Contributor role at the myRBACrg resource group scope.
 
   
 ### Task 3: Remove access
@@ -161,7 +161,7 @@ In RBAC, to grant access, you create a role assignment.
 In RBAC, to remove access, you remove a role assignment.
 
 
-1.  CLick the Role Assignments tab.
+1.  Click the Role Assignments tab.
 
 1.  In the list of role assignments, add a checkmark next to user with the Virtual Machine Contributor role.
   
@@ -172,7 +172,7 @@ In RBAC, to remove access, you remove a role assignment.
 1.  In the remove role assignment message that appears, choose **Yes**.  
    
   
-## Exercise 3:  Role-based Access Control (RBAC) using the PowerShell
+## Exercise 3:  Role-based Access Control (RBAC) using PowerShell
 
 
 In this exercise you use PowerShell to :
@@ -204,7 +204,7 @@ To grant access for the user, you use the New-AzureRmRoleAssignment command to a
   
 
   
-1.  Assign the Reader role to the user at the subscription scope by using the follownig command (Replacing your domain with the tennant domain you noted earlier):
+1.  Assign the Reader role to the user at the subscription scope by using the following command (replacing your domain with the tenant domain you noted earlier):
   
        ```powershell
       New-AzureRmRoleAssignment -SignInName bill@yourdomain.onmicrosoft.com -RoleDefinitionName "Reader" -Scope $subScope  
@@ -231,14 +231,14 @@ To grant access for the user, you use the New-AzureRmRoleAssignment command to a
 
     In the output, you can see that the Reader role has been assigned to the RBAC Tutorial User at the subscription scope.
 
-2.  To verify the access for the resource group, use the Get-AzureRmRoleAssignment command to list the role assignments use the following command:
+2.  To verify the access for the resource group, use the Get-AzureRmRoleAssignment command to list the role assignments using the following command:
   
      ```powershell
     Get-AzureRmRoleAssignment -SignInName bill@yourdomain.onmicrosoft.com     -ResourceGroupName "myRBACrg"
      ```
 
 
- In the output, you can see that both the Contributor and Reader roles have been assigned to the RBAC Tutorial User. The Contributor role is at the rbac-tutorial-resource-group scope and the Reader role is inherited at the subscription scope.
+ In the output, you can see that both the Contributor and Reader roles have been assigned to the RBAC Tutorial User. The Contributor role is at the myRBACrg resource group scope and the Reader role is inherited at the subscription scope.
 
 ### Task 3: Remove access
   
