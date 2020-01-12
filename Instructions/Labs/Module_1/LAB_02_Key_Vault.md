@@ -1,4 +1,4 @@
-# Module 1 - Lab 2: Implementing Secure Data by setting up Always Encrypted (Key Vault)
+# Module 1 - Lab 2: Key Vault (Implementing Secure Data by setting up Always Encrypted)
 
 
 **Scenario**
@@ -20,7 +20,7 @@ In this lab, you will get started with Azure Key Vault to create a hardened cont
 
 1.  To download the latest version of SQL Management Studio required for this lab visit the following link and select download SQL Management Studio **`https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017`**
 
-
+     **Note:** You do not need to wait for the SQL Management Studio to install   before continuing.
 
 ### Task 2: Use PowerShell to create a Key Vault
 
@@ -112,7 +112,7 @@ In this exercise, you will use PowerShell to create an Azure Key Vault.
 2.  Next add the secret to the Vault with this command. Be sure to change the placeholder text to your vault name.
 
      ```powershell
-    $secret = Set-AzureKeyVaultSecret -VaultName '<YourVaultName>' -Name      'SQLPassword' -SecretValue $secretvalue
+    $secret = Set-AzureKeyVaultSecret -VaultName 'YourVaultName' -Name 'SQLPassword' -SecretValue $secretvalue
      ```
 
 3.  Move back to the Azure Portal on **KeyVaultPS** and click **Secrets**
@@ -131,7 +131,7 @@ In this exercise, you will use PowerShell to create an Azure Key Vault.
 8.  To view the Secret, use the Get-AzureKeyVaultSecret cmdlet. Be sure to change the placeholder text to your vault name.
 
      ```powershell
-    Get-AzureKeyVaultSecret -VaultName '<YourVaultName>'
+    Get-AzureKeyVaultSecret -VaultName 'YourVaultName'
      ```
 
 ### Task 5: Enable a Client Application
@@ -387,6 +387,6 @@ In this task, you will create a blank Azure SQL Database, connect to it with SQL
 | WARNING: Prior to continuing you should remove all resources used for this lab.  To do this in the **Azure Portal** click **Resource groups**.  Select any resources groups you have created.  On the resource group blade click **Delete Resource group**, enter the Resource Group Name and click **Delete**.  Repeat the process for any additional Resource Groups you may have created. **Failure to do this may cause issues with other labs.** |
 | --- |
 
-**Results** : You have now completed this course.
+**Results** : You have now completed this Lab.
 
 

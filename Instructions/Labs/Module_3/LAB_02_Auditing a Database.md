@@ -38,7 +38,7 @@ warning
 
 8.  **Click Create New**.
 
-9.  Name the subscription "**mod4lab2YOURNAME**" to create a unique name
+9.  Name the storage account **mod4lab2yourname** ensuring you replace **yourname** with a unique name using lowercase letters
 
 10. **Click OK**.
 
@@ -54,12 +54,12 @@ warning
 
 1.  Click **AZ500LabDb (az500labserver2/AZ500LabDb)** to select your test database
 
-1.  Click **Auditing** under security
-warning
-**Note**: that the Auditing looks off here but it is set on the underlying server level so it is turned on for this database
+1.  Click **Auditing** under security warning
+  
+    **Note**: that the Auditing looks off here but it is set on the underlying server level so it is turned on for this database
 
 
-1.  Click* **View Audit Log**.
+1.  Click **View Audit Log**.
 
   **Note**: Here you will review the output of the audit logs of the Db including any attempted SQL injections, since this is a test database that has been created not log ago the will be minimal audits if any in the log at the current time.
 

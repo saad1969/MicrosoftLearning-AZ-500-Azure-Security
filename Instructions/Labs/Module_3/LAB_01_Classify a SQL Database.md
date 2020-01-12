@@ -51,7 +51,8 @@ warning
 
 1.  **Click** create new
 
-1.  For the name use "**Mod4Lab1YOURNAME**" replacing **YOURNAME** with your name to make it unique but memorable
+1.  For the name use **mod4lab1yourname** replacing **yourname** with your name to make it unique but memorable
+
 
 1.  Click **OK**
 
