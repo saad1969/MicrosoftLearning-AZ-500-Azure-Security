@@ -22,28 +22,34 @@ In your policy, set:
  
 1.  Sign in to the Azure Portal.
 
-2.  In the Azure portal, on the hub menu, click **Azure Active Directory**. In the **Manage** section, click **Security**.
+2.  In the Azure portal, on the hub menu, click **Azure Active Directory**.
 
-3. In the **Security - Getting started blade**  click **Conditional access**.
+3.  In the **Properties** section, click **Manage Security defaults**.
+
+4.  Change the **Enable Security defaults** option to **No**. Under reason, select **My organisation is using Conditional Access**, and click **Save**. 
+
+5.  In the **Manage** section, click **Security**.
+
+6.  In the **Security - Getting started blade**  click **Conditional access**.
 
      ![Screenshot](../Media/Module-1/NewConditionalAccessScreen.png)
  
-5.  On the **Conditional Access** page, in the toolbar on the top, click **New Policy**.
+7.  On the **Conditional Access** page, in the toolbar on the top, click **New Policy**.
 
     **Note**: if this is greyed out, refresh the browser session.
 
 
 
 
-6.  On the **New** page, in the **Name** textbox, type **Require MFA for Azure portal access**.
+8.  On the **New** page, in the **Name** textbox, type **Require MFA for Azure portal access**.
 
 
 
-7.  In the **Assignment** section, click **Users and groups**.
+9.  In the **Assignment** section, click **Users and groups**.
 
 
 
-8.  On the **Users and groups** page, perform the following steps:
+10.  On the **Users and groups** page, perform the following steps:
 
 
     a. Click **Select users and groups**, and then select **Users and groups**.
@@ -54,11 +60,11 @@ In your policy, set:
 
     d. On the **Users and groups** page, click **Done**.
 
-9.  Click **Cloud apps or actions**.
+11.  Click **Cloud apps or actions**.
 
 
 
-10. On the **Cloud apps** page, perform the following steps:
+12. On the **Cloud apps** page, perform the following steps:
 
 
 
@@ -71,17 +77,17 @@ In your policy, set:
     d. On the **Cloud apps** page, click **Done**.
 
 
-11.  In the **Access controls** section, click **Grant**.
+13.  In the **Access controls** section, click **Grant**.
 
 
-12.  On the **Grant** page, perform the following steps:
+14.  On the **Grant** page, perform the following steps:
      1. Select **Grant access**.
      2.  Select **Require multi-factor authentication**.
      3.  Click **Select**.
 
-13.  In the **Enable policy** section, click **On**.
+15.  In the **Enable policy** section, click **On**.
 
-14.  Click **Create**.
+16.  Click **Create**.
 
 
 ### Task 2: Evaluate a simulated sign-in
