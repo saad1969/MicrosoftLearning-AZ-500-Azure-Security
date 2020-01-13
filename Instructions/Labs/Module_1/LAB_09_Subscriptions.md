@@ -1,4 +1,4 @@
-# Module 1: Lab 9: Protecting Azure Resources with Resource Manager Locks
+# Module 1: Lab 9: Transferring Subscriptions
 
 
 **Scenario**
