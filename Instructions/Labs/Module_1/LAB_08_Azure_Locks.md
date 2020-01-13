@@ -9,7 +9,7 @@ There are two types of resource locks that can be applied:
 
  - **CanNotDelete** - This prevents anyone from deleting a resource whilst the lock is in place, however they may make changes to it.
  - **ReadOnly** - As the name suggests, it makes the resource read only, so no changes can be made and it cannot be deleted.
-Resource locks can be applied to subscriptions, resource groups or individual resources as required. When you lock Subscription, all resources in that subscription (including ones added later) inherit the same lock. Once applied, these locks impact all users regardless of their roles, if it becomes necessary to delete or change a resource with a lock in place then the lock will need to be removed before this can occur.
+Resource locks can be applied to subscriptions, resource groups or individual resources as required. When you lock Subscription, all resources in that subscription (including ones added later) inherit the same lock. Once applied, these locks impact all users regardless of their roles. If it becomes necessary to delete or change a resource with a lock in place, then the lock will need to be removed before this can occur.
 
 **Permissions**
 
@@ -32,7 +32,7 @@ Locks can be created both at the time of creation of a resource inside an ARM te
 ## Exercise 1: Creating Locks
 
 
-The best way to ensure that locks are in place and protecting your resources is to create them at run time and configure them in your ARM templates. Locks are top level ARM resources, they do not sit underneath the resource being locked. They refer to the resource being locked, so this must exist first. 
+The best way to ensure that locks are in place and protecting your resources is to create them at run time and configure them in your ARM templates. Locks are top level ARM resources; they do not sit underneath the resource being locked. They refer to the resource being locked, so this must exist first. 
 
 
 ### Task 1: Adding a Lock (Portal)
@@ -59,7 +59,7 @@ The best way to ensure that locks are in place and protecting your resources is 
      ![Screenshot](../Media/Module-1/511e54e3-c876-454e-9a3d-e2896fcc990d.png)
 
 
-1.  Click **OK** to save the lock, the resource is now protected.
+1.  Click **OK** to save the lock. The resource is now protected.
 
 1.  Remove the lock by simply going back into **Locks**, select the lock and then go to delete.
 
