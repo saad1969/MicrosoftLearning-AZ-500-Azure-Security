@@ -326,7 +326,7 @@ In this task, you will create a blank Azure SQL Database, connect to it with SQL
 
 ### Task 10: Build a Console Application to work with Encrypted Columns
 
-1.  On the LABVM Open Visual Studio 2019 and Sign in using your Azure account.
+1.  Open Visual Studio 2019 and Sign in using your Azure account.
 
 2.  Click **File > New > Project**
 
