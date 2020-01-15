@@ -12,7 +12,7 @@
     start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FAZ-500-Azure-Security%2Fmaster%2FAllfiles%2FLabs%2FMod3_Lab03%2Fazuredeploy.json" 
      ```
 
-1.  Under **Resource group** click create new and use the default name "**Mod4Lab3**"
+1.  Under **Resource group** click create new and use the default name "**Mod3Lab3**"
 
 1.  You can use the default populated SQL server name
 
@@ -41,7 +41,7 @@ warning
 
 1.  **Click** storage account
 
-1.  Under create storage account input a unique name (**e.g. Mod4Lab3YOURNAME**)
+1.  Under create storage account input a unique name (**e.g. Mod3Lab3YOURNAME**)
 
 1.  **Click OK**.
 
@@ -55,7 +55,7 @@ warning
 
      |Log Analytics Workspace|Subscription|Resource Group | Location| Pricing   Tier|
      |-----------------------|------------|---------------|---------|   -------------
-     |Mod4Lab3YOURNAME|Your Subscription|The RG you created in the lab setup|   East US | Per GB (2018)|
+     |Mod3Lab3YOURNAME|Your Subscription|The RG you created in the lab setup|   East US | Per GB (2018)|
 
 1.  **Click OK**.
 warning
@@ -67,11 +67,11 @@ warning
 1.  **Enter** the following **Powerhshell Commands**.
 
      ```powershell
-    New-AzEventHubNamespace -ResourceGroupName Mod4Lab3  -NamespaceName Mod3Lab4 -Location eastus
+    New-AzEventHubNamespace -ResourceGroupName Mod3Lab3  -NamespaceName Mod3Lab3 -Location eastus
      ```
 
      ```powershell
-    New-AzEventHub -ResourceGroupName Mod4Lab3 -NamespaceName Mod3Lab4  -EventHubName Mod3Lab4 -MessageRetentionInDays 3
+    New-AzEventHub -ResourceGroupName Mod3Lab3 -NamespaceName Mod3Lab3  -EventHubName Mod3Lab3 -MessageRetentionInDays 3
      ```
 
 1.  When these commands have completed click **configure under event hubs**
@@ -80,7 +80,7 @@ warning
 
      | Subscription|Hub Namespace|Hub Name| Hub Policy Name|
      |-------------|-------------|--------|----------------|
-     |Your Subscription| Mod3Lab4|mod3lab4|RootManageSharedAccessKey|
+     |Your Subscription| Mod3Lab3|mod3lab3|RootManageSharedAccessKey|
 
 
 1.  **Click OK**
