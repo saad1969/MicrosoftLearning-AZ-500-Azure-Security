@@ -26,7 +26,7 @@ Azure Function Apps uses the Azure App Service infrastructure. This topic shows 
 
 1.  Select the recource group you created in the lab setup
 
-1.  Select the function app template that has been created in the resource group
+1.  Select the function app service that has been created in the resource group
 warning
 **Note**: There are no functions currently assgined to the function app
 
