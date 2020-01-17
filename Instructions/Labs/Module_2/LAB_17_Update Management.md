@@ -25,7 +25,7 @@ You can use the Update Management solution to manage updates and patches for you
 
      |Name|Resource Group| Location | Create Azure Run As account
      |--------|--------|--------|--------|
-     |MyAutomation|RunBooks|EastUS|Yes
+     |MyAutomation|RunBooks|EastUS2|Yes
 
 1.  Click Create
 

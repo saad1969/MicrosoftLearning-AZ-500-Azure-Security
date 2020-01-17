@@ -122,7 +122,7 @@ An application security group enables you to group together servers with similar
     |Setting|Value|
     |---|---|
     |Virtual network |Select **myVirtualNetwork**.|
-    |NIC network security group |Select **Advanced**.|
+    |NIC network security group |Select **None**.|
     |Public Inbound Ports|Select **None**. |
 
 6.  Select **Review + Create** at the bottom, left corner, select **Create** to start VM deployment.
