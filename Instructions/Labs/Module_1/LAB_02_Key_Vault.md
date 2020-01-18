@@ -254,17 +254,17 @@ In this task, you will create a blank Azure SQL Database, connect to it with SQL
 
 
 
-4.  On the LABVM open SQL Server Management Studio. Connect to the Server using these properties for the **Connect to Server** dialog.
+4.  Open SQL Server Management Studio. Connect to the Server using these properties for the **Connect to Server** dialog.
 
-  - Server Type: **Database Engine**
+    - Server Type: **Database Engine**
 
-  - Server Name: **[found on the Database Overview Blade]**
+    - Server Name: **[found on the Database Overview Blade]**
 
-  - Authentication: **SQL Server Authentication**
+    - Authentication: **SQL Server Authentication**
 
-  - Login: **demouser**
+    - Login: **demouser**
 
-  - Password: **Pa55w.rd1234**
+    - Password: **Pa55w.rd1234**
 
 
 ### Task 9: Create and Encrypt a Table
