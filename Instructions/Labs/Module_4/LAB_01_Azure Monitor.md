@@ -180,24 +180,7 @@ Application Insights can gather telemetry data from any internet-connected appli
 
        ![Screenshot](../Media/Module-4/2af9d8f7-4b69-492e-92da-c96029cd85b0.png)
 
-2.  Add the following script to your ``hello_world.html`` before the closing ``</head>`` tag:
-
-    ```
-    <script type = 'text/javascript' >
-        var appInsights=window.appInsights||function(config)
-        {
-            function r(config){ t[config] = function(){ var i = arguments; t.queue.push(function(){ t[config].apply(t, i)})} }
-            var t = { config:config},u=document,e=window,o='script',s=u.createElement(o),i,f;for(s.src=config.url||'https://az416426.vo.msecnd.net/scripts/a/ai.0.js',u.getElementsByTagName(o)[0].parentNode.appendChild(s),t.cookie=u.cookie,t.queue=[],i=['Event','Exception','Metric','PageView','Trace','Ajax'];i.length;)r('track'+i.pop());return r('setAuthenticatedUserContext'),r('clearAuthenticatedUserContext'),config.disableExceptionTracking||(i='onerror',r('_'+i),f=e[i],e[i]=function(config, r, u, e, o) { var s = f && f(config, r, u, e, o); return s !== !0 && t['_' + i](config, r, u, e, o),s}),t
-        }({
-            instrumentationKey:'INSTRUMENTATION_KEY'
-        });
-
-        window.appInsights=appInsights;
-        appInsights.trackPageView();
-    </script>
-    ```
-
-3.  Edit ``hello_world.html`` and add your instrumentation key.
+2. Edit ``hello_world.html`` and add your instrumentation key.
 
 4.  Open ``hello_world.html`` in a local browser session. This will create a single pageview. You can refresh your browser to generate multiple test page views.
 
