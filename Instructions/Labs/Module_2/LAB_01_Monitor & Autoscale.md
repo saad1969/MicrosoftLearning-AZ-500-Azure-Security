@@ -26,7 +26,7 @@ Let's now go through a simple step-by-step walkthrough to create your first Auto
 
 
 1.  Open the **Autoscale** blade in Azure Monitor and select a resource that you want to scale. You can select the app service plan that you created during the setup
-1.  Note that the current instance count is 1. Click **Enable autoscale**.
+1.  Note that the current instance count is 1. Click **Custom autoscale**.
 
 1.  Provide a name for the scale setting, and then click **Add a rule**. 
 
