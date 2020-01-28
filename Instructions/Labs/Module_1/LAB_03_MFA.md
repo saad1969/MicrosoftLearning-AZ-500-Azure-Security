@@ -51,14 +51,13 @@ In your policy, set:
 
 10.  On the **Users and groups** page, perform the following steps:
 
+a. Click **Select users and groups**, and then select **Users and groups**.
 
-    a. Click **Select users and groups**, and then select **Users and groups**.
+b. Click **Select**.
 
-    b. Click **Select**.
+c. On the **Select** page, select **Isabella Simonsen**, and then click **Select**.
 
-    c. On the **Select** page, select **Isabella Simonsen**, and then click **Select**.
-
-    d. On the **Users and groups** page, click **Done**.
+d. On the **Users and groups** page, click **Done**.
 
 11.  Click **Cloud apps or actions**.
 
