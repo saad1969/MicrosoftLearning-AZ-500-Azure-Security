@@ -17,14 +17,14 @@ In this module, you'll learn about Role-Based Access Control as the foundation t
 
 1.  Sign in to the Azure portal **`https://portal.azure.com/`**
 
-1.  Select **Azure Active Directory** and on the overview blade note down your tenant domain.
+2.  Select **Azure Active Directory** and on the overview blade note down your tenant domain.
 
      ![Screenshot](../Media/Module-1/11eb6969-8efb-462d-8ef0-772b0d75f360.png)
 
-1.  Select **Users**, and then select **New user**.
+3.  Select **Users**, and then select **New user**.
 
 
-3.  On the **User** page, fill out the blade with the following information:
+4.  On the **User** page, fill out the blade with the following information:
 
       - **User name**: bill
       - **Name**: Bill Smith
@@ -32,18 +32,18 @@ In this module, you'll learn about Role-Based Access Control as the foundation t
 
      ![Screenshot](../Media/Module-1/ba852242-eb76-4ab8-8e92-c4c452e9f9cf.png)
 
-4.  Show the auto-generated password provided in the **Password** box. You'll need to give this password to the user for the initial sign-in process.
+5.  Show the auto-generated password provided in the **Password** box. You'll need to give this password to the user for the initial sign-in process.
   
   
 
-5.  Select **Create**.
+6.  Select **Create**.
 
     The user is created and added to your Azure AD tenant.
 
-8.  Launch **Azure Cloud Shell** by clicking on the PowerShell icon at the top of the Azure Portal and select PowerShell if prompted.
+7.  Launch **Azure Cloud Shell** by clicking on the PowerShell icon at the top of the Azure Portal and select PowerShell if prompted.
 
   
-9.  **Enter the following commands** to create a user in the PS cloud shell **replacing yourdomain** with your domain noted down erlier
+8.  **Enter the following commands** to create a user in the PS cloud shell **replacing yourdomain** with your domain noted down erlier
 
      ```powershell
       $PasswordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
@@ -58,17 +58,17 @@ In this module, you'll learn about Role-Based Access Control as the foundation t
  
      ![Screenshot](../Media/Module-1/d5e26f07-a18e-4ae4-84aa-318eac3d5b5b.png)
 
-10.  Run the following comamand to get a list of the users in Azure AD 
+9.  Run the following comamand to get a list of the users in Azure AD 
 
       ```powershell
-      Get-AzureADUSer 
+      Get-AzureADUser 
       ```
  
-11.  Change the Azure cloud shell to azure CLI mode with Bash by using the drop down menu
+10.  Change the Azure cloud shell to azure CLI mode with Bash by using the drop down menu
 
      ![Screenshot](../Media/Module-1/28fe2e25-5b8b-4e7a-b83d-0bc4702b0b38.png)
 
-12.  Enter the following command in **azure CLI** to create a user in Azure CLI **replacing yourdomain** with the domain you noted earlier.
+11.  Enter the following command in **azure CLI** to create a user in Azure CLI **replacing yourdomain** with the domain you noted earlier.
  
        ```cli
       az ad user create --display-name Tracy --password Pa55w.rd --user-principal-name Tracy@yourdomain.onmicrosoft.com
@@ -177,8 +177,8 @@ In RBAC, to remove access, you remove a role assignment.
 
 In this exercise you use PowerShell to :
 
--   Use the Get-AzureRMRoleAssignment command to list the role assignments
--   Use the Remove-AzureRmResourceGroup command to remove access
+-   Use the `Get-AzureRMRoleAssignment` command to list the role assignments
+-   Use the `Remove-AzureRmResourceGroup` command to remove access
 
 
 ### Task 1: Grant access
@@ -243,7 +243,7 @@ To grant access for the user, you use the New-AzureRmRoleAssignment command to a
 ### Task 3: Remove access
   
 
-To remove access for users, groups, and applications, use Remove-AzureRmRoleAssignment to remove a role assignment.
+To remove access for users, groups, and applications, use `Remove-AzureRmRoleAssignment` to remove a role assignment.
 
 
 1.  Use the following command to remove the Contributor role assignment for the user at the resource group scope.
