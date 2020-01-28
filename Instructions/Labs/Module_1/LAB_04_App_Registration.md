@@ -1,4 +1,4 @@
-# # Module 1: Lab 4: App Registration
+# Module 1: Lab 4: App Registration
 
 
 **Scenario**
