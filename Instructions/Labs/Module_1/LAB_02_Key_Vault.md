@@ -33,20 +33,20 @@ In this exercise, you will use PowerShell to create an Azure Key Vault.
 2.  Use the following command to authenticate to Azure using the account for your Azure subscription.
 
      ```powershell
-    Login-AzureRMAccount
+    Login-AzAccount
      ```
 
 4.  Create a new Resource Group 
 
      ```powershell
-    New-AzureRmResourceGroup -Name 'KeyVaultPSRG' -Location 'eastus'
+    New-AzResourceGroup -Name 'KeyVaultPSRG' -Location 'eastus'
      ```
 
 
 5.  Create a key vault in the resource group. **The VaultName must be unique.**
 
      ```powershell
-    New-AzureRmKeyVault -VaultName 'KeyVaultPS' -ResourceGroupName    'KeyVaultPSRG' -Location 'eastus'
+    New-AzKeyVault -VaultName 'KeyVaultPS' -ResourceGroupName    'KeyVaultPSRG' -Location 'eastus'
      ```
 
     **Note**: The output of this shows important pieces of information: Vault Name in this case that is KeyVaultPS and the Vault URI: `https://KeyVaultPS.vault.azure.net`
@@ -72,7 +72,7 @@ In this exercise, you will use PowerShell to create an Azure Key Vault.
 2.  Add a software-protected key to the Key Vault using this command. Be sure to change the placeholder text to your vault name.
 
      ```powershell
-    $key = Add-AzureKeyVaultKey -VaultName '<YourVaultName>' -Name 'MyLabKey' -Destination 'Software'
+    $key = Add-AZKeyVaultKey -VaultName '<YourVaultName>' -Name 'MyLabKey' -Destination 'Software'
      ```
 
 3.  Move back to **KeyVaultPS** in the Azure portal. Click **Keys** under Settings in the left navigation pane.
@@ -96,7 +96,7 @@ In this exercise, you will use PowerShell to create an Azure Key Vault.
 8.  To view the Key you just created you can use the Get-AzureKeyVaultKey cmdlet. Be sure to change the placeholder text to your vault name.
 
      ```powershell
-    Get-AzureKeyVaultKey -VaultName '<YourVaultName>'
+    Get-AZKeyVaultKey -VaultName '<YourVaultName>'
      ```
 
 
@@ -112,7 +112,7 @@ In this exercise, you will use PowerShell to create an Azure Key Vault.
 2.  Next add the secret to the Vault with this command. Be sure to change the placeholder text to your vault name.
 
      ```powershell
-    $secret = Set-AzureKeyVaultSecret -VaultName 'YourVaultName' -Name 'SQLPassword' -SecretValue $secretvalue
+    $secret = Set-AZKeyVaultSecret -VaultName 'YourVaultName' -Name 'SQLPassword' -SecretValue $secretvalue
      ```
 
 3.  Move back to the Azure Portal on **KeyVaultPS** and click **Secrets**
@@ -131,7 +131,7 @@ In this exercise, you will use PowerShell to create an Azure Key Vault.
 8.  To view the Secret, use the Get-AzureKeyVaultSecret cmdlet. Be sure to change the placeholder text to your vault name.
 
      ```powershell
-    Get-AzureKeyVaultSecret -VaultName 'YourVaultName'
+    Get-AZKeyVaultSecret -VaultName 'YourVaultName'
      ```
 
 ### Task 5: Enable a Client Application
@@ -196,7 +196,7 @@ You will enable your client application to access the Azure SQL Database service
      ```
     
      ```powershell
-    Set-AzureRmKeyVaultAccessPolicy -VaultName $vaultName -ResourceGroupName $resourceGroupName -ServicePrincipalName $applicationId -PermissionsToKeys get,wrapKey,unwrapKey,sign,verify,list
+    Set-AZKeyVaultAccessPolicy -VaultName $vaultName -ResourceGroupName $resourceGroupName -ServicePrincipalName $applicationId -PermissionsToKeys get,wrapKey,unwrapKey,sign,verify,list
      ```
 
 
