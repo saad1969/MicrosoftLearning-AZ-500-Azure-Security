@@ -42,11 +42,11 @@ When programmatically signing in, you need to pass the tenant ID with your authe
 
 1.  Select **Azure Active Directory**.
 1.  From **App registrations** in Azure AD, select the **Contoso App** application.
-1.  Copy the Directory (tenant) ID and store it in your application code.
+1.  Copy the **Directory (tenant) ID** and store it in your application code.
 
        ![Screenshot](../Media/Module-1/4b52bc55-279c-4f18-b73d-3a8cb021dc04.png)
 
-1.  Copy the **Application ID** and store it in your application code.
+1.  Copy the **Application (client) ID** and store it in your application code.
 
        ![Screenshot](../Media/Module-1/fecb544c-32c9-4576-9bec-f71a6b1cc775.png)
 
