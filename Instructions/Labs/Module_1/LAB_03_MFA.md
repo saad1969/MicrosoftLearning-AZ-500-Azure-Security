@@ -174,7 +174,7 @@ In this lab, you walk you through configuring a conditional access policy enabli
   
       ![Screenshot](../Media/Module-1/5457b62d-dc78-4043-bd72-3d7901bbcd71.png)
   
-2.  Browse to **Azure Active Directory**, click Security and select **Conditional access** on the **Security** Blade.
+2.  Browse to **Azure Active Directory**, click **Security** and select **Conditional access** on the **Security** Blade.
 
  
 
