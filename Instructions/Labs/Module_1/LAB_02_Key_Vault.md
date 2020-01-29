@@ -337,7 +337,7 @@ In this task, you will create a blank Azure SQL Database, connect to it with SQL
 
 
 
-5.  Change the **Target Framework** to **.NET Framework 4.6.2.** Click **Yes** when prompted to change the **Target Framework.**
+5.  Change the **Target Framework** to **.NET Framework 4.7.2.** Click **Yes** when prompted to change the **Target Framework.**
 
 
 
