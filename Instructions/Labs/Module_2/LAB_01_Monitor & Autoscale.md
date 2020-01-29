@@ -17,7 +17,7 @@ Autoscale is a built-in feature of Cloud Services, Mobile Services, Virtual Mach
 
 1.  Type a **unique** name for the **Site Name** and **Service Plan**. 
 
-1.  Agree to the terms and click purchase
+1.  Agree to the terms and click **Purchase**
 
 ## Exercise 2: Create your first Autoscale setting
 
