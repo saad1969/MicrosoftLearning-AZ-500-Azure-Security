@@ -161,7 +161,7 @@ In the following task you will make  a user eligible for an Azure AD directory r
 
      ![Screenshot](../Media/Module-1/d617900b-a68b-452c-867f-3f27c9e48426.png)
 
-1.  **Refresh the Broswer**.
+1.  **Refresh the Browser**.
 
 1.  Click **Roles**.
 
@@ -300,7 +300,7 @@ When you need to take on an Azure AD directory role, you can request activation 
 
      ![Screenshot](../Media/Module-1/a52510a3-b2a2-4b21-91a8-ee7f34b39a72.png)
 
-1.  Select **Azure AD Roles** then click click **Activate your role** on the Quick start blade.
+1.  Select **Azure AD Roles** then click **Activate your role** on the Quick start blade.
 
 1.  On the Billing Administrator role, scroll to the right and click **Activate**.
 
@@ -548,7 +548,7 @@ You can customize some of the security alerts in PIM to work with your environme
 
      ![Screenshot](../Media/Module-1/cd9571ab-b89c-4086-85a7-29d31b1982bf.png)
 
-1.  Enter the justification **I need to carry out some administrative tasks** and click **Acitvate**.
+1.  Enter the justification **I need to carry out some administrative tasks** and click **Activate**.
 
      ![Screenshot](../Media/Module-1/e41c4fff-d9aa-4fe9-b1d1-b3c8dac98597.png)
 
@@ -565,7 +565,7 @@ With Azure AD Privileged Identity Management (PIM), you can configure roles to r
 As a delegated approver, you'll receive an email notification when an Azure resource role request is pending your approval. You can view these pending requests in PIM.
 
 
-1.  Switch back to the browser you are signed in with your Gloabl Administrative account.
+1.  Switch back to the browser you are signed in with your Global Administrative account.
 
 1.  Open **Azure AD Privileged Identity Management**.
 
