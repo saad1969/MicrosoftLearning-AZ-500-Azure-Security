@@ -28,7 +28,7 @@ Azure routes traffic between all subnets within a virtual network, by default. Y
     | Subscription | Select your subscription. |
     | Resource group | Select **Create new**, enter *myResourceGroup*, and select *OK*. |
     | Location | Leave the default **East US**.
-    | BGP route propagation | Leave the default **Enabled**. |
+    | Virtual network gateway route propagation | Leave the default **Enabled**. |
 
 1.  Select **Create**.
 
