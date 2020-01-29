@@ -330,7 +330,7 @@ In this task, you will create a blank Azure SQL Database, connect to it with SQL
 
 2.  Click **File > New > Project**
 
-3.  Next select **Visual C# > Console App (.NET Framework)** and provide the name **OpsEncrypt** in the location **C:\** and then click **OK**.
+3.  Next select **Visual C# > Console App (.NET Framework)** and provide the name **OpsEncrypt** in the location **C:\\** and then click **OK**.
 
 
 4.  **Right-Click** the **OpsEncrypt** project > click **Properties**.
@@ -351,7 +351,7 @@ In this task, you will create a blank Azure SQL Database, connect to it with SQL
     Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory
      ```
 
-1.  Open the **program.cs** file in notepad from Allfiles\Labs\Mod1_Lab02 and copy the code.
+1.  Open the **program.cs** file in notepad from Allfiles\\Labs\\Mod1_Lab02 and copy the code.
 
 8.  Replace the code in **Program.cs** in Visual Studio with the code you just copied.
 

@@ -10,7 +10,7 @@ In this lab, you'll learn how to use Azure Privileged Identity Management (PIM) 
 - PIM for Directory Roles
 - PIM for Role Resources
 
-✔️ The Managing Identities course also covers Azure RBAC and Azure Active Directory. This content has been included here also to provide more context and foundation for the remainder of the course.
+The Managing Identities course also covers Azure RBAC and Azure Active Directory. This content has been included here also to provide more context and foundation for the remainder of the course.
 
 
 ## Azure AD Privileged Identity Management
