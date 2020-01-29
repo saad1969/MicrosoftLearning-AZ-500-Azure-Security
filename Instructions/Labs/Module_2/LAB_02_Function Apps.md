@@ -22,9 +22,9 @@ Azure Function Apps uses the Azure App Service infrastructure. This topic shows 
 
 ### Task 2: Add a HTTP trigger to your function app
 
-1.  Select Resource groups
+1.  Select **Resource Groups**
 
-1.  Select the recource group you created in the lab setup
+1.  Select the resource group you created in the lab setup
 
 1.  Select the function app service that has been created in the resource group
 warning
@@ -35,7 +35,7 @@ warning
 
 1.  Click **New Function**,
 
-1.  In the top right click the slide button for Experimental Language support,
+1.  In the top right click the slide button for **Experimental Language support**,
 warning
 **Note**: that other languages have now been added to the triggers
 
@@ -46,7 +46,7 @@ warning
 
 1.  Leave the name as the default,
 
-1.  Make sure **Authorization** Level is set to Function,
+1.  Make sure **Authorization** Level is set to **Function**,
 
 1.  Click **Create**.
 
@@ -58,19 +58,20 @@ warning
 
 1.  Under the **HTTP trigger** function click **Manage**.
 
-1.  Under funtion keys select copy under actions on the default function key and keep this in a notepad file
+1.  Under funtion keys select **copy** under actions on the default function key and keep this in a notepad file
 
-1.  Open **PowerShell ISE** and copy in PowerShell code from the following **URL**
-
+1.  Navigate to the following URL and copy the PowerShell code
      ```cli
     https://github.com/GoDeploy/AZ500/blob/master/AZ500%20Mod2%20Lab%202/RESTgetHTTPtrigger.ps1
      ```
 
-1.  Populate the variable $functionappname = "" with the name of your function app
+1.  Open a **PowerShell ISE** window and and paste the PowerShell code from the following **URL**
 
-1.  Populate the variable $functionkey = "" with the long function key copied from the portal in the earlier step
+1.  Populate the variable `$functionappname = ""` with the name of your function app
 
-1.  Run the powershell script
+1.  Populate the variable `$functionkey = ""` with the long function key copied from the portal in the earlier step
+
+1.  Run the powershell script (F5)
 
 1.  In the results in the **ISE** you should see the following output
 
