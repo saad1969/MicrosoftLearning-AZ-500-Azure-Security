@@ -179,7 +179,7 @@ In this tak you will Create a Gateway Subnet and a Virtual network Gateway which
       - **Remote Subnet**: Enter the remote subnet 172.17.0.0 /16 (255.255.0.0)
 </br>
 
-        ![Screenshot](../Media/Module-2/c05b0d45-3c99-43d1-a535-c2da85bb4474.png)
+![Screenshot](../Media/Module-2/c05b0d45-3c99-43d1-a535-c2da85bb4474.png)
 
 1.  **Advanced**: leave the default settings.
 
