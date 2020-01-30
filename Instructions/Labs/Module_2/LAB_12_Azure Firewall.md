@@ -169,15 +169,17 @@ For testing purposes in this tutorial, you configure the primary and secondary D
 
 2.  Click the network interface for the **Srv-Work** virtual machine.
 
-3.  Under **Settings**, click **DNS servers**.
+3.  Under **Settings**, click **Networking**.
 
-4.  Under **DNS servers**, click **Custom**.
+4.  Select the NIC
 
-5.  Type **209.244.0.3** in the **Add DNS server** text box, and **209.244.0.4** in the next text box.
+5.  Under **DNS servers**, click **Custom**.
 
-6.  Click **Save**. 
+6.  Type **209.244.0.3** in the **Add DNS server** text box, and **209.244.0.4** in the next text box.
 
-7.  Restart the **Srv-Work** virtual machine.
+7.  Click **Save**. 
+
+8.  Restart the **Srv-Work** virtual machine.
 
 ### Task 7: Test the firewall
 
@@ -192,7 +194,7 @@ In this task you will test the firewall to confirm that it works as expected.
 	-	**Username**: localadmin
     -	**Password**: Pa55w.rd1234
 </br>
-3.  Open Internet Explorer and browse to **`https://msn.com`**
+3.  Open Internet Explorer and browse to **`https://www.msn.com`**
 
 4.  Click **OK** > **Close** on the security alerts.
 
