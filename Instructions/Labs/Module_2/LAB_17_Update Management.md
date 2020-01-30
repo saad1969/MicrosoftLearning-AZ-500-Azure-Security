@@ -13,13 +13,13 @@ You can use the Update Management solution to manage updates and patches for you
 
 1.  Click **Add**.
 1.  Name the resource group **RunBooks**
-1.  Change the region to **EastUS**
+1.  Change the region to **East US**
 
 ### Task 2: Create Automation account
 
 1.  Click the **Create a resource** button found on the upper left-hand corner of Azure.
 
-1.  Select **Management Tools**, and then select **Automation**.
+1.  Select **IT & Management Tools**, and then select **Automation**.
 
 1.  Enter the following information.
 
@@ -27,7 +27,7 @@ You can use the Update Management solution to manage updates and patches for you
      |--------|--------|--------|--------|
      |MyAutomation|RunBooks|EastUS2|Yes
 
-1.  Click Create
+1.  Click **Create**
 
 1.  When the deployment has completed, click **All Services**, select **Automation Accounts** and select the Automation Account you created.
 
@@ -58,7 +58,7 @@ You can use the Update Management solution to manage updates and patches for you
 
 1.  Select the VM you created in the previous steps
 
-1.  Under **operations** click **Update management**
+1.  Under **Operations** click **Update management**
 
 1.  Click **Enable**
 
@@ -103,17 +103,17 @@ You can use the Update Management solution to manage updates and patches for you
 
 1.  Select **Total Update Deployment Runs** from the list
 
-1.  CLick the **select checkbox** next to **Runbook name** and **Status**
+1.  Click the **Select * checkbox** next to **Runbook name** and **Status**
 
 1.  Under **Alert logic**, for **Threshold**, enter **1**
 
-1.  CLick Done 
+1.  Click **Done** 
 
 1.  Under **Alert Details**, fill in the **Alert Rule name** with **UpdateAlert**
 
 1.  Set the Severtiy to **Sev2**
 
-1.  Under **Action groups** select **Create New**
+1.  Under **Action groups** select **Create**
 
 1.  Fill in the following details 
 
@@ -126,26 +126,26 @@ You can use the Update Management solution to manage updates and patches for you
 
 1.  Click **OK**
 
-1.  Click **Select Existing** under Action Groups
+1.  Click **Add** under Action Groups
 
-1.  Select your action group
+1.  Select your action group and click **Select**
 
-1.  Click **Create** 
+1.  Click **Create alert rule** 
 
 ### Task 7: Schedule an Update Deployment
 
 1.  Return to your list of VMs
 
-1.  Selec the VM you created erlier in the lab
+1.  Select the VM you created earlier in the lab
 
-1.  Click Update management
+1.  Click **Update management**
 
-1.  Selecct Schedule update deployment
+1.  Select **Schedule update deployment**
 
-1.  In new scheduled update deployment fill in the following settings
+1.  In new update deployment fill in the following settings
 
       - **Name** - ScheduledUpdates 
-      - **Schedule Settings** -  Recurance > reccuring
+      - **Schedule Settings** -  Recurrence > reccuring
 
 1.  Click **OK** and then click **Create**
 
@@ -154,7 +154,7 @@ You can use the Update Management solution to manage updates and patches for you
 ### Task 8: View results of an update deployment
 
 
-**Note**: After the scheduled deployment starts, you can see the status for that deployment on the Update deployments tab under Update management. The status is In progress when the deployment is currently running. When the deployment finishes, if it's successful, the status changes to Succeeded. When there are failures with one or more updates in the deployment, the status is Partially failed.
+**Note**: After the scheduled deployment starts, you can see the status for that deployment on the Update deployments tab under Update management. The status is In progress when the deployment is currently running. When the deployment finishes, if it's successful, the status changes to Succeeded. When there are failures with one or more updates in the deployment, the status is partially failed.
 
 
 | WARNING: Prior to continuing you should remove all resources used for this lab.  To do this in the **Azure Portal** click **Resource groups**.  Select any resources groups you have created.  On the resource group blade click **Delete Resource group**, enter the Resource Group Name and click **Delete**.  Repeat the process for any additional Resource Groups you may have created. **Failure to do this may cause issues with other labs.** |
