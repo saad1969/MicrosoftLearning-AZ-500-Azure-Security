@@ -43,7 +43,7 @@ warning
 
 1.  **Click** Advanced Data Security again 
 
-1.  **Click** the bar at the top **Complete Advanced Data Security setup vy selecting a storage account for Vulnerability Assesment**
+1.  **Click** the bar at the top **Complete Advanced Data Security setup by selecting a storage account for Vulnerability Assesment**
 
 1.  Make sure the option for **Advanced Data Security** is set to **On** 
 
@@ -60,7 +60,7 @@ warning
 
 1.  **Return** to the previous **Advanced Data Security** pane
 
-1.  **Select** the **Data discovery** and **classification** (**preview**) card.
+1.  **Select** the **Data discovery** and **classification** card.
 
 ## Exercise 2: Begin Classification
 
