@@ -14,9 +14,9 @@
     start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FAZ-500-Azure-Security%2Fmaster%2FAllfiles%2FLabs%2FMod3_Lab01%2Fazuredeploy.json" 
      ```
 
-1.  Under **Resource group** click create new and use the default name "**Mod4Lab1**"
+1.  Under **Resource group** click create new and use the default name "**Mod3Lab1**"
 
-1.  You can use the default **populated SQL server** name with a **unique** string added to make a **globaly unique** name
+1.  You can use the default populated **SQL server name** with a **unique** string added to make a **globaly unique** name
 
 1.  Click **Purchase**. 
 warning
@@ -27,7 +27,7 @@ warning
 
 1.  Sign-in to the Azure portal.
 
-1.  **Select** the resource group of **Mod4Lab1**
+1.  **Select** the resource group of **Mod3Lab1**
 
 1.  Click **az500labserver**
 
@@ -37,7 +37,7 @@ warning
 
 1.  **Click Save**
 
-1.  Return to the **Mod4Lab1** resource group
+1.  Return to the **Mod3Lab1** resource group
 
 1.  **Select** the **SQL databse AZ500LabDb (az500labserver/AZ500LabDb)**
 
@@ -51,7 +51,7 @@ warning
 
 1.  **Click** create new
 
-1.  For the name use **mod4lab1yourname** replacing **yourname** with your name to make it unique but memorable
+1.  For the name use **mod3lab1yourname** replacing **yourname** with your name to make it unique but memorable
 
 
 1.  Click **OK**
@@ -70,7 +70,7 @@ warning
 
 1.  To view and apply classification recommendations:
 
-    - View the list. To view the list of recommended column classifications, select the **recommendations** panel at the bottom of the window. (**Blue Bar**)   
+    - View the list. To view the list of recommended column classifications, select the **recommendations** panel at the top of the window. (**Blue Bar**)   
 
 1.  Click **Select all** in the top left to select all reccomendations
 
