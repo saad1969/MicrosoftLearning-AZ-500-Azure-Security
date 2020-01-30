@@ -272,7 +272,7 @@ A virtual network is needed for communication between the resources that you cre
 
        ![Screenshot](../Media/Module-2/a15140d0-01c1-4b57-afdf-58a1b32467b0.png)
 
-4. On the **Backend targets** tab, select **myBackendPool** for the **Backend target**.
+4. On the **Backend targets** tab, select **appGatewayBackendPool** for the **Backend target**.
 
 5. For the **HTTP setting**, select **Create new** to create a new HTTP setting. The HTTP setting will determine the behavior of the routing rule. In the **Add an HTTP setting** window that opens, enter *myHTTPSetting* for the **HTTP setting name**. Accept the default values for the other settings in the **Add an HTTP setting** window, then select **Add** to return to the **Add a routing rule** window. 
 
@@ -283,6 +283,8 @@ A virtual network is needed for communication between the resources that you cre
 6. On the **Add a routing rule** window, select **Add** to save the routing rule and return to the **Configuration** tab.
 
       ![Screenshot](../Media/Module-2/08f1c080-a8fd-4fec-be0f-96bfe0535cbd.png)
+
+7. Select **Add**
 
 7. Select **Next: Tags** and then **Next: Review + create**.
 
