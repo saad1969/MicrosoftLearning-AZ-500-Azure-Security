@@ -12,7 +12,7 @@
     start "https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMicrosoftLearning%2FAZ-500-Azure-Security%2Fmaster%2FAllfiles%2FLabs%2FMod3_Lab02%2Fazuredeploy.json" 
      ```
 
-1.  **Under Resource** group click create new and use the default name "**Mod4Lab2**"
+1.  **Under Resource** group click create new and use the default name "**Mod3Lab2**"
 
 1.  You can use the default **populated SQL server** name with a **unique** string added to make a **globaly unique** name
 
@@ -54,7 +54,7 @@ warning
 
 1.  Click **AZ500LabDb (az500labserver2/AZ500LabDb)** to select your test database
 
-1.  Click **Auditing** under security warning
+1.  **Under Security**, select **Auditing**
   
     **Note**: that the Auditing looks off here but it is set on the underlying server level so it is turned on for this database
 
