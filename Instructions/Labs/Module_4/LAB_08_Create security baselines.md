@@ -148,10 +148,9 @@ If authentication reconfirmation is set to disabled, register users will never b
 
        ![Screenshot](../Media/Module-4/01d2e139-b18c-4dd0-bbb0-9516508e64ea.png)
 
-### Task 7: Members and guests can invite 
+### Task 7: Disable Members invitations
 
-
-This should be set to No. Restricting invitations through administrators only ensures that only authorized accounts have access Azure resources.
+Restricting invitations through administrators only ensures that only authorized accounts have access Azure resources.
 
 
 1.  Sign in to the Azure portal.
@@ -259,11 +258,13 @@ Azure Security Center monitors security configurations by applying a set of over
 
 1.  Sign in to the Azure portal.
 
-2.  Select **Security Policy** on the **Security Center** main menu.
+2.  On the Hub menu select **Security Center**.
 
-3.  The Policy Management screen is displayed.
+3.  Select **Security Policy** then select your **Subscription**.
 
-4.  Choose your subscription from the displayed list.
+1.  Click **View effective policy**.
+
+4.  The Policy Management screen is displayed.
 
 5.  Check that **Vulnerabilities in security configuration on your virtual machine scale sets should be remediated** is one of the policies.
 
@@ -284,13 +285,13 @@ Azure Security Center monitors security configurations by applying a set of over
       - **Enable SQL Encryption** - _Azure Security Center will recommend that you enable Transparent Data Encryption (TDE) on SQL databases if TDE is not already enabled. TDE protects your data and helps you meet compliance requirements by encrypting your database, associated backups, and transaction log files at rest, without requiring changes to your application._
       - **Set Security Contact Email and Phone Number** - _Azure Security Center will recommend that you provide security contact details for your Azure subscription if you haven't already. This information will be used by Microsoft to contact you if the Microsoft Security Response Center (MSRC) discovers that your customer data has been accessed by an unlawful or unauthorized party. MSRC performs select security monitoring of the Azure network and infrastructure and receives threat intelligence and abuse complaints from third parties._
 
-2.  Select **Cost Management + Billing**.
+6.  Select **Cost Management + Billing**.
 
     **Note**: The following steps will not work with an Azure Pass subscription but has been reamin in this lab in order to identify the steps requried in a Real World scenrio.
 
-3.  The Contact info screen is displayed.
+7.  The Contact info screen is displayed.
 
-4.  Enter or validate the contact information displayed.
+8.  Enter or validate the contact information displayed.
 
        ![Screenshot](../Media/Module-4/2215b8b6-f6ad-459f-bbf2-cf73d85b219d.png)
 
@@ -299,10 +300,10 @@ Azure Security Center monitors security configurations by applying a set of over
 
 Azure Security Center will recommend that you provide security contact details for your Azure subscription if you haven't already.
 
-
-1.  Select **Cost Management + Billing**.
+1.  On the Hub menu select **Security Center**.
+1.  Select **Pricing & settings**.
 3.  The Pricing & settings screen is displayed.
-4.  Click on the subscription.
+4.  Click on your Subscription.
 5.  Click **Email notifications**.
 6.  Select **Save**. 
 
@@ -496,8 +497,15 @@ The Azure Activity Log provides insight into subscription-level events that have
 
 1.  In the Azure Portal go to **Monitor**, then select **Activity log**.
 
-3.  Click on **Export to Event Hub**.
-5.  Configure the following settings then click **Save**.
+1.  Click **Diagnostic settings**.
+
+    ![Screenshot](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/media/diagnostic-settings-subscription/diagnostic-settings.png)
+
+1.  Click the purple banner for the legacy experience.
+
+    ![Screenshot](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/media/diagnostic-settings-subscription/legacy-experience.png)
+
+3.  Configure the following settings then click **Save**.
 
       - **Region**: EastUS
       - **Select**: Export to Storage Account
@@ -505,7 +513,7 @@ The Azure Activity Log provides insight into subscription-level events that have
       - **Retention**: 90 days
 
 
-6.  Select **Save**.
+4.  Select **Save**.
 
      ![Screenshot](../Media/Module-4/ef901d77-99a6-4ca1-9eff-76760c18c6a9.png)
 
@@ -598,7 +606,7 @@ It's recommended that you disable direct RDP and SSH access to your Azure VMs fr
 
      ![Screenshot](../Media/Module-4/dc2ff6ef-373c-4fb2-ba5c-54bcfe46b8c0.png)
 
-## Task 2: Restrict SQL Server access from the Internet 
+### Task 2: Restrict SQL Server access from the Internet 
 
 
 Firewall systems help prevent unauthorized access to computer resources. If a firewall is turned on but not correctly configured, attempts to connect to SQL Server might be blocked.
