@@ -138,7 +138,7 @@ Application Insights can gather telemetry data from any internet-connected appli
    | Settings        | Value   | 
    | ------------- |-----|
    | **Name**      | Enter a Globally Unique Value |
-   | **Resource Group**     | mySResourceGroup |
+   | **Resource Group**     | myResourceGroup |
    | **Location** | East US |
 
 2.  Click **Create**.
