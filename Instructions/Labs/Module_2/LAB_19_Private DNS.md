@@ -27,19 +27,19 @@ A DNS zone contains the DNS entries for a domain. To start hosting your domain i
 
 
 1.  On the portal search bar, type **private dns zones** in the search text box and press **Enter**.
-1.  Select **Private DNS zone**.
-2.  Select **Create private dns zone**.
+2.  Select **Private DNS zone**.
+3.  Select **Create private dns zone**.
 
-1.  On the **Create Private DNS zone** page, type or select the following values:
+4.  On the **Create Private DNS zone** page, type or select the following values:
 
      - **Resource group**: Select **Create new**, enter *MyAzureResourceGroup*, and select **OK**. The resource group name must be unique within the Azure subscription. 
      -  **Name**: Type *private.contoso.com* for this example.
-</br>   
-1.  For **Resource group location** select **West Central US**.
+     
+5.  For **Resource group location** select **West Central US**.
 
-1.  Select **Review + Create**.
+6.  Select **Review + Create**.
 
-1.  Select **Create**.
+7.  Select **Create**.
 
 It may take a few minutes to create the zone.
 
