@@ -236,6 +236,8 @@ Azure Security Center monitors daily Windows and Linux virtual machines (VMs) an
 
 4.  Choose your subscription from the displayed list.
 
+5. Select **View effective policy**.
+
 5.  Check that **System updates should be installed on your machines** is one of the policies.
 
 6.  Click the Enable Monitoring in Azure Security Center link (This may also be displayed as ASC Default witha GUID).
@@ -287,7 +289,7 @@ Azure Security Center monitors security configurations by applying a set of over
 
 6.  Select **Cost Management + Billing**.
 
-    **Note**: The following steps will not work with an Azure Pass subscription but has been reamin in this lab in order to identify the steps requried in a Real World scenrio.
+    **Note**: The following steps will not work with an Azure Pass subscription but reamins in this lab in order to identify the steps requried in a Real World scenrio.
 
 7.  The Contact info screen is displayed.
 
@@ -350,9 +352,9 @@ Azure Blob storage is Microsoft's object storage solution for the cloud. Blob st
 1.  Go to Storage Accounts under Azure services.
 3.  Select the storage account.
 4.  Under **Settings**, select **Encryption**.
-5.  Azure Storage encryption is enabled for all new and existing storage accounts and cannot be disabled.
+5.  Azure Storage encryption is enabled by default and cannot be disabled. 
 
-     ![Screenshot](../Media/Module-4/5e8bd81c-ff42-4922-9c19-1735ac37b592.png)
+     ![Screenshot](../Media/Module-4/2020-01-31_08-39-18.png)
 
 ### Task 3: Periodically regenerate access keys
 
